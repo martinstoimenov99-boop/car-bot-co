@@ -286,9 +286,9 @@ test.describe("layout", () => {
     });
   }
 
-  test("file-like paths outside a locale return 404, not 500", async ({ request }) => {
+  test("file-like paths outside a locale return 404, not 500", async ({ page }) => {
     for (const path of ["/favicon.ico", "/ads.txt"]) {
-      expect((await request.get(path)).status()).toBe(404);
+      expect((await page.goto(path))?.status()).toBe(404);
     }
   });
 
