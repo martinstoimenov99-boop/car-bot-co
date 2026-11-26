@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
-import { checkContact, leadSchema, parseSearches, partnerSchema } from "@/lib/validation";
+import { checkContact, parseSearches } from "@/lib/validation";
+import { leadSchema, partnerSchema } from "@/lib/schemas";
 
 const link = "https://suchen.mobile.de/fahrzeuge/search.html?ms=25200";
 

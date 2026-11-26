@@ -4,7 +4,7 @@ import { loadMessages } from "@/i18n/messages";
 import type { Locale } from "@/i18n/config";
 import { escapeHtml as e } from "../email";
 import { WA_DISPLAY, waLink, SITE_HOST } from "../site";
-import type { Lead, PartnerApplication } from "../validation";
+import type { Lead, PartnerApplication } from "../schemas";
 
 const wrap = (
   inner: string,

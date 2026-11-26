@@ -25,7 +25,7 @@ export function LanguageSwitcher({ className }: { className?: string }) {
               href={`/${l}${pathname === "/" ? "" : pathname}`}
               lang={LOCALE_LABELS[l].htmlLang}
               hrefLang={LOCALE_LABELS[l].htmlLang}
-              aria-label={t("switchTo", { language: LOCALE_LABELS[l].long })}
+              title={t("switchTo", { language: LOCALE_LABELS[l].long })}
               className="hover:text-accent-hover text-inherit no-underline"
               onClick={(e) => {
                 e.preventDefault();
@@ -34,6 +34,7 @@ export function LanguageSwitcher({ className }: { className?: string }) {
               }}
             >
               {LOCALE_LABELS[l].short}
+              <span className="sr-only"> ({LOCALE_LABELS[l].long})</span>
             </a>
           )}
         </span>

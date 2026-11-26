@@ -2,7 +2,7 @@ import type { NextRequest } from "next/server";
 import { guardForm, json } from "@/lib/api";
 import { recordSubmission } from "@/lib/leads";
 import { REF_COOKIE, parseRef } from "@/lib/ref";
-import { partnerSchema } from "@/lib/validation";
+import { partnerSchema } from "@/lib/schemas";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";

@@ -2,7 +2,7 @@ import "server-only";
 import { addContact, emailConfigured, sendEmail } from "./email";
 import { leadConfirmation, leadNotification, partnerNotification, partnerWelcome } from "./emails/templates";
 import { getAffiliateProvider } from "./affiliate";
-import type { Lead, PartnerApplication } from "./validation";
+import type { Lead, PartnerApplication } from "./schemas";
 
 /**
  * Where submissions go. v1 has no database: email + Resend audience + optional webhook.

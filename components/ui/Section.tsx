@@ -10,7 +10,9 @@ export function NumberedCard({
   title,
   body,
   className,
+  as: Heading = "h3",
 }: {
+  as?: "h2" | "h3";
   n: number | string;
   title: string;
   body: string;
@@ -19,7 +21,7 @@ export function NumberedCard({
   return (
     <div className={cn("lift rounded-card p-7", className)}>
       <div className="font-display text-accent text-4xl font-extrabold">{n}</div>
-      <h3 className="my-2 text-xl font-semibold">{title}</h3>
+      <Heading className="my-2 text-xl font-semibold">{title}</Heading>
       <p className="text-muted m-0">{body}</p>
     </div>
   );

@@ -72,7 +72,7 @@ export default async function ThanksPage({ params, searchParams }: Props) {
           <ol className="m-0 grid list-none grid-cols-[repeat(auto-fit,minmax(240px,1fr))] gap-5 p-0">
             {steps.map((s, i) => (
               <li key={s.title}>
-                <NumberedCard n={i + 1} title={s.title} body={s.body} className="bg-raised h-full" />
+                <NumberedCard as="h2" n={i + 1} title={s.title} body={s.body} className="bg-raised h-full" />
               </li>
             ))}
           </ol>

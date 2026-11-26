@@ -1,7 +1,7 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
 import { recordSubmission, type LeadSink } from "@/lib/leads";
 import { leadConfirmation, leadNotification } from "@/lib/emails/templates";
-import type { Lead } from "@/lib/validation";
+import type { Lead } from "@/lib/schemas";
 
 const lead: Lead = {
   type: "test",
