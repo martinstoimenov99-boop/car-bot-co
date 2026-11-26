@@ -286,6 +286,12 @@ test.describe("layout", () => {
     });
   }
 
+  test("file-like paths outside a locale return 404, not 500", async ({ request }) => {
+    for (const path of ["/favicon.ico", "/ads.txt"]) {
+      expect((await request.get(path)).status()).toBe(404);
+    }
+  });
+
   test("unknown page shows the localized 404", async ({ page }) => {
     const res = await page.goto("/mk/nema-takva-strana");
     expect(res?.status()).toBe(404);

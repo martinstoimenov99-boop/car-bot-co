@@ -136,7 +136,7 @@ Some clients will pay by bank transfer or invoice, so the tool must let you **re
 1. Import the GitHub repo in Vercel (framework: Next.js, install `pnpm install`, build `pnpm build`).
 2. Add the environment variables for **Production** and **Preview**.
 3. Domains: attach `getcarbot.co` to the project and redirect `www.getcarbot.co` → `getcarbot.co`.
-4. Every PR gets a preview URL. Run the smoke tests against it: `E2E_BASE_URL=https://<preview-url> pnpm test:e2e`.
+4. Every PR gets a preview URL. Run the smoke tests against it: `E2E_BASE_URL=https://<preview-url> pnpm test:e2e`. Previews behind Vercel Authentication need a logged-in browser state: open a share link (Vercel → Deployment → Share) in Playwright, save it with `context.storageState({ path })`, and pass `E2E_STORAGE_STATE=<path>`.
 5. Merge to `main` → production.
 6. After the first production deploy: submit `https://getcarbot.co/sitemap.xml` in Google Search Console, and send one real free-test and one partner form to check emails, the Resend contact and the webhook.
 

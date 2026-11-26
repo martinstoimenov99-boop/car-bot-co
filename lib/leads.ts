@@ -21,6 +21,8 @@ export interface LeadSink {
   handle(record: LeadRecord): Promise<void>;
 }
 
+const isProduction = () => process.env.VERCEL_ENV === "production";
+
 const notifyTo = (record: LeadRecord) =>
   record.kind === "partner"
     ? process.env.PARTNER_NOTIFY_EMAIL || process.env.LEAD_NOTIFY_EMAIL
@@ -31,6 +33,9 @@ const notifySink: LeadSink = {
   critical: true,
   enabled: (r) => !!notifyTo(r) || !emailConfigured(),
   async handle(r) {
+    // Log-only mode is for local development. In production a lead that only reaches the logs is a
+    // lost lead, so fail here: the visitor then gets the prefilled WhatsApp fallback instead.
+    if (!emailConfigured() && isProduction()) throw new Error("RESEND_API_KEY is not set in production");
     const mail =
       r.kind === "lead" ? leadNotification(r.data, { ref: r.ref, at: r.at }) : partnerNotification(r.data, r);
     await sendEmail({ to: notifyTo(r) ?? "log-only@localhost", replyTo: r.data.email, ...mail });

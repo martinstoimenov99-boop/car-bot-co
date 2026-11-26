@@ -8,7 +8,8 @@ export default defineConfig({
   fullyParallel: true,
   retries: process.env.CI ? 1 : 0,
   reporter: process.env.CI ? [["github"], ["list"]] : "list",
-  use: { baseURL, trace: "off" },
+  // E2E_STORAGE_STATE: a saved login (e.g. the Vercel share-link cookie) for protected previews.
+  use: { baseURL, trace: "off", storageState: process.env.E2E_STORAGE_STATE || undefined },
   projects: [{ name: "chromium", use: { ...devices["Desktop Chrome"] } }],
   // Runs against a production build (`pnpm build` first). Set E2E_BASE_URL to test a Vercel preview instead.
   webServer: process.env.E2E_BASE_URL

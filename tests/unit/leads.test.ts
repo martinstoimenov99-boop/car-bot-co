@@ -1,5 +1,5 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
-import { recordSubmission, type LeadSink } from "@/lib/leads";
+import { SINKS, recordSubmission, type LeadSink } from "@/lib/leads";
 import { leadConfirmation, leadNotification } from "@/lib/emails/templates";
 import type { Lead } from "@/lib/schemas";
 
@@ -36,6 +36,20 @@ describe("recordSubmission", () => {
     vi.spyOn(console, "error").mockImplementation(() => {});
     const r = await recordSubmission(record, [sink("email", true, true), sink("audience", false)]);
     expect(r.delivered).toBe(false);
+  });
+});
+
+describe("production safety", () => {
+  it("does not report log-only mode as delivered in production", async () => {
+    vi.spyOn(console, "error").mockImplementation(() => {});
+    vi.spyOn(console, "info").mockImplementation(() => {});
+    vi.stubEnv("RESEND_API_KEY", "");
+    vi.stubEnv("LEAD_WEBHOOK_URL", "");
+    vi.stubEnv("VERCEL_ENV", "production");
+    expect((await recordSubmission(record, SINKS)).delivered).toBe(false);
+    vi.stubEnv("VERCEL_ENV", "preview");
+    expect((await recordSubmission(record, SINKS)).delivered).toBe(true);
+    vi.unstubAllEnvs();
   });
 });
 
