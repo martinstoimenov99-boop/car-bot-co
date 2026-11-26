@@ -1,907 +1,886 @@
 {
   "common": {
     "brand": "Car Bot",
-    "skipToContent": "Skip to content",
-    "homeLink": "Car Bot, main page",
+    "skipToContent": "Прескокни до содржината",
+    "homeLink": "Car Bot, почетна страница",
     "nav": {
-      "label": "Main",
-      "how": "How the bot works",
-      "test": "Free test",
-      "partners": "Partners",
-      "pricing": "Pricing",
-      "faq": "FAQ",
+      "label": "Главно мени",
+      "how": "Како работи ботот",
+      "test": "Бесплатен тест",
+      "partners": "Партнери",
+      "pricing": "Цени",
+      "faq": "Прашања",
       "whatsapp": "WhatsApp",
-      "whatsappAria": "Message Car Bot on WhatsApp",
-      "forDealers": "For dealers",
-      "earn": "What you earn",
-      "calculator": "Calculator",
-      "becomePartner": "Become a partner",
-      "partnerLogin": "Partner login"
+      "whatsappAria": "Пишете ни на WhatsApp",
+      "forDealers": "За дилери",
+      "earn": "Колку заработувате",
+      "calculator": "Калкулатор",
+      "becomePartner": "Станете партнер",
+      "partnerLogin": "Најава за партнери"
     },
     "lang": {
-      "label": "Language",
-      "switchTo": "Switch language to {language}"
+      "label": "Јазик",
+      "switchTo": "Промени јазик на {language}"
     },
     "footer": {
-      "city": "Skopje",
-      "becomePartner": "Become a partner",
-      "notAffiliated": "Not affiliated with any marketplace named on this page.",
-      "backHome": "Back to the main page",
-      "legalNav": "Legal",
-      "privacy": "Privacy",
-      "terms": "Terms",
-      "cookies": "Cookies",
-      "cookieSettings": "Cookie settings"
+      "city": "Скопје",
+      "becomePartner": "Станете партнер",
+      "notAffiliated": "Не сме поврзани со ниту една платформа спомената на оваа страница.",
+      "backHome": "Назад на почетната страница",
+      "legalNav": "Правни информации",
+      "privacy": "Приватност",
+      "terms": "Услови",
+      "cookies": "Колачиња",
+      "cookieSettings": "Поставки за колачиња"
     },
     "cookies": {
-      "label": "Cookie choices",
-      "text": "We use essential cookies to run this site. With your OK we also remember which partner sent you here, for 90 days. Our analytics are cookieless.",
-      "accept": "Accept",
-      "essential": "Essential only",
-      "more": "Cookie policy"
+      "label": "Избор за колачиња",
+      "text": "Користиме неопходни колачиња за да работи страницата. Со Ваша дозвола, 90 дена паметиме и кој партнер Ве препорачал. Нашата аналитика не користи колачиња.",
+      "accept": "Прифаќам",
+      "essential": "Само неопходни",
+      "more": "Политика за колачиња"
     },
-    "whatsappHello": "Hi Car Bot",
+    "whatsappHello": "Здраво Car Bot",
     "notFound": {
-      "metaTitle": "Page not found | Car Bot",
-      "title": "This page already drove off.",
-      "text": "The link is old or mistyped. The good cars are still on the main page.",
-      "home": "Back to the main page"
+      "metaTitle": "Страницата не е пронајдена | Car Bot",
+      "title": "Оваа страница веќе замина.",
+      "text": "Линкот е стар или погрешно напишан. Добрите возила се уште се на почетната страница.",
+      "home": "Назад на почетната страница"
     },
-    "close": "Close"
+    "close": "Затвори"
   },
   "forms": {
     "fields": {
-      "first": "Name",
-      "last": "Surname",
-      "email": "Email",
-      "phone": "WhatsApp number, with country code",
-      "country": "Country",
-      "honeypot": "Leave this field empty"
+      "first": "Име",
+      "last": "Презиме",
+      "email": "Е-пошта",
+      "phone": "WhatsApp број, со повикувачки број",
+      "country": "Држава",
+      "honeypot": "Оставете го ова поле празно"
     },
     "errors": {
-      "name": "Please add your name and surname.",
-      "email": "Please add a valid email.",
-      "phone": "Please add your WhatsApp number with country code.",
-      "consent": "Please tick the box so we can contact you.",
-      "how": "Tell us how you plan to find dealers.",
-      "network": "Something went wrong. Please try again or message us on WhatsApp.",
-      "rate": "Too many tries from this connection. Please wait a little or message us on WhatsApp.",
-      "code": "Please check the code: letters, numbers, - and _ only."
+      "name": "Внесете име и презиме.",
+      "email": "Внесете валидна е-пошта.",
+      "phone": "Внесете WhatsApp број со повикувачки број на државата.",
+      "consent": "Штиклирајте го полето за да може да Ве контактираме.",
+      "how": "Кажете ни како ќе наоѓате дилери.",
+      "network": "Нешто не тргна како што треба. Обидете се повторно или пишете ни на WhatsApp.",
+      "rate": "Премногу обиди од оваа врска. Почекајте малку или пишете ни на WhatsApp.",
+      "code": "Проверете го кодот: само букви, бројки, - и _."
     },
     "lead": {
-      "testTitle": "Where do we send the replies?",
-      "testSub": "Your searches are ready. Tell us who you are and we start.",
-      "planTitle": "Almost there. Who are we setting up?",
-      "planSubMonthly": "Plan: monthly, €500 setup then €250 a month. Next we send the payment link and book your setup call.",
-      "planSubYearly": "Plan: yearly, €3,000, setup free. Next we send the payment link and book your setup call.",
-      "consentTest": "I agree that Car Bot uses my details and links to run this test and contact me about it.",
-      "consentPlan": "I agree that Car Bot uses my details to set up my plan and contact me about it.",
-      "codeLabel": "Partner or discount code (optional)",
-      "codeDiscount": "10% off setup and monthly",
-      "back": "Back",
-      "submitTest": "Start my free test",
-      "submitPlan": "Confirm my plan",
-      "sending": "Sending…",
-      "doneTitleTest": "Got your searches.",
-      "doneTitlePlan": "Got your details.",
-      "doneTest": "We’re on it. When a seller answers, you get a WhatsApp from us. Then you decide if you take over.",
-      "donePlan": "Got it. We’ll message you on WhatsApp with the payment link (card, bank transfer or invoice) and a time for your setup call.",
-      "continue": "Continue →",
-      "waFallback": "Send on WhatsApp",
-      "waIntroTest": "Hi, I want the free Car Bot test.",
-      "waIntroPlan": "Hi, I want Car Bot on {plan}.",
-      "waPlanMonthly": "the monthly plan (EUR 500 setup + EUR 250/month)",
-      "waPlanYearly": "the yearly plan (EUR 3,000)",
-      "waName": "Name",
-      "waEmail": "Email",
-      "waPhone": "Phone",
-      "waSearches": "Searches",
-      "waCode": "Code"
+      "testTitle": "Каде да Ви ги испратиме одговорите?",
+      "testSub": "Пребарувањата се подготвени. Кажете ни кои сте и почнуваме.",
+      "planTitle": "Уште малку. За кого го поставуваме ботот?",
+      "planSubMonthly": "Пакет: месечен, 500 € поставување, потоа 250 € месечно. Потоа Ви праќаме линк за плаќање и закажуваме разговор за поставување.",
+      "planSubYearly": "Пакет: годишен, 3.000 €, поставувањето е бесплатно. Потоа Ви праќаме линк за плаќање и закажуваме разговор за поставување.",
+      "consentTest": "Се согласувам Car Bot да ги користи моите податоци и линкови за овој тест и да ме контактира во врска со него.",
+      "consentPlan": "Се согласувам Car Bot да ги користи моите податоци за поставување на пакетот и да ме контактира во врска со него.",
+      "codeLabel": "Партнерски код или код за попуст (по желба)",
+      "codeDiscount": "10% попуст на поставувањето и месечната претплата",
+      "back": "Назад",
+      "submitTest": "Започни го бесплатниот тест",
+      "submitPlan": "Потврди го пакетот",
+      "sending": "Се испраќа…",
+      "doneTitleTest": "Ги добивме Вашите пребарувања.",
+      "doneTitlePlan": "Ги добивме Вашите податоци.",
+      "doneTest": "Почнуваме. Кога продавач ќе одговори, ќе добиете порака од нас на WhatsApp. Потоа Вие одлучувате дали ќе преземете.",
+      "donePlan": "Во ред. Ќе Ви пишеме на WhatsApp со линк за плаќање (картичка, банкарски трансфер или фактура) и термин за разговор за поставување.",
+      "continue": "Продолжи →",
+      "waFallback": "Испрати на WhatsApp",
+      "waIntroTest": "Здраво, го сакам бесплатниот Car Bot тест.",
+      "waIntroPlan": "Здраво, сакам Car Bot со {plan}.",
+      "waPlanMonthly": "месечниот пакет (500 € поставување + 250 € месечно)",
+      "waPlanYearly": "годишниот пакет (3.000 €)",
+      "waName": "Име",
+      "waEmail": "Е-пошта",
+      "waPhone": "Телефон",
+      "waSearches": "Пребарувања",
+      "waCode": "Код"
     },
     "partner": {
-      "waIntro": "Hi, I want to become a Car Bot partner.",
-      "waCountry": "Country",
-      "waHow": "Finding dealers via"
+      "waIntro": "Здраво, сакам да станам Car Bot партнер.",
+      "waCountry": "Држава",
+      "waHow": "Дилери ќе наоѓам преку"
     }
   },
   "home": {
     "meta": {
-      "title": "Car Bot | The first message, sent for you",
-      "description": "Car Bot watches 20+ European car marketplaces 24/7 and messages the seller first, in their language and in your name. Try it free on 3 mobile.de searches.",
-      "ogTitle": "Be the first buyer every seller hears from.",
-      "ogSub": "The automated buying bot for car importers"
+      "title": "Car Bot | Првата порака, испратена за Вас",
+      "description": "Car Bot ги следи 20+ европски платформи за возила 24/7 и прв му пишува на продавачот, на неговиот јазик и во Ваше име. Пробајте бесплатно со 3 пребарувања на mobile.de.",
+      "ogTitle": "Бидете првиот купувач од кој продавачот слуша.",
+      "ogSub": "Автоматизиран бот за купување за увозници на возила"
     },
     "hero": {
-      "eyebrow": "The automated buying bot for car importers",
-      "title": "Be the first buyer every seller hears from.",
-      "lead": "Your Car Bot watches 20+ car marketplaces across Europe, 24/7. The moment a good car goes online, it messages the seller in their own language, in your name. The seller answers, your WhatsApp pings, you take over.",
-      "ctaPrimary": "Try it free on 3 cars",
-      "ctaSecondary": "See how it works",
-      "imageAlt": "Used VW Passat parked on a German street at night",
+      "eyebrow": "Автоматизиран бот за купување за увозници на возила",
+      "title": "Бидете првиот купувач од кој продавачот слуша.",
+      "lead": "Вашиот Car Bot следи 20+ платформи за возила низ Европа, 24/7. Штом се појави добро возило, му пишува на продавачот на неговиот јазик, во Ваше име. Продавачот одговара, Вашиот WhatsApp ѕвони, Вие преземате.",
+      "ctaPrimary": "Пробајте бесплатно на 3 возила",
+      "ctaSecondary": "Погледнете како работи",
+      "imageAlt": "Половен VW Passat паркиран на улица во Германија навечер",
       "stats": [
-        {
-          "value": "20+",
-          "label": "marketplaces watched"
-        },
-        {
-          "value": "24/7",
-          "label": "no breaks, no sleep"
-        },
-        {
-          "value": "Minutes",
-          "label": "from listing to your message"
-        }
+        { "value": "20+", "label": "платформи под око" },
+        { "value": "24/7", "label": "без пауза, без спиење" },
+        { "value": "Минути", "label": "од огласот до Вашата порака" }
       ]
     },
     "phone": {
-      "label": "Example chat with Car Bot: a VW Passat is found, the bot writes to the seller in German in your name, the seller replies and you call him.",
+      "label": "Пример разговор со Car Bot: пронајден е VW Passat, ботот му пишува на продавачот на германски во Ваше име, продавачот одговара и Вие го повикувате.",
       "name": "Car Bot",
-      "status": "online",
-      "b1": "New car found · VW Passat B8 2.0 TDI, 2017 · 142,000 km · €9,900 · listed 1 min ago",
-      "t1": "Car Bot is writing in German…",
-      "b2": "Message sent to the seller in German, in your name ✓",
-      "t2": "Seller is typing…",
-      "b3Label": "Seller replied:",
+      "status": "онлајн",
+      "b1": "Ново возило · VW Passat B8 2.0 TDI, 2017 · 142.000 km · 9.900 € · објавено пред 1 мин",
+      "t1": "Car Bot пишува на германски…",
+      "b2": "Пораката е испратена до продавачот на германски, во Ваше име ✓",
+      "t2": "Продавачот пишува…",
+      "b3Label": "Продавачот одговори:",
       "b3Quote": "“Ja, der Wagen ist noch da. Rufen Sie gerne an.”",
-      "b4": "You’re first in line. Seller’s number and listing below. Your turn 👇",
-      "b5": "Calling him now 🔥"
+      "b4": "Вие сте први на ред. Бројот на продавачот и огласот се подолу. Ваш ред 👇",
+      "b5": "Веднаш го викам 🔥"
     },
     "ticker": {
-      "label": "Example activity",
-      "srNote": "Illustrative examples of what the bot does, not live data.",
+      "label": "Пример активност",
+      "srNote": "Илустративни примери за тоа што прави ботот, не се податоци во живо.",
       "items": [
-        "VW Passat B8 · München · message sent in 41 s ✓",
-        "Audi A4 Avant · Wien · sent in 38 s ✓",
-        "Škoda Octavia · Amsterdam · sent in 49 s ✓ (Nederlands)",
-        "Peugeot 3008 · Lyon · sent in 44 s ✓ (Français)",
-        "Fiat 500X · Milano · sent in 36 s ✓ (Italiano)",
-        "Volvo V60 · Göteborg · sent in 52 s ✓ (Svenska)",
-        "BMW 320d · Köln · sent in 40 s ✓"
+        "VW Passat B8 · München · порака испратена за 41 s ✓",
+        "Audi A4 Avant · Wien · испратена за 38 s ✓",
+        "Škoda Octavia · Amsterdam · испратена за 49 s ✓ (Nederlands)",
+        "Peugeot 3008 · Lyon · испратена за 44 s ✓ (Français)",
+        "Fiat 500X · Milano · испратена за 36 s ✓ (Italiano)",
+        "Volvo V60 · Göteborg · испратена за 52 s ✓ (Svenska)",
+        "BMW 320d · Köln · испратена за 40 s ✓"
       ]
     },
     "missing": {
-      "eyebrow": "What you’re missing",
-      "title": "The good cars are gone before you even see them.",
-      "p1": "A clean, private Passat goes online in Munich. Within the hour the seller has dozens of messages. He answers the first three, because they were first and they wrote in proper German.",
-      "p2": "You were with a customer. Or driving back from Germany with a car on the trailer. Or asleep. You saw the alert two hours later, and somebody else is already driving your car south.",
-      "p3": "Alerts don’t buy cars. The first message does.",
-      "imageAlt": "Car dealer busy with a customer while his phone buzzes in his pocket"
+      "eyebrow": "Што пропуштате",
+      "title": "Добрите возила ги нема пред воопшто да ги видите.",
+      "p1": "Чист Passat од приватен сопственик се појавува во Минхен. За еден час продавачот има десетици пораки. Одговара на првите тројца, затоа што беа први и пишуваа на правилен германски.",
+      "p2": "Вие бевте со муштерија. Или се враќавте од Германија со возило на приколка. Или спиевте. Известувањето го видовте два часа подоцна, а некој друг веќе го вози Вашето возило кон југ.",
+      "p3": "Известувањата не купуваат возила. Првата порака купува.",
+      "imageAlt": "Дилер зафатен со муштерија додека телефонот му вибрира во џебот"
     },
     "morning": {
-      "eyebrow": "How the bot works",
-      "title": "One morning with your bot.",
-      "lead": "From the listing to your first call in under 30 minutes. Example timeline.",
+      "eyebrow": "Како работи ботот",
+      "title": "Едно утро со Вашиот бот.",
+      "lead": "Од огласот до Вашиот прв повик за помалку од 30 минути. Пример тек.",
       "cards": [
         {
           "time": "07:02",
-          "title": "A good car goes online",
-          "body": "The bot sees it on one of 20+ marketplaces in Germany, Austria, the Netherlands, Belgium, France or Italy, or on Facebook Marketplace."
+          "title": "Се појавува добро возило",
+          "body": "Ботот го гледа на некоја од 20+ платформи во Германија, Австрија, Холандија, Белгија, Франција или Италија, или на Facebook Marketplace."
         },
         {
           "time": "07:03",
-          "title": "The seller gets your message",
+          "title": "Продавачот ја добива Вашата порака",
           "quote": "„Guten Tag, Ihr Passat mit Scheckheft gefällt mir sehr. Ist er noch verfügbar? Gerne würde ich Sie kurz anrufen. Viele Grüße, Marko“",
           "quoteLang": "de",
-          "body": "In the seller’s own language (German, Dutch, French, Italian, Swedish and more), in your name, polite and personal. Never the same robotic text twice."
+          "body": "На јазикот на продавачот (германски, холандски, француски, италијански, шведски и други), во Ваше име, учтиво и лично. Никогаш ист роботски текст двапати."
         },
         {
           "time": "07:26",
-          "title": "The seller answers you first",
-          "quote": "🔔 Car Bot: Seller replied on your Passat. Number and listing inside.",
-          "body": "Your WhatsApp pings the moment there’s a real reply. No noise, no endless alerts."
+          "title": "Продавачот прво Вам Ви одговара",
+          "quote": "🔔 Car Bot: Продавачот одговори за Вашиот Passat. Бројот и огласот се внатре.",
+          "body": "Вашиот WhatsApp ѕвони штом стигне вистински одговор. Без шум, без бескрајни известувања."
         },
         {
           "time": "07:27",
-          "title": "You take over",
-          "body": "Coffee in one hand, phone in the other. You call, agree the price and plan the pickup. The bot already got you in the door."
+          "title": "Вие преземате",
+          "body": "Кафе во едната рака, телефон во другата. Се јавувате, се договарате за цената и го планирате подигнувањето. Ботот веќе Ви ја отвори вратата."
         }
       ]
     },
     "freeTest": {
-      "eyebrow": "Free test",
-      "title": "Try it on 3 cars. Free.",
-      "lead": "Open mobile.de and set your filters like you do every day. Copy the link and paste it below, one link per row. We run your searches on our side, write to the sellers in their language, and send you a WhatsApp the moment one answers. You decide if you take over.",
+      "eyebrow": "Бесплатен тест",
+      "title": "Пробајте на 3 возила. Бесплатно.",
+      "lead": "Отворете mobile.de и поставете ги филтрите како секој ден. Копирајте го линкот и залепете го подолу, по еден линк во ред. Ние ги пуштаме пребарувањата кај нас, им пишуваме на продавачите на нивниот јазик и Ви праќаме порака на WhatsApp штом некој одговори. Вие одлучувате дали ќе преземете.",
       "botName": "Car Bot",
-      "prompt": "Drop your mobile.de searches here. One link per row, up to 3. Only mobile.de for this free test.",
-      "inputLabel": "Your mobile.de search links, one per row",
+      "prompt": "Залепете ги Вашите mobile.de пребарувања тука. По еден линк во ред, најмногу 3. За овој бесплатен тест само mobile.de.",
+      "inputLabel": "Вашите линкови од пребарување на mobile.de, по еден во ред",
       "placeholder": "https://suchen.mobile.de/fahrzeuge/search.html?...\nhttps://suchen.mobile.de/fahrzeuge/search.html?...",
-      "count": "{count} of 3 searches",
-      "submit": "Find my first cars",
-      "smallPrint": "For the free test we contact sellers from our own account, in our own words, on your behalf. In your paid bot, every message goes out in your name.",
+      "count": "{count} од 3 пребарувања",
+      "submit": "Најди ми ги првите возила",
+      "smallPrint": "За бесплатниот тест им пишуваме на продавачите од нашата сметка, со наши зборови, во Ваше име. Во платениот бот секоја порака заминува во Ваше име.",
       "errors": {
-        "empty": "Paste at least one mobile.de search link.",
-        "tooMany": "Up to 3 searches for the free test. Remove a row.",
-        "notMobile": "Only mobile.de links for now. One link per row."
+        "empty": "Залепете барем еден линк од пребарување на mobile.de.",
+        "tooMany": "Најмногу 3 пребарувања за бесплатниот тест. Избришете еден ред.",
+        "notMobile": "Засега само линкови од mobile.de. По еден линк во ред."
       }
     },
     "everyDay": {
-      "title": "What your bot does every day",
-      "imageAlt": "Phone lighting up on a nightstand while its owner sleeps",
+      "title": "Што прави Вашиот бот секој ден",
+      "imageAlt": "Телефон светнува на ноќното ормарче додека сопственикот спие",
       "items": [
         {
-          "title": "Scouts 20+ marketplaces, 24/7.",
-          "body": "mobile.de, AutoScout24, Kleinanzeigen, Marktplaats, leboncoin, Subito, Facebook Marketplace and more."
+          "title": "Пребарува 20+ платформи, 24/7.",
+          "body": "mobile.de, AutoScout24, Kleinanzeigen, Marktplaats, leboncoin, Subito, Facebook Marketplace и други."
         },
         {
-          "title": "Sends the first message in your name.",
-          "body": "In German, Dutch, French, Italian, Swedish or any EU language, written for each car."
+          "title": "Ја праќа првата порака во Ваше име.",
+          "body": "На германски, холандски, француски, италијански, шведски или кој било јазик од ЕУ, напишана посебно за секое возило."
         },
         {
-          "title": "Pings you on WhatsApp or Telegram",
-          "body": "when a seller replies, with the number and the listing."
+          "title": "Ве известува на WhatsApp или Telegram",
+          "body": "кога продавачот ќе одговори, со бројот и огласот."
         },
         {
-          "title": "Skips the junk.",
-          "body": "Dealers, damaged cars (unless you want them), sellers who don’t want offers, and cars it already messaged."
+          "title": "Го прескокнува ѓубрето.",
+          "body": "Дилери, оштетени возила (освен ако ги сакате), продавачи што не сакаат понуди и возила на кои веќе им пишал."
         },
         {
-          "title": "Quick price check",
-          "body": "on every car, so you know it’s worth the call."
+          "title": "Брза проверка на цената",
+          "body": "за секое возило, за да знаете дали вреди да се јавите."
         }
       ]
     },
     "door": {
-      "title": "The bot opens the door. You close the deal.",
-      "lead": "The boring, slow part is automated: searching, translating, writing, being first. You keep the part that makes money.",
-      "imageAlt": "Buyer shaking hands with a German seller next to a Mercedes",
-      "tasks": ["Talk to the seller", "Negotiate the price", "See the car", "Bring it home"]
+      "title": "Ботот ја отвора вратата. Вие го затворате договорот.",
+      "lead": "Здодевниот, бавен дел е автоматизиран: пребарување, преведување, пишување, да се биде прв. Вам Ви останува делот што носи пари.",
+      "imageAlt": "Купувач се ракува со германски продавач покрај Mercedes",
+      "tasks": ["Разговарате со продавачот", "Се пазарите за цената", "Го гледате возилото", "Го носите дома"]
     },
     "start": {
-      "eyebrow": "Getting started",
-      "title": "From first call to first message in 48 hours.",
-      "lead": "No technical knowledge, no pushy sales calls. We talk, you decide, we build.",
+      "eyebrow": "Како почнуваме",
+      "title": "Од првиот разговор до првата порака за 48 часа.",
+      "lead": "Без техничко знаење, без наметливи продажни повици. Разговараме, Вие одлучувате, ние градиме.",
       "steps": [
         {
-          "title": "A short call",
-          "body": "We look at how you buy: which cars, which countries, which tools you already use. We explain what we can do and you pick what makes sense. No hard sell."
+          "title": "Краток разговор",
+          "body": "Гледаме како купувате: кои возила, од кои држави, кои алатки веќе ги користите. Ви објаснуваме што можеме и Вие избирате што има смисла. Без притисок."
         },
         {
-          "title": "You approve the access",
-          "body": "A few approvals so the bot can work. We tell you exactly what we need and why, nothing more."
+          "title": "Ги одобрувате пристапите",
+          "body": "Неколку одобрувања за ботот да може да работи. Ви кажуваме точно што ни треба и зошто, ништо повеќе."
         },
         {
-          "title": "We set it up in 24 to 48 hours",
-          "body": "On your computer, in our cloud or on our own servers. We choose together on the call."
+          "title": "Го поставуваме за 24 до 48 часа",
+          "body": "На Вашиот компјутер, во нашиот cloud или на нашите сервери. Заедно одлучуваме на разговорот."
         },
         {
-          "title": "Your rules, built in",
-          "body": "First searches, filters, price limits, margin maths and which sellers to skip. Then the bot starts and your WhatsApp starts pinging."
+          "title": "Вашите правила, вградени",
+          "body": "Први пребарувања, филтри, ценовни граници, пресметка на маржа и кои продавачи да се прескокнат. Потоа ботот тргнува и Вашиот WhatsApp почнува да ѕвони."
         }
       ]
     },
     "noTech": {
-      "eyebrow": "No tech on your side",
-      "title": "We build it, run it and pay for it.",
-      "imageAlt": "Dealer smiling on a phone call in his car yard at sunset",
+      "eyebrow": "Без техника од Ваша страна",
+      "title": "Ние го градиме, го водиме и го плаќаме.",
+      "imageAlt": "Насмеан дилер зборува на телефон во својот плац за возила на зајдисонце",
       "items": [
-        "We set up your bot on your computer or in our cloud",
-        "We show you how to use it, in your language",
-        "We maintain it and fix it if anything breaks",
-        "All tools and running costs are on us",
-        "No hidden fees, no contracts to read, no tech"
+        "Го поставуваме ботот на Вашиот компјутер или во нашиот cloud",
+        "Ви покажуваме како да го користите, на Вашиот јазик",
+        "Го одржуваме и поправаме ако нешто се расипе",
+        "Сите алатки и трошоци за работа се наши",
+        "Без скриени трошоци, без договори за читање, без техника"
       ]
     },
     "payFor": {
-      "eyebrow": "What you pay for",
-      "title": "Your monthly fee is a whole team working in the background.",
-      "lead": "Several AI helpers and a real person work for you. You pay one price. We pay everything behind it.",
+      "eyebrow": "За што плаќате",
+      "title": "Вашата месечна претплата е цел тим што работи во позадина.",
+      "lead": "Неколку AI помошници и вистински човек работат за Вас. Вие плаќате една цена. Ние плаќаме сè зад неа.",
       "cards": [
         {
-          "title": "🧠 The AI brains",
-          "body": "The AI models that read every listing, judge the car and write the message in the seller’s language. Their bills are ours."
+          "title": "🧠 AI мозоците",
+          "body": "AI моделите што го читаат секој оглас, го проценуваат возилото и ја пишуваат пораката на јазикот на продавачот. Нивните сметки се наши."
         },
         {
-          "title": "⚡ The auto-sender",
-          "body": "The automation that sends the message, spaced out like a real person, around the clock."
+          "title": "⚡ Автоматскиот испраќач",
+          "body": "Автоматизацијата што ја праќа пораката, со паузи како вистински човек, деноноќно."
         },
         {
-          "title": "🔎 Searches and sign-ups",
-          "body": "Your searches keep running on every platform, and we take care of the accounts and sign-ups on each one."
+          "title": "🔎 Пребарувања и регистрации",
+          "body": "Вашите пребарувања работат постојано на секоја платформа, а ние се грижиме за сметките и регистрациите на секоја од нив."
         },
         {
-          "title": "💬 A real person on WhatsApp",
-          "body": "A question, a change, a strange message? Write to us. A human answers."
+          "title": "💬 Вистински човек на WhatsApp",
+          "body": "Прашање, промена, чудна порака? Пишете ни. Одговара човек."
         },
         {
-          "title": "🛠 Fixes when something breaks",
-          "body": "Marketplaces change their sites all the time. When something stops working, we fix it."
+          "title": "🛠 Поправки кога нешто ќе се расипе",
+          "body": "Платформите постојано ги менуваат своите страници. Кога нешто ќе престане да работи, ние го поправаме."
         },
         {
-          "title": "🔄 Free updates",
-          "body": "New tools, new AI models, new marketplaces: we upgrade your bot and it costs you nothing extra."
+          "title": "🔄 Бесплатни надградби",
+          "body": "Нови алатки, нови AI модели, нови платформи: го надградуваме Вашиот бот и не плаќате ништо повеќе."
         }
       ]
     },
     "roi": {
-      "eyebrow": "Do the maths",
-      "title": "One extra car a month pays for the whole bot.",
-      "lead": "Move the sliders and see what the cars you miss today are worth.",
-      "extraLabel": "Extra cars you win per month",
-      "extraValue": "{count, plural, =0 {0 cars} one {# car / month} other {# cars / month}}",
-      "extraHint": "Cars you miss today because someone else wrote first.",
-      "marginLabel": "Your profit per car",
-      "marginHint": "Used cars usually leave €1,200 to €2,000. Use your own number.",
-      "planLabel": "Your plan",
-      "planYearly": "Yearly €3,000",
-      "planMonthly": "Monthly €500 + €250",
-      "gain": "Extra profit per year",
-      "cost": "Your bot, first year",
-      "net": "Left in your pocket",
-      "payback": "Your whole first year is covered by {cars, plural, one {# extra car} other {# extra cars}} at {margin} profit each.",
-      "months": "One extra car pays about {months, plural, one {# month} other {# months}} of the monthly fee.",
-      "disclaimer": "An example, not a promise. Real results depend on the cars you buy, the prices you negotiate and how fast you close."
+      "eyebrow": "Пресметајте",
+      "title": "Едно возило повеќе месечно го плаќа целиот бот.",
+      "lead": "Поместете ги лизгачите и видете колку вредат возилата што денес ги пропуштате.",
+      "extraLabel": "Дополнителни возила што ги добивате месечно",
+      "extraValue": "{count, plural, =0 {0 возила} one {# возило / месец} other {# возила / месец}}",
+      "extraHint": "Возила што денес ги пропуштате затоа што некој друг прв пишал.",
+      "marginLabel": "Ваша заработка по возило",
+      "marginHint": "Половните возила обично оставаат 1.200 € до 2.000 €. Внесете го Вашиот број.",
+      "planLabel": "Ваш пакет",
+      "planYearly": "Годишен 3.000 €",
+      "planMonthly": "Месечен 500 € + 250 €",
+      "gain": "Дополнителна заработка годишно",
+      "cost": "Вашиот бот, прва година",
+      "net": "Ви останува во џебот",
+      "payback": "Целата прва година ја покриваат {cars, plural, one {# дополнително возило} other {# дополнителни возила}} со заработка од {margin} по возило.",
+      "months": "Едно дополнително возило плаќа околу {months, plural, one {# месец} other {# месеци}} од месечната претплата.",
+      "disclaimer": "Пример, не ветување. Вистинските резултати зависат од возилата што ги купувате, цените што ќе ги испазарите и колку брзо затворате."
     },
     "pricing": {
-      "title": "One price. Everything included.",
-      "lead": "One car you would have missed pays for months of your bot.",
-      "setupLabel": "Pay monthly · setup, one time",
-      "setupPrice": "€500",
-      "setupBody": "Your bot built around the cars you buy, your accounts connected, tested and handed over.",
-      "monthlyLabel": "Then, every month",
-      "monthlyPrice": "€250",
-      "perMonth": " / month",
-      "monthlyBody": "24/7 scouting, first messages, WhatsApp pings, maintenance, all tools and a real person on WhatsApp. Cancel any month.",
-      "chooseMonthly": "Choose monthly: €500 + €250 / month",
-      "yearlyLabel": "Pay yearly: setup is free, 2 months on us",
-      "yearlyPrice": "€3,000",
-      "perYear": " / year",
-      "yearlyBody": "Monthly, your first year costs €3,500. Pay yearly and it’s €3,000, with nothing else to pay.",
-      "chooseYearly": "Choose yearly",
-      "note": "Card, bank transfer or invoice · Prices in euros · For importers in North Macedonia, Serbia, Kosovo, Albania, Bosnia and Herzegovina, Montenegro, Croatia, Slovenia and Bulgaria"
+      "title": "Една цена. Сè е вклучено.",
+      "lead": "Едно возило што инаку би го пропуштиле плаќа месеци од Вашиот бот.",
+      "setupLabel": "Месечно плаќање · поставување, еднократно",
+      "setupPrice": "500 €",
+      "setupBody": "Вашиот бот направен според возилата што ги купувате, сметките поврзани, тестиран и предаден.",
+      "monthlyLabel": "Потоа, секој месец",
+      "monthlyPrice": "250 €",
+      "perMonth": " / месец",
+      "monthlyBody": "Пребарување 24/7, први пораки, известувања на WhatsApp, одржување, сите алатки и вистински човек на WhatsApp. Откажете кој било месец.",
+      "chooseMonthly": "Избери месечно: 500 € + 250 € / месец",
+      "yearlyLabel": "Годишно плаќање: поставувањето е бесплатно, 2 месеци од нас",
+      "yearlyPrice": "3.000 €",
+      "perYear": " / година",
+      "yearlyBody": "Со месечно плаќање, првата година чини 3.500 €. Со годишно плаќање е 3.000 €, без ништо друго за плаќање.",
+      "chooseYearly": "Избери годишно",
+      "note": "Картичка, банкарски трансфер или фактура · Цени во евра · За увозници во Северна Македонија, Србија, Косово, Албанија, Босна и Херцеговина, Црна Гора, Хрватска, Словенија и Бугарија"
     },
     "safety": {
-      "eyebrow": "Safe, clean, and on us",
-      "title": "Your bot writes like a polite buyer, not like a spam machine.",
-      "lead": "A few messages a day, spaced out, one per car, never the same text twice, and never in the middle of the night in the seller’s time. Real name, honest words, no tricks.",
+      "eyebrow": "Безбедно, чисто и на наш трошок",
+      "title": "Вашиот бот пишува како учтив купувач, не како машина за спам.",
+      "lead": "Неколку пораки дневно, со паузи, една по возило, никогаш ист текст двапати и никогаш среде ноќ по времето на продавачот. Вистинско име, искрени зборови, без трикови.",
       "cards": [
         {
-          "title": "Rules respected",
-          "body": "Built to follow each marketplace’s rules and EU data protection (GDPR). We use your data only to run your bot."
+          "title": "Правилата се почитуваат",
+          "body": "Направен да ги следи правилата на секоја платформа и заштитата на податоци во ЕУ (GDPR). Вашите податоци ги користиме само за Вашиот бот."
         },
         {
-          "title": "It stops when it should",
-          "body": "If a marketplace asks for a check or a verification, the bot stops and tells you. It never pushes through."
+          "title": "Застанува кога треба",
+          "body": "Ако платформата побара проверка или верификација, ботот застанува и Ве известува. Никогаш не продолжува на сила."
         },
         {
-          "title": "You stay in control",
-          "body": "Say stop on WhatsApp and it stops. You can also approve every message before it goes out."
+          "title": "Вие имате контрола",
+          "body": "Напишете „стоп“ на WhatsApp и застанува. Може и да ја одобрите секоја порака пред да замине."
         },
         {
-          "title": "If something goes wrong, it’s on us",
-          "body": "A wrong message, a seller complaint, spam, replies that never reach you: write to us. We answer and start fixing within 24 hours, at our cost."
+          "title": "Ако нешто тргне наопаку, тоа е на нас",
+          "body": "Погрешна порака, жалба од продавач, спам, одговори што не стигнуваат до Вас: пишете ни. Одговараме и почнуваме да поправаме во рок од 24 часа, на наш трошок."
         }
       ]
     },
     "finalCta": {
-      "title": "Your next car goes online tonight. Your bot will be there first.",
-      "lead": "Message us on WhatsApp. We’ll show you how it works and get your bot running.",
-      "button": "Chat on WhatsApp",
-      "waText": "I want my Car Bot bot",
-      "imageAlt": "Car transporter loaded with used cars on the highway at dawn"
+      "title": "Вашето следно возило се појавува вечерва. Вашиот бот ќе биде прв.",
+      "lead": "Пишете ни на WhatsApp. Ќе Ви покажеме како работи и ќе го пуштиме Вашиот бот.",
+      "button": "Пишете ни на WhatsApp",
+      "waText": "Сакам свој Car Bot",
+      "imageAlt": "Камион-автовоз натоварен со половни возила на автопат во зори"
     }
   },
   "faq": {
     "home": {
-      "title": "Questions",
+      "title": "Прашања",
       "items": [
         {
-          "q": "Who does the seller think he’s talking to?",
-          "a": "To you. The message goes out in your name, from your account. When he replies, you’re the one who calls."
+          "q": "Со кого мисли продавачот дека разговара?",
+          "a": "Со Вас. Пораката заминува во Ваше име, од Вашата сметка. Кога ќе одговори, Вие сте тој што се јавува."
         },
         {
-          "q": "I don’t speak German, Dutch or Italian. Is that a problem?",
-          "a": "No. The first message goes out in the seller’s own language. After that most sellers are happy with a call, simple English, or a translator."
+          "q": "Не зборувам германски, холандски или италијански. Дали е тоа проблем?",
+          "a": "Не. Првата порака заминува на јазикот на продавачот. Потоа повеќето продавачи се задоволни со повик, едноставен англиски или преведувач."
         },
         {
-          "q": "Do I need to be good with computers?",
-          "a": "No. We set everything up. You just use WhatsApp, like you already do."
+          "q": "Дали треба добро да се снаоѓам со компјутери?",
+          "a": "Не. Ние поставуваме сè. Вие само користите WhatsApp, како и досега."
         },
         {
-          "q": "Can I check messages before they go out?",
-          "a": "Yes. Fully automatic, or one tap on WhatsApp to approve each car. Your choice, any time."
+          "q": "Може ли да ги проверам пораките пред да заминат?",
+          "a": "Да. Целосно автоматски или со едно допирање на WhatsApp го одобрувате секое возило. Ваш избор, во секое време."
         },
         {
-          "q": "Do you negotiate or buy for me?",
-          "a": "No. The bot gets you the first conversation. Price, payment, papers and transport stay with you."
+          "q": "Дали се пазарите или купувате наместо мене?",
+          "a": "Не. Ботот Ви го носи првиот разговор. Цената, плаќањето, документите и превозот остануваат кај Вас."
         },
         {
-          "q": "Which cars can it look for?",
-          "a": "Any make and model you buy, with your years, kilometres and budget. Damaged cars too, if that’s your business."
+          "q": "Какви возила може да бара?",
+          "a": "Која било марка и модел што ги купувате, со Вашите години, километри и буџет. И оштетени возила, ако тоа е Вашиот бизнис."
         },
         {
-          "q": "Why €250 a month? Alerts cost €30.",
-          "a": "An alert tells you about a car. It doesn’t write to the seller, doesn’t write in the seller’s language and doesn’t work at 7 a.m. while you sleep. Your fee pays for the AI, the sender, the upkeep and a real person. One extra car a month pays it back many times."
+          "q": "Зошто 250 € месечно? Известувањата чинат 30 €.",
+          "a": "Известувањето Ви кажува за возилото. Не му пишува на продавачот, не пишува на неговиот јазик и не работи во 7 наутро додека спиете. Вашата претплата ги плаќа AI, испраќачот, одржувањето и вистински човек. Едно дополнително возило месечно ја враќа многукратно."
         },
         {
-          "q": "Is it really AI?",
-          "a": "Yes. A few AI helpers work in the background: one reads the listings, one checks the car against your rules, one writes the message in the seller’s language. The automation sends it. We watch over all of it."
+          "q": "Дали навистина е AI?",
+          "a": "Да. Неколку AI помошници работат во позадина: еден ги чита огласите, еден го проверува возилото според Вашите правила, еден ја пишува пораката на јазикот на продавачот. Автоматизацијата ја праќа. Ние го надгледуваме сето тоа."
         },
         {
-          "q": "Will sellers think it’s spam?",
-          "a": "No. One polite, personal message per car, in proper German, never the same text twice. It reads like a serious buyer, because behind it there is one: you."
+          "q": "Дали продавачите ќе мислат дека е спам?",
+          "a": "Не. Една учтива, лична порака по возило, на правилен германски, никогаш ист текст двапати. Звучи како сериозен купувач, затоа што зад неа стои еден: Вие."
         },
         {
-          "q": "Is it legal and safe?",
-          "a": "It’s built to follow the marketplace rules and EU data protection. Messages are honest and in your real name, and the bot stops if a platform asks for a check. If anything goes wrong, we fix it at our cost. More in the safety section above."
+          "q": "Дали е законско и безбедно?",
+          "a": "Направен е да ги следи правилата на платформите и заштитата на податоци во ЕУ. Пораките се искрени и во Ваше вистинско име, а ботот застанува ако платформата побара проверка. Ако нешто тргне наопаку, го поправаме на наш трошок. Повеќе во делот за безбедност погоре."
         },
         {
-          "q": "What if something breaks, or I get no messages?",
-          "a": "Write to us on WhatsApp. We answer and start the fix within 24 hours, and it’s on us."
+          "q": "Што ако нешто се расипе или не добивам пораки?",
+          "a": "Пишете ни на WhatsApp. Одговараме и почнуваме со поправката во рок од 24 часа, на наш трошок."
         },
         {
-          "q": "How fast is the setup, and where does it run?",
-          "a": "24 to 48 hours after our call. On your computer, in our cloud or on our own servers, whichever we pick together. You never touch the tech."
+          "q": "Колку брзо е поставувањето и каде работи?",
+          "a": "24 до 48 часа по нашиот разговор. На Вашиот компјутер, во нашиот cloud или на нашите сервери, како што заедно ќе одлучиме. Вие никогаш не ја допирате техниката."
         },
         {
-          "q": "What happens in the free test?",
-          "a": "You send up to 3 mobile.de searches. We run them on our side and message sellers from our own account. If a seller answers, you get a WhatsApp from us and you decide if you take over. No card, no strings."
+          "q": "Што се случува во бесплатниот тест?",
+          "a": "Испраќате до 3 пребарувања од mobile.de. Ние ги пуштаме кај нас и им пишуваме на продавачите од нашата сметка. Ако продавач одговори, добивате порака од нас на WhatsApp и Вие одлучувате дали ќе преземете. Без картичка, без обврски."
         },
         {
-          "q": "Do you take a cut of my deals?",
-          "a": "Never. The price is fixed. Every euro of profit stays with you."
+          "q": "Дали земате процент од моите зделки?",
+          "a": "Никогаш. Цената е фиксна. Секое евро заработка останува кај Вас."
         },
         {
-          "q": "Can I cancel? Can I use Telegram?",
-          "a": "Monthly plan: cancel any month. Yearly plan: you’ve paid for 12 months, with setup free. We start with WhatsApp and can set up Telegram too."
+          "q": "Може ли да откажам? Може ли да користам Telegram?",
+          "a": "Месечен пакет: откажувате кој било месец. Годишен пакет: платени се 12 месеци, со бесплатно поставување. Почнуваме со WhatsApp, а може да поставиме и Telegram."
         }
       ]
     },
     "partners": {
-      "title": "Partner questions",
+      "title": "Прашања за партнерите",
       "items": [
         {
-          "q": "Is this an affiliate program?",
-          "a": "Yes, it works like one: your own tracking link, a discount code and commissions on every dealership you bring. We call you a partner because you get real support and a long-term relationship, not just a link."
+          "q": "Дали ова е афилијат програма?",
+          "a": "Да, работи како таква: свој линк за следење, код за попуст и провизија за секоја автокуќа што ќе ја донесете. Ве викаме партнер затоа што добивате вистинска поддршка и долгорочна соработка, не само линк."
         },
         {
-          "q": "Do I need technical knowledge?",
-          "a": "None. You never set anything up and never fix anything. We do the full setup, run the bot and handle every problem."
+          "q": "Дали ми треба техничко знаење?",
+          "a": "Никакво. Никогаш ништо не поставувате и ништо не поправате. Ние го правиме целото поставување, го водиме ботот и го решаваме секој проблем."
         },
         {
-          "q": "Who can I bring?",
-          "a": "Car dealers and importers who buy used cars in Europe, from any country in the Balkans or Europe. They can talk to you in their own language."
+          "q": "Кого може да донесам?",
+          "a": "Дилери и увозници на возила што купуваат половни возила во Европа, од која било држава на Балканот или во Европа. Може да зборуваат со Вас на својот јазик."
         },
         {
-          "q": "How long do I earn from one dealership?",
-          "a": "€150 at signup, then €50 each month the dealership pays, up to 12 months, plus a €50 bonus when they’re still with us at month 6. That’s up to €800."
+          "q": "Колку долго заработувам од една автокуќа?",
+          "a": "150 € при пријавувањето, потоа 50 € секој месец додека автокуќата плаќа, до 12 месеци, плус бонус од 50 € ако е сè уште со нас во 6-тиот месец. Тоа е до 800 €."
         },
         {
-          "q": "What if the dealership cancels?",
-          "a": "The monthly commission stops when they stop paying. That’s why a friendly check-in from you helps: happy dealers stay."
+          "q": "Што ако автокуќата откаже?",
+          "a": "Месечната провизија престанува кога таа ќе престане да плаќа. Затоа помага пријателско јавување од Ваша страна: задоволните дилери остануваат."
         },
         {
-          "q": "Am I responsible if something goes wrong?",
-          "a": "No. Setup, fixes, support and every technical question are ours. If a dealer has a problem, you pass it to us."
+          "q": "Дали сум одговорен ако нешто тргне наопаку?",
+          "a": "Не. Поставувањето, поправките, поддршката и секое техничко прашање се наши. Ако дилерот има проблем, Вие ни го препраќате нам."
         },
         {
-          "q": "How do I get paid?",
-          "a": "Your earnings are tracked in your partner dashboard. If your dealership takes the yearly plan, you get a flat €800 once we receive their payment. For monthly plans we send the payout details in your welcome package."
+          "q": "Како ме исплаќате?",
+          "a": "Вашата заработка се следи во партнерскиот панел. Ако Вашата автокуќа го земе годишниот пакет, добивате фиксни 800 € штом ќе ја примиме нивната уплата. За месечните пакети деталите за исплата ги праќаме во Вашиот пакет добредојде."
         }
       ]
     }
   },
   "partners": {
     "meta": {
-      "title": "Car Bot Partners | Earn €800 per dealership",
-      "description": "Introduce car importers and dealers to Car Bot. We set it up, run it and fix it. You earn €150 per setup and €50 every month, up to €800 per dealership in year one.",
-      "ogTitle": "Bring the dealers. We do everything else.",
-      "ogSub": "Car Bot partner program · up to €800 per dealership"
+      "title": "Car Bot партнери | Заработете 800 € по автокуќа",
+      "description": "Запознајте ги увозниците и дилерите на возила со Car Bot. Ние го поставуваме, водиме и поправаме. Вие заработувате 150 € по поставување и 50 € секој месец, до 800 € по автокуќа во првата година.",
+      "ogTitle": "Донесете ги дилерите. Ние го правиме сето останато.",
+      "ogSub": "Car Bot партнерска програма · до 800 € по автокуќа"
     },
     "hero": {
-      "eyebrow": "Car Bot partner program",
-      "title": "Bring the dealers. We do everything else. Earn up to €800 per dealership.",
-      "lead": "Know car importers or dealers who buy cars in Europe? Introduce them to Car Bot. We set it up, run it and fix it. You stay their friendly point of contact and earn every month while they stay. Yes, it’s an affiliate program, just with real support behind it.",
-      "ctaPrimary": "Become a partner",
-      "ctaSecondary": "Calculate your earnings",
+      "eyebrow": "Car Bot партнерска програма",
+      "title": "Донесете ги дилерите. Ние го правиме сето останато. Заработете до 800 € по автокуќа.",
+      "lead": "Познавате увозници или дилери што купуваат возила во Европа? Запознајте ги со Car Bot. Ние го поставуваме, го водиме и го поправаме. Вие останувате нивниот пријателски контакт и заработувате секој месец додека тие остануваат. Да, ова е афилијат програма, само со вистинска поддршка зад неа.",
+      "ctaPrimary": "Станете партнер",
+      "ctaSecondary": "Пресметајте ја заработката",
       "stats": [
-        {
-          "value": "€150",
-          "label": "per setup"
-        },
-        {
-          "value": "€50",
-          "label": "every month, up to 12 months"
-        },
-        {
-          "value": "€0",
-          "label": "tech work for you"
-        }
+        { "value": "150 €", "label": "по поставување" },
+        { "value": "50 €", "label": "секој месец, до 12 месеци" },
+        { "value": "0 €", "label": "техничка работа за Вас" }
       ]
     },
     "earn": {
-      "eyebrow": "What you earn",
-      "title": "One dealership can be worth €800 to you in the first year.",
-      "lead": "You earn while the dealership keeps paying. The longer you keep them happy, the more you earn.",
+      "eyebrow": "Колку заработувате",
+      "title": "Една автокуќа може да Ви донесе 800 € во првата година.",
+      "lead": "Заработувате додека автокуќата плаќа. Колку подолго се задоволни, толку повеќе заработувате.",
       "cards": [
         {
-          "value": "€150",
-          "title": "Setup share",
-          "body": "30% of the €500 setup fee, paid when your dealership signs up."
+          "value": "150 €",
+          "title": "Дел од поставувањето",
+          "body": "30% од поставувањето од 500 €, исплатено кога Вашата автокуќа ќе се пријави."
         },
         {
-          "value": "€50",
-          "suffix": " / month",
-          "title": "Monthly income",
-          "body": "20% of the €250 subscription, every month the dealership pays, up to 12 months. That’s €600 a year."
+          "value": "50 €",
+          "suffix": " / месец",
+          "title": "Месечен приход",
+          "body": "20% од претплатата од 250 €, секој месец додека автокуќата плаќа, до 12 месеци. Тоа се 600 € годишно."
         },
         {
-          "value": "€50",
-          "title": "Loyalty bonus",
-          "body": "Extra when your dealership is still with us after 6 months."
+          "value": "50 €",
+          "title": "Бонус за лојалност",
+          "body": "Дополнително кога Вашата автокуќа е сè уште со нас по 6 месеци."
         },
         {
-          "value": "€800",
-          "title": "Per dealership, year one",
-          "body": "€150 + €600 + €50. Bring three dealerships and that’s €2,400."
+          "value": "800 €",
+          "title": "По автокуќа, прва година",
+          "body": "150 € + 600 € + 50 €. Донесете три автокуќи и тоа се 2.400 €."
         }
       ],
-      "note": "On the yearly plan you earn a flat €800, paid once we receive the dealership’s payment. On the monthly plan, commissions are paid while the dealership is an active paying client. Your dealership gets 10% off the setup and the monthly fee with your code, and that discount never comes out of your commission."
+      "note": "Кај годишниот пакет заработувате фиксни 800 €, исплатени штом ќе ја примиме уплатата од автокуќата. Кај месечниот пакет, провизиите се исплаќаат додека автокуќата е активен клиент што плаќа. Вашата автокуќа добива 10% попуст на поставувањето и месечната претплата со Вашиот код, а тој попуст никогаш не се одзема од Вашата провизија."
     },
     "split": {
-      "title": "You bring the introduction. We carry the weight.",
-      "lead": "Nothing technical, nothing to set up, nothing to fix. If something breaks, it’s ours to solve, never yours.",
-      "yourTitle": "Your part",
+      "title": "Вие ги запознавате. Ние ја носиме тежината.",
+      "lead": "Ништо техничко, ништо за поставување, ништо за поправање. Ако нешто се расипе, наше е да го решиме, никогаш Ваше.",
+      "yourTitle": "Ваш дел",
       "yourItems": [
-        "Find dealerships and importers: calls, messages, social posts, videos, your community",
-        "Tell them about Car Bot in your own language",
-        "Jump on one call if it helps to convince them",
-        "Stay friendly with them, so they stay motivated",
-        "Pass any support question straight to us"
+        "Наоѓате автокуќи и увозници: повици, пораки, објави на социјални мрежи, видеа, Вашата заедница",
+        "Им раскажувате за Car Bot на Вашиот јазик",
+        "Се приклучувате на еден повик ако тоа помага да ги убедите",
+        "Останувате во добри односи со нив, за да останат мотивирани",
+        "Секое прашање за поддршка ни го препраќате нам"
       ],
-      "ourTitle": "Our part",
+      "ourTitle": "Наш дел",
       "ourItems": [
-        "The full setup and all the technical work",
-        "The platform, the AI and every tool, paid by us",
-        "Reliability, fixes and updates",
-        "Support for your dealership, in a real WhatsApp chat",
-        "Billing, onboarding and keeping them happy"
+        "Целото поставување и сета техничка работа",
+        "Платформата, AI и секоја алатка, платени од нас",
+        "Сигурност, поправки и надградби",
+        "Поддршка за Вашата автокуќа, во вистински WhatsApp разговор",
+        "Наплата, воведување и грижа тие да бидат задоволни"
       ]
     },
     "how": {
-      "eyebrow": "How it works",
-      "title": "Sign up, share your link, get paid.",
+      "eyebrow": "Како функционира",
+      "title": "Пријавете се, споделете го линкот, заработувајте.",
       "steps": [
         {
-          "title": "Sign up in a minute",
-          "body": "Tell us who you are and how you’ll find dealers. We confirm and welcome you."
+          "title": "Пријава за една минута",
+          "body": "Кажете ни кои сте и како ќе наоѓате дилери. Ние потврдуваме и Ве пречекуваме."
         },
         {
-          "title": "Get your link and code",
-          "body": "Your own tracking link and a 10% discount code for your dealers, plus a simple partner dashboard."
+          "title": "Го добивате линкот и кодот",
+          "body": "Свој линк за следење и код за 10% попуст за Вашите дилери, плус едноставен партнерски панел."
         },
         {
-          "title": "Introduce Car Bot",
-          "body": "Call, message, post a video or share in your community. Dealers can sign up from any country in the Balkans or Europe, in their own language."
+          "title": "Го претставувате Car Bot",
+          "body": "Јавете се, пишете, објавете видео или споделете во Вашата заедница. Дилерите може да се пријават од која било држава на Балканот или во Европа, на својот јазик."
         },
         {
-          "title": "They sign, you earn",
-          "body": "We do the setup. Your commissions show up in your dashboard, month after month."
+          "title": "Тие се пријавуваат, Вие заработувате",
+          "body": "Ние го правиме поставувањето. Вашите провизии се појавуваат во Вашиот панел, месец по месец."
         }
       ]
     },
     "calc": {
-      "eyebrow": "Do the maths",
-      "title": "What could you earn this year?",
-      "lead": "Pick how many dealerships you sign each month. This counts your first 12 months, with every dealership staying at least 6 months.",
-      "clientsLabel": "Dealerships you sign per month",
-      "clientsValue": "{count, plural, one {# dealership} other {# dealerships}}",
-      "total": "That’s <b>{count} dealerships</b> by the end of the year. Each one pays you €150 up front, €50 every month and a €50 bonus at month 6.",
-      "perDealer": "Per dealership, over its first 12 months: <b>€800</b> (€150 + €600 + €50)",
-      "yearTotal": "You earn in your first 12 months",
-      "monthlyAt12": "Monthly income by month 12",
-      "perMonth": " / month",
-      "disclaimer": "An example, not a promise. Your earnings depend on how many dealerships you bring and how long they stay as paying clients."
+      "eyebrow": "Пресметајте",
+      "title": "Колку би можеле да заработите оваа година?",
+      "lead": "Изберете колку автокуќи пријавувате секој месец. Ова ги брои Вашите први 12 месеци, со тоа што секоја автокуќа останува најмалку 6 месеци.",
+      "clientsLabel": "Автокуќи што ги пријавувате месечно",
+      "clientsValue": "{count, plural, one {# автокуќа} other {# автокуќи}}",
+      "total": "Тоа се <b>{count} автокуќи</b> до крајот на годината. Секоја Ви носи 150 € однапред, 50 € секој месец и бонус од 50 € во 6-тиот месец.",
+      "perDealer": "По автокуќа, во нејзините први 12 месеци: <b>800 €</b> (150 € + 600 € + 50 €)",
+      "yearTotal": "Заработувате во првите 12 месеци",
+      "monthlyAt12": "Месечен приход до 12-тиот месец",
+      "perMonth": " / месец",
+      "disclaimer": "Пример, не ветување. Вашата заработка зависи од тоа колку автокуќи ќе донесете и колку долго ќе останат клиенти што плаќаат."
     },
     "kit": {
-      "title": "Everything you need to sell it, from us.",
-      "lead": "You’re never on your own. We support you all year round.",
+      "title": "Сè што Ви треба за да го продавате, од нас.",
+      "lead": "Никогаш не сте сами. Ве поддржуваме цела година.",
       "cards": [
         {
-          "title": "🔗 Your link and code",
-          "body": "Every signup is tracked to you. Your dealers get 10% off with your code."
+          "title": "🔗 Ваш линк и код",
+          "body": "Секоја пријава се води на Вас. Вашите дилери добиваат 10% попуст со Вашиот код."
         },
         {
-          "title": "📊 A simple dashboard",
-          "body": "See your leads, signups and earnings in one place."
+          "title": "📊 Едноставен панел",
+          "body": "Гледајте ги контактите, пријавите и заработката на едно место."
         },
         {
-          "title": "🎁 Welcome package",
-          "body": "Onboarding, tips and ready-to-use messages, so you start fast."
+          "title": "🎁 Пакет добредојде",
+          "body": "Воведување, совети и готови пораки, за да почнете брзо."
         },
         {
-          "title": "🎬 Materials",
-          "body": "Pitch material, examples and content ideas for calls, chats and social posts."
+          "title": "🎬 Материјали",
+          "body": "Материјали за презентација, примери и идеи за содржина за повици, разговори и објави."
         },
         {
-          "title": "🤝 Backup on calls",
-          "body": "A dealer wants details? We jump on the call and explain the rest."
+          "title": "🤝 Поддршка на повици",
+          "body": "Дилерот сака детали? Се приклучуваме на повикот и го објаснуваме останатото."
         },
         {
-          "title": "💬 Support, all year",
-          "body": "Questions about the program or a client? Write to us. A real person answers."
+          "title": "💬 Поддршка цела година",
+          "body": "Прашања за програмата или за клиент? Пишете ни. Одговара вистински човек."
         }
       ],
-      "honesty": "Our one ask: be honest with dealers. Explain what Car Bot does, don’t promise results, and don’t make up earnings claims. It keeps your name, and ours, clean."
+      "honesty": "Имаме само едно барање: бидете искрени со дилерите. Објаснете што прави Car Bot, не ветувајте резултати и не измислувајте бројки за заработка. Така Вашето и нашето име остануваат чисти."
     },
     "apply": {
-      "title": "Become a Car Bot partner.",
-      "lead": "Takes a minute. We’ll message you on WhatsApp with your link, your code and your welcome package.",
-      "howLabel": "How will you find dealers?",
+      "title": "Станете Car Bot партнер.",
+      "lead": "Трае една минута. Ќе Ви пишеме на WhatsApp со Вашиот линк, Вашиот код и пакетот добредојде.",
+      "howLabel": "Како ќе наоѓате дилери?",
       "how": {
-        "calls": "Calls and messages",
-        "social": "Social media or videos",
-        "community": "My community or group",
-        "network": "My business network",
-        "other": "Something else"
+        "calls": "Повици и пораки",
+        "social": "Социјални мрежи или видеа",
+        "community": "Мојата заедница или група",
+        "network": "Мојата деловна мрежа",
+        "other": "Нешто друго"
       },
-      "consent": "I agree that Car Bot uses my details to contact me about the partner program.",
-      "submit": "Become a partner",
-      "sending": "Sending…",
-      "doneTitle": "Welcome aboard.",
-      "doneText": "We’ll message you on WhatsApp with your link, your code and your welcome package.",
-      "continue": "Continue →",
-      "waFallback": "Send on WhatsApp"
+      "consent": "Се согласувам Car Bot да ги користи моите податоци за да ме контактира во врска со партнерската програма.",
+      "submit": "Станете партнер",
+      "sending": "Се испраќа…",
+      "doneTitle": "Добредојдовте.",
+      "doneText": "Ќе Ви пишеме на WhatsApp со Вашиот линк, Вашиот код и пакетот добредојде.",
+      "continue": "Продолжи →",
+      "waFallback": "Испрати на WhatsApp"
     }
   },
   "thanks": {
     "meta": {
-      "title": "Thank you | Car Bot",
-      "description": "We got your details. A real person from Car Bot will message you on WhatsApp."
+      "title": "Ви благодариме | Car Bot",
+      "description": "Ги добивме Вашите податоци. Вистински човек од Car Bot ќе Ви пише на WhatsApp."
     },
-    "title": "You’re in. Here’s what happens next.",
-    "titlePartner": "Welcome aboard. Here’s what happens next.",
+    "title": "Внатре сте. Еве што следува.",
+    "titlePartner": "Добредојдовте. Еве што следува.",
     "lead": {
-      "default": "We got your details. A real person from Car Bot will message you on WhatsApp. Keep your phone close.",
-      "test": "We got your searches. A real person from Car Bot will message you on WhatsApp. Keep your phone close.",
-      "monthly": "We got your details for the monthly plan. A real person from Car Bot will message you on WhatsApp with the payment link. Keep your phone close.",
-      "yearly": "We got your details for the yearly plan. A real person from Car Bot will message you on WhatsApp with the payment link. Keep your phone close.",
-      "partner": "We got your application. A real person from Car Bot will message you on WhatsApp with your link, your code and your welcome package."
+      "default": "Ги добивме Вашите податоци. Вистински човек од Car Bot ќе Ви пише на WhatsApp. Држете го телефонот блиску.",
+      "test": "Ги добивме Вашите пребарувања. Вистински човек од Car Bot ќе Ви пише на WhatsApp. Држете го телефонот блиску.",
+      "monthly": "Ги добивме Вашите податоци за месечниот пакет. Вистински човек од Car Bot ќе Ви пише на WhatsApp со линкот за плаќање. Држете го телефонот блиску.",
+      "yearly": "Ги добивме Вашите податоци за годишниот пакет. Вистински човек од Car Bot ќе Ви пише на WhatsApp со линкот за плаќање. Држете го телефонот блиску.",
+      "partner": "Ја добивме Вашата пријава. Вистински човек од Car Bot ќе Ви пише на WhatsApp со Вашиот линк, Вашиот код и пакетот добредојде."
     },
-    "whatsapp": "Message us on WhatsApp",
-    "home": "Back to the main page",
-    "partnerPage": "Back to the partner page",
+    "whatsapp": "Пишете ни на WhatsApp",
+    "home": "Назад на почетната страница",
+    "partnerPage": "Назад на партнерската страница",
     "steps": {
       "default": [
         {
-          "title": "We read your details",
-          "body": "We check your searches or your plan and get everything ready."
+          "title": "Ги читаме Вашите податоци",
+          "body": "Ги проверуваме Вашите пребарувања или пакетот и подготвуваме сè."
         },
         {
-          "title": "You get a WhatsApp from us",
-          "body": "To confirm what we got, answer questions, and agree the next step with you."
+          "title": "Добивате порака од нас на WhatsApp",
+          "body": "За да потврдиме што добивме, да одговориме на прашања и да се договориме за следниот чекор."
         },
         {
-          "title": "A seller answers, you’re pinged",
-          "body": "You take over the conversation. The bot already opened the door."
+          "title": "Продавачот одговара, Вие добивате известување",
+          "body": "Вие го преземате разговорот. Ботот веќе ја отвори вратата."
         }
       ],
       "test": [
         {
-          "title": "We read your searches",
-          "body": "We check your mobile.de searches and get everything ready."
+          "title": "Ги читаме Вашите пребарувања",
+          "body": "Ги проверуваме Вашите пребарувања на mobile.de и подготвуваме сè."
         },
         {
-          "title": "You get a WhatsApp from us",
-          "body": "To confirm what we got, answer questions, and agree the next step with you."
+          "title": "Добивате порака од нас на WhatsApp",
+          "body": "За да потврдиме што добивме, да одговориме на прашања и да се договориме за следниот чекор."
         },
         {
-          "title": "A seller answers, you’re pinged",
-          "body": "You take over the conversation. The bot already opened the door."
+          "title": "Продавачот одговара, Вие добивате известување",
+          "body": "Вие го преземате разговорот. Ботот веќе ја отвори вратата."
         }
       ],
       "plan": [
+        { "title": "Ги читаме Вашите податоци", "body": "Го проверуваме Вашиот пакет и подготвуваме сè." },
         {
-          "title": "We read your details",
-          "body": "We check your plan and get everything ready."
+          "title": "Добивате порака од нас на WhatsApp",
+          "body": "Со линк за плаќање (картичка, банкарски трансфер или фактура) и термин за разговор за поставување."
         },
         {
-          "title": "You get a WhatsApp from us",
-          "body": "With the payment link (card, bank transfer or invoice) and a time for your setup call."
-        },
-        {
-          "title": "Your bot goes live",
-          "body": "We set it up in 24 to 48 hours after our call. Then your WhatsApp starts pinging."
+          "title": "Вашиот бот тргнува",
+          "body": "Го поставуваме за 24 до 48 часа по нашиот разговор. Потоа Вашиот WhatsApp почнува да ѕвони."
         }
       ],
       "partner": [
         {
-          "title": "We read your application",
-          "body": "We check your details and how you plan to find dealers."
+          "title": "Ја читаме Вашата пријава",
+          "body": "Ги проверуваме Вашите податоци и како планирате да наоѓате дилери."
         },
         {
-          "title": "You get your link and code",
-          "body": "On WhatsApp, together with your welcome package and your partner dashboard."
+          "title": "Ги добивате линкот и кодот",
+          "body": "На WhatsApp, заедно со пакетот добредојде и Вашиот партнерски панел."
         },
         {
-          "title": "You introduce Car Bot",
-          "body": "We do the setup. Your commissions show up in your dashboard, month after month."
+          "title": "Го претставувате Car Bot",
+          "body": "Ние го правиме поставувањето. Вашите провизии се појавуваат во Вашиот панел, месец по месец."
         }
       ]
     },
     "promo": {
-      "title": "Know other dealers who’d love this?",
-      "body": "Join the partner program and earn up to €800 for every dealership you bring.",
-      "button": "Become a partner"
+      "title": "Познавате други дилери на кои ова би им се допаднало?",
+      "body": "Приклучете се на партнерската програма и заработете до 800 € за секоја автокуќа што ќе ја донесете.",
+      "button": "Станете партнер"
     }
   },
   "legal": {
-    "draftNote": "Draft. Placeholders in braces are filled in before launch.",
-    "updated": "Last updated: {date}",
+    "draftNote": "Нацрт. Полињата во загради се пополнуваат пред објавување.",
+    "updated": "Последна измена: {date}",
     "privacy": {
-      "metaTitle": "Privacy policy | Car Bot",
-      "metaDescription": "What personal data Car Bot collects, why, who processes it and how to reach us.",
-      "title": "Privacy policy",
-      "intro": "This policy explains what personal data {{LEGAL_ENTITY}} (“Car Bot”, “we”) collects on getcarbot.co, why we collect it and what rights you have.",
+      "metaTitle": "Политика за приватност | Car Bot",
+      "metaDescription": "Кои лични податоци ги собира Car Bot, зошто, кој ги обработува и како да не контактирате.",
+      "title": "Политика за приватност",
+      "intro": "Оваа политика објаснува кои лични податоци {{LEGAL_ENTITY}} („Car Bot“, „ние“) ги собира на getcarbot.co, зошто ги собираме и кои права ги имате.",
       "sections": [
         {
-          "title": "Who we are",
+          "title": "Кои сме ние",
           "body": [
-            "Car Bot is run by {{LEGAL_ENTITY}}, {{LEGAL_ADDRESS}}, company number {{COMPANY_NUMBER}}, Skopje, North Macedonia.",
-            "For anything about your data, write to {{DPO_EMAIL}}."
+            "Car Bot го води {{LEGAL_ENTITY}}, {{LEGAL_ADDRESS}}, ЕМБС {{COMPANY_NUMBER}}, Скопје, Северна Македонија.",
+            "За сè што се однесува на Вашите податоци, пишете на {{DPO_EMAIL}}."
           ]
         },
         {
-          "title": "What we collect",
+          "title": "Што собираме",
           "body": [
-            "Free test and plan requests: your name, surname, email, WhatsApp number, the mobile.de search links you send us, the plan you choose, a partner or discount code if you have one, your language and the time of the request.",
-            "Partner applications: your name, surname, email, WhatsApp number, country and how you plan to find dealers.",
-            "Partner referral: if you arrive through a partner link and accept cookies, we store the partner’s code (for example “ABC”) in a cookie for 90 days so the right partner is credited.",
-            "Technical data: your IP address is used briefly to stop abuse of our forms (rate limiting). Our analytics are cookieless and do not identify you."
+            "Барања за бесплатен тест и пакет: Вашето име, презиме, е-пошта, WhatsApp број, линковите од пребарување на mobile.de што ни ги праќате, пакетот што го избирате, партнерски код или код за попуст ако имате, Вашиот јазик и времето на барањето.",
+            "Пријави за партнери: Вашето име, презиме, е-пошта, WhatsApp број, држава и како планирате да наоѓате дилери.",
+            "Партнерска препорака: ако дојдете преку партнерски линк и ги прифатите колачињата, го чуваме кодот на партнерот (на пример „ABC“) во колаче 90 дена, за да се признае на вистинскиот партнер.",
+            "Технички податоци: Вашата IP адреса се користи кратко за да се спречи злоупотреба на формуларите (ограничување на бројот на барања). Нашата аналитика не користи колачиња и не Ве идентификува."
           ]
         },
         {
-          "title": "Why we use it",
+          "title": "Зошто ги користиме",
           "body": [
-            "To run your free test: we run your searches and contact sellers on your behalf.",
-            "To contact you on WhatsApp and by email about your test, your plan, your setup call and payment.",
-            "To run the partner program: to welcome partners, credit them for the dealerships they bring and pay commissions.",
-            "Legal basis: your consent (the box you tick on the form), steps before a contract you ask for, and our legitimate interest in keeping the site safe. You can withdraw consent at any time."
+            "За да го спроведеме Вашиот бесплатен тест: ги пуштаме Вашите пребарувања и им пишуваме на продавачите во Ваше име.",
+            "За да Ве контактираме на WhatsApp и по е-пошта во врска со тестот, пакетот, разговорот за поставување и плаќањето.",
+            "За партнерската програма: за да ги пречекаме партнерите, да им ги признаеме автокуќите што ги носат и да исплатиме провизии.",
+            "Правен основ: Вашата согласност (полето што го штиклирате во формуларот), чекори пред договор што Вие ги барате и нашиот легитимен интерес страницата да биде безбедна. Согласноста може да ја повлечете во секое време."
           ]
         },
         {
-          "title": "Who processes it for us",
+          "title": "Кој ги обработува за нас",
           "body": [
-            "Resend (email delivery and contact lists), Vercel (hosting and cookieless analytics), our partner-tracking tool {{AFFILIATE_TOOL}} and, if enabled, Upstash (rate limiting). They process data only on our instructions.",
-            "Some of these providers are outside North Macedonia and the EU. Where that is the case, transfers rely on standard contractual clauses or an equivalent safeguard.",
-            "We never sell your data and never share it for advertising."
+            "Resend (испраќање е-пошта и листи на контакти), Vercel (хостинг и аналитика без колачиња), нашата алатка за следење партнери {{AFFILIATE_TOOL}} и, ако е вклучен, Upstash (ограничување на барања). Тие ги обработуваат податоците само според наши упатства.",
+            "Некои од овие даватели се надвор од Северна Македонија и ЕУ. Во тие случаи, преносот се темели на стандардни договорни клаузули или еквивалентна заштита.",
+            "Никогаш не ги продаваме Вашите податоци и никогаш не ги споделуваме за рекламирање."
           ]
         },
         {
-          "title": "How long we keep it",
+          "title": "Колку долго ги чуваме",
           "body": [
-            "Free test requests that do not become clients: up to 12 months after the last contact.",
-            "Client and partner data: for as long as the relationship lasts, then as long as accounting law requires.",
-            "The partner referral cookie: 90 days."
+            "Барања за бесплатен тест што не станале клиенти: до 12 месеци по последниот контакт.",
+            "Податоци за клиенти и партнери: додека трае соработката, а потоа колку што бара законот за сметководство.",
+            "Колачето за партнерска препорака: 90 дена."
           ]
         },
         {
-          "title": "Your rights",
+          "title": "Ваши права",
           "body": [
-            "You can ask for a copy of your data, ask us to correct it or delete it, object to its use, or ask us to stop. Write to {{DPO_EMAIL}} and we answer within 30 days.",
-            "You can also complain to the Personal Data Protection Agency of North Macedonia (or the authority in your EU country)."
+            "Може да побарате копија од Вашите податоци, да побарате да ги исправиме или избришеме, да се спротивставите на нивната употреба или да побарате да престанеме. Пишете на {{DPO_EMAIL}} и одговараме во рок од 30 дена.",
+            "Може да поднесете и приговор до Агенцијата за заштита на личните податоци на Северна Македонија (или до надлежниот орган во Вашата држава во ЕУ)."
           ]
         },
         {
-          "title": "Contact",
+          "title": "Контакт",
           "body": ["{{LEGAL_ENTITY}} · {{LEGAL_ADDRESS}} · {{DPO_EMAIL}} · WhatsApp +389 78 662 817"]
         }
       ]
     },
     "terms": {
-      "metaTitle": "Terms | Car Bot",
-      "metaDescription": "The terms for using getcarbot.co, the free test and the Car Bot service.",
-      "title": "Terms",
-      "intro": "These terms apply to getcarbot.co and to the Car Bot service offered by {{LEGAL_ENTITY}}.",
+      "metaTitle": "Услови | Car Bot",
+      "metaDescription": "Условите за користење на getcarbot.co, бесплатниот тест и услугата Car Bot.",
+      "title": "Услови",
+      "intro": "Овие услови важат за getcarbot.co и за услугата Car Bot што ја нуди {{LEGAL_ENTITY}}.",
       "sections": [
         {
-          "title": "The service",
+          "title": "Услугата",
           "body": [
-            "Car Bot is a managed service. We set up and run a bot that watches car marketplaces for the cars you choose and sends the first message to the seller. When a seller replies, we notify you on WhatsApp and you take over.",
-            "We do not negotiate, buy, pay for or transport cars for you. Price, payment, papers and transport stay with you."
+            "Car Bot е управувана услуга. Поставуваме и водиме бот што ги следи платформите за возила за возилата што ги избирате и ја праќа првата порака до продавачот. Кога продавачот ќе одговори, Ве известуваме на WhatsApp и Вие преземате.",
+            "Не се пазариме, не купуваме, не плаќаме и не превезуваме возила наместо Вас. Цената, плаќањето, документите и превозот остануваат кај Вас."
           ]
         },
         {
-          "title": "Free test",
+          "title": "Бесплатен тест",
           "body": [
-            "The free test covers up to 3 mobile.de search links. It is free and needs no card. For the test we contact sellers from our own account, in our own words, on your behalf.",
-            "We may decline or stop a test at any time, for example if a search breaks a marketplace’s rules."
+            "Бесплатниот тест опфаќа до 3 линкови од пребарување на mobile.de. Бесплатен е и не бара картичка. За тестот им пишуваме на продавачите од нашата сметка, со наши зборови, во Ваше име.",
+            "Може да одбиеме или да прекинеме тест во секое време, на пример ако пребарувањето ги крши правилата на платформата."
           ]
         },
         {
-          "title": "Plans and payment",
+          "title": "Пакети и плаќање",
           "body": [
-            "Monthly plan: €500 setup, then €250 a month. You can cancel any month; the month already paid is not refunded.",
-            "Yearly plan: €3,000 a year, setup included.",
-            "Prices are in euros. We send a payment link (card), bank details or an invoice. Taxes: {{TAX_NOTE}}."
+            "Месечен пакет: 500 € поставување, потоа 250 € месечно. Може да откажете кој било месец; веќе платениот месец не се враќа.",
+            "Годишен пакет: 3.000 € годишно, поставувањето е вклучено.",
+            "Цените се во евра. Праќаме линк за плаќање (картичка), податоци за банкарски трансфер или фактура. Даноци: {{TAX_NOTE}}."
           ]
         },
         {
-          "title": "Fair use and marketplace rules",
+          "title": "Фер користење и правила на платформите",
           "body": [
-            "The bot is built to follow each marketplace’s rules and EU data protection law. It stops when a platform asks for a check or a verification.",
-            "You agree to use the service honestly, in your real name, and only to buy cars. We may pause the bot if it is used for spam or anything unlawful."
+            "Ботот е направен да ги следи правилата на секоја платформа и прописите на ЕУ за заштита на податоци. Застанува кога платформата бара проверка или верификација.",
+            "Се согласувате да ја користите услугата искрено, со Вашето вистинско име и само за купување возила. Може да го паузираме ботот ако се користи за спам или нешто незаконско."
           ]
         },
         {
-          "title": "Our responsibility",
+          "title": "Наша одговорност",
           "body": [
-            "We do our best to keep the bot running. Marketplaces change their sites, so we cannot promise that every listing is found or every message is delivered. If something goes wrong, write to us: we answer and start fixing within 24 hours, at our cost.",
-            "We are not liable for the deals you make or do not make. Our total liability is limited to the fees you paid in the last 12 months, unless the law says otherwise."
+            "Даваме сè од себе ботот да работи. Платформите ги менуваат своите страници, па не можеме да ветиме дека секој оглас ќе биде пронајден или секоја порака доставена. Ако нешто тргне наопаку, пишете ни: одговараме и почнуваме да поправаме во рок од 24 часа, на наш трошок.",
+            "Не сме одговорни за зделките што ги склучувате или не ги склучувате. Нашата вкупна одговорност е ограничена на износот што сте го платиле во последните 12 месеци, освен ако законот не определува поинаку."
           ]
         },
         {
-          "title": "Partner program",
+          "title": "Партнерска програма",
           "body": [
-            "Partner commissions, payouts and rules are described in the partner welcome package. Partners must be honest with dealers and must not promise results or invent earnings claims."
+            "Провизиите, исплатите и правилата за партнерите се опишани во пакетот добредојде за партнери. Партнерите мора да бидат искрени со дилерите и не смеат да ветуваат резултати или да измислуваат бројки за заработка."
           ]
         },
         {
-          "title": "Law and contact",
+          "title": "Право и контакт",
           "body": [
-            "These terms are governed by the law of North Macedonia. Courts in Skopje have jurisdiction, unless consumer law gives you another option.",
-            "Questions: {{CONTACT_EMAIL}} or WhatsApp +389 78 662 817."
+            "За овие услови важи правото на Северна Македонија. Надлежни се судовите во Скопје, освен ако законот за заштита на потрошувачите не Ви дава друга можност.",
+            "Прашања: {{CONTACT_EMAIL}} или WhatsApp +389 78 662 817."
           ]
         }
       ]
     },
     "cookies": {
-      "metaTitle": "Cookies | Car Bot",
-      "metaDescription": "Which cookies getcarbot.co uses and how to change your choice.",
-      "title": "Cookie policy",
-      "intro": "We keep cookies to a minimum. Essential cookies are always on. Everything else waits for your OK.",
+      "metaTitle": "Колачиња | Car Bot",
+      "metaDescription": "Кои колачиња ги користи getcarbot.co и како да го промените Вашиот избор.",
+      "title": "Политика за колачиња",
+      "intro": "Колачињата ги сведуваме на минимум. Неопходните колачиња се секогаш вклучени. Сè друго чека на Вашата дозвола.",
       "sections": [
         {
-          "title": "Essential (always on)",
+          "title": "Неопходни (секогаш вклучени)",
           "body": [
-            "NEXT_LOCALE: remembers the language you picked. 1 year.",
-            "cb_consent: remembers your cookie choice. 1 year."
+            "NEXT_LOCALE: го памети јазикот што сте го избрале. 1 година.",
+            "cb_consent: го памети Вашиот избор за колачиња. 1 година."
           ]
         },
         {
-          "title": "Functional (only after you accept)",
+          "title": "Функционални (само откако ќе прифатите)",
           "body": [
-            "cb_ref: remembers which partner sent you here (the partner’s code and the date of your first click), so the right partner is credited if you sign up. 90 days. A copy is kept in your browser’s local storage.",
-            "If you do not accept, the partner code is kept only for your current browser tab session and is sent with a form only if you submit one."
+            "cb_ref: памети кој партнер Ве препорачал (кодот на партнерот и датумот на Вашиот прв клик), за да му се признае на вистинскиот партнер ако се пријавите. 90 дена. Копија се чува во локалната меморија на Вашиот прелистувач.",
+            "Ако не прифатите, партнерскиот код се чува само за тековната сесија во јазичето на прелистувачот и се праќа со формуларот само ако го испратите."
           ]
         },
         {
-          "title": "Analytics",
+          "title": "Аналитика",
           "body": [
-            "We use Vercel Web Analytics and Speed Insights. They are cookieless and do not track you across sites. No advertising or third-party trackers."
+            "Користиме Vercel Web Analytics и Speed Insights. Не користат колачиња и не Ве следат низ други страници. Без рекламни алатки и без алатки за следење од трети страни."
           ]
         },
         {
-          "title": "Change your choice",
+          "title": "Променете го изборот",
           "body": [
-            "Use the button below or “Cookie settings” in the footer at any time. You can also delete cookies in your browser settings."
+            "Користете го копчето подолу или „Поставки за колачиња“ во подножјето во секое време. Колачињата може да ги избришете и во поставките на прелистувачот."
           ]
         }
       ],
-      "change": "Change cookie settings"
+      "change": "Промени поставки за колачиња"
     }
   },
   "emails": {
     "lead": {
-      "subjectTest": "We got your searches · Car Bot",
-      "subjectPlan": "Your Car Bot plan: next steps",
-      "greeting": "Hi {name},",
-      "bodyTest": "We got your searches and we’re on it. When a seller answers you’ll get a WhatsApp from us.",
-      "bodyPlan": "We’ll message you on WhatsApp with the payment link and a time for your setup call.",
-      "planMonthly": "Your plan: monthly, €500 setup then €250 a month.",
-      "planYearly": "Your plan: yearly, €3,000, setup free.",
-      "searches": "Your searches:",
-      "contact": "Questions? Just reply to this email or write to us on WhatsApp: {phone}",
-      "signoff": "The Car Bot team",
-      "footer": "You get this email because you sent a request on getcarbot.co."
+      "subjectTest": "Ги добивме Вашите пребарувања · Car Bot",
+      "subjectPlan": "Вашиот Car Bot пакет: следни чекори",
+      "greeting": "Здраво {name},",
+      "bodyTest": "Ги добивме Вашите пребарувања и почнуваме. Кога продавач ќе одговори, ќе добиете порака од нас на WhatsApp.",
+      "bodyPlan": "Ќе Ви пишеме на WhatsApp со линк за плаќање и термин за разговор за поставување.",
+      "planMonthly": "Ваш пакет: месечен, 500 € поставување, потоа 250 € месечно.",
+      "planYearly": "Ваш пакет: годишен, 3.000 €, поставувањето е бесплатно.",
+      "searches": "Вашите пребарувања:",
+      "contact": "Прашања? Само одговорете на оваа порака или пишете ни на WhatsApp: {phone}",
+      "signoff": "Тимот на Car Bot",
+      "footer": "Ја добивате оваа порака затоа што испративте барање на getcarbot.co."
     },
     "partner": {
-      "subject": "Welcome to the Car Bot partner program",
-      "greeting": "Hi {name},",
-      "body": "Welcome aboard. We’ll message you on WhatsApp with your link, your code and your welcome package.",
-      "honesty": "Our one ask: be honest with dealers. Explain what Car Bot does, don’t promise results, and don’t make up earnings claims.",
-      "contact": "Questions? Just reply to this email or write to us on WhatsApp: {phone}",
-      "signoff": "The Car Bot team",
-      "footer": "You get this email because you applied to the partner program on getcarbot.co."
+      "subject": "Добредојдовте во партнерската програма на Car Bot",
+      "greeting": "Здраво {name},",
+      "body": "Добредојдовте. Ќе Ви пишеме на WhatsApp со Вашиот линк, Вашиот код и пакетот добредојде.",
+      "honesty": "Имаме само едно барање: бидете искрени со дилерите. Објаснете што прави Car Bot, не ветувајте резултати и не измислувајте бројки за заработка.",
+      "contact": "Прашања? Само одговорете на оваа порака или пишете ни на WhatsApp: {phone}",
+      "signoff": "Тимот на Car Bot",
+      "footer": "Ја добивате оваа порака затоа што се пријавивте за партнерската програма на getcarbot.co."
     }
   }
 }
