@@ -1,0 +1,907 @@
+{
+  "common": {
+    "brand": "Car Bot",
+    "skipToContent": "Skip to content",
+    "homeLink": "Car Bot, main page",
+    "nav": {
+      "label": "Main",
+      "how": "How the bot works",
+      "test": "Free test",
+      "partners": "Partners",
+      "pricing": "Pricing",
+      "faq": "FAQ",
+      "whatsapp": "WhatsApp",
+      "whatsappAria": "Message Car Bot on WhatsApp",
+      "forDealers": "For dealers",
+      "earn": "What you earn",
+      "calculator": "Calculator",
+      "becomePartner": "Become a partner",
+      "partnerLogin": "Partner login"
+    },
+    "lang": {
+      "label": "Language",
+      "switchTo": "Switch language to {language}"
+    },
+    "footer": {
+      "city": "Skopje",
+      "becomePartner": "Become a partner",
+      "notAffiliated": "Not affiliated with any marketplace named on this page.",
+      "backHome": "Back to the main page",
+      "legalNav": "Legal",
+      "privacy": "Privacy",
+      "terms": "Terms",
+      "cookies": "Cookies",
+      "cookieSettings": "Cookie settings"
+    },
+    "cookies": {
+      "label": "Cookie choices",
+      "text": "We use essential cookies to run this site. With your OK we also remember which partner sent you here, for 90 days. Our analytics are cookieless.",
+      "accept": "Accept",
+      "essential": "Essential only",
+      "more": "Cookie policy"
+    },
+    "whatsappHello": "Hi Car Bot",
+    "notFound": {
+      "metaTitle": "Page not found | Car Bot",
+      "title": "This page already drove off.",
+      "text": "The link is old or mistyped. The good cars are still on the main page.",
+      "home": "Back to the main page"
+    },
+    "close": "Close"
+  },
+  "forms": {
+    "fields": {
+      "first": "Name",
+      "last": "Surname",
+      "email": "Email",
+      "phone": "WhatsApp number, with country code",
+      "country": "Country",
+      "honeypot": "Leave this field empty"
+    },
+    "errors": {
+      "name": "Please add your name and surname.",
+      "email": "Please add a valid email.",
+      "phone": "Please add your WhatsApp number with country code.",
+      "consent": "Please tick the box so we can contact you.",
+      "how": "Tell us how you plan to find dealers.",
+      "network": "Something went wrong. Please try again or message us on WhatsApp.",
+      "rate": "Too many tries from this connection. Please wait a little or message us on WhatsApp.",
+      "code": "Please check the code: letters, numbers, - and _ only."
+    },
+    "lead": {
+      "testTitle": "Where do we send the replies?",
+      "testSub": "Your searches are ready. Tell us who you are and we start.",
+      "planTitle": "Almost there. Who are we setting up?",
+      "planSubMonthly": "Plan: monthly, €500 setup then €250 a month. Next we send the payment link and book your setup call.",
+      "planSubYearly": "Plan: yearly, €3,000, setup free. Next we send the payment link and book your setup call.",
+      "consentTest": "I agree that Car Bot uses my details and links to run this test and contact me about it.",
+      "consentPlan": "I agree that Car Bot uses my details to set up my plan and contact me about it.",
+      "codeLabel": "Partner or discount code (optional)",
+      "codeDiscount": "10% off setup and monthly",
+      "back": "Back",
+      "submitTest": "Start my free test",
+      "submitPlan": "Confirm my plan",
+      "sending": "Sending…",
+      "doneTitleTest": "Got your searches.",
+      "doneTitlePlan": "Got your details.",
+      "doneTest": "We’re on it. When a seller answers, you get a WhatsApp from us. Then you decide if you take over.",
+      "donePlan": "Got it. We’ll message you on WhatsApp with the payment link (card, bank transfer or invoice) and a time for your setup call.",
+      "continue": "Continue →",
+      "waFallback": "Send on WhatsApp",
+      "waIntroTest": "Hi, I want the free Car Bot test.",
+      "waIntroPlan": "Hi, I want Car Bot on {plan}.",
+      "waPlanMonthly": "the monthly plan (EUR 500 setup + EUR 250/month)",
+      "waPlanYearly": "the yearly plan (EUR 3,000)",
+      "waName": "Name",
+      "waEmail": "Email",
+      "waPhone": "Phone",
+      "waSearches": "Searches",
+      "waCode": "Code"
+    },
+    "partner": {
+      "waIntro": "Hi, I want to become a Car Bot partner.",
+      "waCountry": "Country",
+      "waHow": "Finding dealers via"
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Car Bot | The first message, sent for you",
+      "description": "Car Bot watches 20+ European car marketplaces 24/7 and messages the seller first, in their language and in your name. Try it free on 3 mobile.de searches.",
+      "ogTitle": "Be the first buyer every seller hears from.",
+      "ogSub": "The automated buying bot for car importers"
+    },
+    "hero": {
+      "eyebrow": "The automated buying bot for car importers",
+      "title": "Be the first buyer every seller hears from.",
+      "lead": "Your Car Bot watches 20+ car marketplaces across Europe, 24/7. The moment a good car goes online, it messages the seller in their own language, in your name. The seller answers, your WhatsApp pings, you take over.",
+      "ctaPrimary": "Try it free on 3 cars",
+      "ctaSecondary": "See how it works",
+      "imageAlt": "Used VW Passat parked on a German street at night",
+      "stats": [
+        {
+          "value": "20+",
+          "label": "marketplaces watched"
+        },
+        {
+          "value": "24/7",
+          "label": "no breaks, no sleep"
+        },
+        {
+          "value": "Minutes",
+          "label": "from listing to your message"
+        }
+      ]
+    },
+    "phone": {
+      "label": "Example chat with Car Bot: a VW Passat is found, the bot writes to the seller in German in your name, the seller replies and you call him.",
+      "name": "Car Bot",
+      "status": "online",
+      "b1": "New car found · VW Passat B8 2.0 TDI, 2017 · 142,000 km · €9,900 · listed 1 min ago",
+      "t1": "Car Bot is writing in German…",
+      "b2": "Message sent to the seller in German, in your name ✓",
+      "t2": "Seller is typing…",
+      "b3Label": "Seller replied:",
+      "b3Quote": "“Ja, der Wagen ist noch da. Rufen Sie gerne an.”",
+      "b4": "You’re first in line. Seller’s number and listing below. Your turn 👇",
+      "b5": "Calling him now 🔥"
+    },
+    "ticker": {
+      "label": "Example activity",
+      "srNote": "Illustrative examples of what the bot does, not live data.",
+      "items": [
+        "VW Passat B8 · München · message sent in 41 s ✓",
+        "Audi A4 Avant · Wien · sent in 38 s ✓",
+        "Škoda Octavia · Amsterdam · sent in 49 s ✓ (Nederlands)",
+        "Peugeot 3008 · Lyon · sent in 44 s ✓ (Français)",
+        "Fiat 500X · Milano · sent in 36 s ✓ (Italiano)",
+        "Volvo V60 · Göteborg · sent in 52 s ✓ (Svenska)",
+        "BMW 320d · Köln · sent in 40 s ✓"
+      ]
+    },
+    "missing": {
+      "eyebrow": "What you’re missing",
+      "title": "The good cars are gone before you even see them.",
+      "p1": "A clean, private Passat goes online in Munich. Within the hour the seller has dozens of messages. He answers the first three, because they were first and they wrote in proper German.",
+      "p2": "You were with a customer. Or driving back from Germany with a car on the trailer. Or asleep. You saw the alert two hours later, and somebody else is already driving your car south.",
+      "p3": "Alerts don’t buy cars. The first message does.",
+      "imageAlt": "Car dealer busy with a customer while his phone buzzes in his pocket"
+    },
+    "morning": {
+      "eyebrow": "How the bot works",
+      "title": "One morning with your bot.",
+      "lead": "From the listing to your first call in under 30 minutes. Example timeline.",
+      "cards": [
+        {
+          "time": "07:02",
+          "title": "A good car goes online",
+          "body": "The bot sees it on one of 20+ marketplaces in Germany, Austria, the Netherlands, Belgium, France or Italy, or on Facebook Marketplace."
+        },
+        {
+          "time": "07:03",
+          "title": "The seller gets your message",
+          "quote": "„Guten Tag, Ihr Passat mit Scheckheft gefällt mir sehr. Ist er noch verfügbar? Gerne würde ich Sie kurz anrufen. Viele Grüße, Marko“",
+          "quoteLang": "de",
+          "body": "In the seller’s own language (German, Dutch, French, Italian, Swedish and more), in your name, polite and personal. Never the same robotic text twice."
+        },
+        {
+          "time": "07:26",
+          "title": "The seller answers you first",
+          "quote": "🔔 Car Bot: Seller replied on your Passat. Number and listing inside.",
+          "body": "Your WhatsApp pings the moment there’s a real reply. No noise, no endless alerts."
+        },
+        {
+          "time": "07:27",
+          "title": "You take over",
+          "body": "Coffee in one hand, phone in the other. You call, agree the price and plan the pickup. The bot already got you in the door."
+        }
+      ]
+    },
+    "freeTest": {
+      "eyebrow": "Free test",
+      "title": "Try it on 3 cars. Free.",
+      "lead": "Open mobile.de and set your filters like you do every day. Copy the link and paste it below, one link per row. We run your searches on our side, write to the sellers in their language, and send you a WhatsApp the moment one answers. You decide if you take over.",
+      "botName": "Car Bot",
+      "prompt": "Drop your mobile.de searches here. One link per row, up to 3. Only mobile.de for this free test.",
+      "inputLabel": "Your mobile.de search links, one per row",
+      "placeholder": "https://suchen.mobile.de/fahrzeuge/search.html?...\nhttps://suchen.mobile.de/fahrzeuge/search.html?...",
+      "count": "{count} of 3 searches",
+      "submit": "Find my first cars",
+      "smallPrint": "For the free test we contact sellers from our own account, in our own words, on your behalf. In your paid bot, every message goes out in your name.",
+      "errors": {
+        "empty": "Paste at least one mobile.de search link.",
+        "tooMany": "Up to 3 searches for the free test. Remove a row.",
+        "notMobile": "Only mobile.de links for now. One link per row."
+      }
+    },
+    "everyDay": {
+      "title": "What your bot does every day",
+      "imageAlt": "Phone lighting up on a nightstand while its owner sleeps",
+      "items": [
+        {
+          "title": "Scouts 20+ marketplaces, 24/7.",
+          "body": "mobile.de, AutoScout24, Kleinanzeigen, Marktplaats, leboncoin, Subito, Facebook Marketplace and more."
+        },
+        {
+          "title": "Sends the first message in your name.",
+          "body": "In German, Dutch, French, Italian, Swedish or any EU language, written for each car."
+        },
+        {
+          "title": "Pings you on WhatsApp or Telegram",
+          "body": "when a seller replies, with the number and the listing."
+        },
+        {
+          "title": "Skips the junk.",
+          "body": "Dealers, damaged cars (unless you want them), sellers who don’t want offers, and cars it already messaged."
+        },
+        {
+          "title": "Quick price check",
+          "body": "on every car, so you know it’s worth the call."
+        }
+      ]
+    },
+    "door": {
+      "title": "The bot opens the door. You close the deal.",
+      "lead": "The boring, slow part is automated: searching, translating, writing, being first. You keep the part that makes money.",
+      "imageAlt": "Buyer shaking hands with a German seller next to a Mercedes",
+      "tasks": ["Talk to the seller", "Negotiate the price", "See the car", "Bring it home"]
+    },
+    "start": {
+      "eyebrow": "Getting started",
+      "title": "From first call to first message in 48 hours.",
+      "lead": "No technical knowledge, no pushy sales calls. We talk, you decide, we build.",
+      "steps": [
+        {
+          "title": "A short call",
+          "body": "We look at how you buy: which cars, which countries, which tools you already use. We explain what we can do and you pick what makes sense. No hard sell."
+        },
+        {
+          "title": "You approve the access",
+          "body": "A few approvals so the bot can work. We tell you exactly what we need and why, nothing more."
+        },
+        {
+          "title": "We set it up in 24 to 48 hours",
+          "body": "On your computer, in our cloud or on our own servers. We choose together on the call."
+        },
+        {
+          "title": "Your rules, built in",
+          "body": "First searches, filters, price limits, margin maths and which sellers to skip. Then the bot starts and your WhatsApp starts pinging."
+        }
+      ]
+    },
+    "noTech": {
+      "eyebrow": "No tech on your side",
+      "title": "We build it, run it and pay for it.",
+      "imageAlt": "Dealer smiling on a phone call in his car yard at sunset",
+      "items": [
+        "We set up your bot on your computer or in our cloud",
+        "We show you how to use it, in your language",
+        "We maintain it and fix it if anything breaks",
+        "All tools and running costs are on us",
+        "No hidden fees, no contracts to read, no tech"
+      ]
+    },
+    "payFor": {
+      "eyebrow": "What you pay for",
+      "title": "Your monthly fee is a whole team working in the background.",
+      "lead": "Several AI helpers and a real person work for you. You pay one price. We pay everything behind it.",
+      "cards": [
+        {
+          "title": "🧠 The AI brains",
+          "body": "The AI models that read every listing, judge the car and write the message in the seller’s language. Their bills are ours."
+        },
+        {
+          "title": "⚡ The auto-sender",
+          "body": "The automation that sends the message, spaced out like a real person, around the clock."
+        },
+        {
+          "title": "🔎 Searches and sign-ups",
+          "body": "Your searches keep running on every platform, and we take care of the accounts and sign-ups on each one."
+        },
+        {
+          "title": "💬 A real person on WhatsApp",
+          "body": "A question, a change, a strange message? Write to us. A human answers."
+        },
+        {
+          "title": "🛠 Fixes when something breaks",
+          "body": "Marketplaces change their sites all the time. When something stops working, we fix it."
+        },
+        {
+          "title": "🔄 Free updates",
+          "body": "New tools, new AI models, new marketplaces: we upgrade your bot and it costs you nothing extra."
+        }
+      ]
+    },
+    "roi": {
+      "eyebrow": "Do the maths",
+      "title": "One extra car a month pays for the whole bot.",
+      "lead": "Move the sliders and see what the cars you miss today are worth.",
+      "extraLabel": "Extra cars you win per month",
+      "extraValue": "{count, plural, =0 {0 cars} one {# car / month} other {# cars / month}}",
+      "extraHint": "Cars you miss today because someone else wrote first.",
+      "marginLabel": "Your profit per car",
+      "marginHint": "Used cars usually leave €1,200 to €2,000. Use your own number.",
+      "planLabel": "Your plan",
+      "planYearly": "Yearly €3,000",
+      "planMonthly": "Monthly €500 + €250",
+      "gain": "Extra profit per year",
+      "cost": "Your bot, first year",
+      "net": "Left in your pocket",
+      "payback": "Your whole first year is covered by {cars, plural, one {# extra car} other {# extra cars}} at {margin} profit each.",
+      "months": "One extra car pays about {months, plural, one {# month} other {# months}} of the monthly fee.",
+      "disclaimer": "An example, not a promise. Real results depend on the cars you buy, the prices you negotiate and how fast you close."
+    },
+    "pricing": {
+      "title": "One price. Everything included.",
+      "lead": "One car you would have missed pays for months of your bot.",
+      "setupLabel": "Pay monthly · setup, one time",
+      "setupPrice": "€500",
+      "setupBody": "Your bot built around the cars you buy, your accounts connected, tested and handed over.",
+      "monthlyLabel": "Then, every month",
+      "monthlyPrice": "€250",
+      "perMonth": " / month",
+      "monthlyBody": "24/7 scouting, first messages, WhatsApp pings, maintenance, all tools and a real person on WhatsApp. Cancel any month.",
+      "chooseMonthly": "Choose monthly: €500 + €250 / month",
+      "yearlyLabel": "Pay yearly: setup is free, 2 months on us",
+      "yearlyPrice": "€3,000",
+      "perYear": " / year",
+      "yearlyBody": "Monthly, your first year costs €3,500. Pay yearly and it’s €3,000, with nothing else to pay.",
+      "chooseYearly": "Choose yearly",
+      "note": "Card, bank transfer or invoice · Prices in euros · For importers in North Macedonia, Serbia, Kosovo, Albania, Bosnia and Herzegovina, Montenegro, Croatia, Slovenia and Bulgaria"
+    },
+    "safety": {
+      "eyebrow": "Safe, clean, and on us",
+      "title": "Your bot writes like a polite buyer, not like a spam machine.",
+      "lead": "A few messages a day, spaced out, one per car, never the same text twice, and never in the middle of the night in the seller’s time. Real name, honest words, no tricks.",
+      "cards": [
+        {
+          "title": "Rules respected",
+          "body": "Built to follow each marketplace’s rules and EU data protection (GDPR). We use your data only to run your bot."
+        },
+        {
+          "title": "It stops when it should",
+          "body": "If a marketplace asks for a check or a verification, the bot stops and tells you. It never pushes through."
+        },
+        {
+          "title": "You stay in control",
+          "body": "Say stop on WhatsApp and it stops. You can also approve every message before it goes out."
+        },
+        {
+          "title": "If something goes wrong, it’s on us",
+          "body": "A wrong message, a seller complaint, spam, replies that never reach you: write to us. We answer and start fixing within 24 hours, at our cost."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Your next car goes online tonight. Your bot will be there first.",
+      "lead": "Message us on WhatsApp. We’ll show you how it works and get your bot running.",
+      "button": "Chat on WhatsApp",
+      "waText": "I want my Car Bot bot",
+      "imageAlt": "Car transporter loaded with used cars on the highway at dawn"
+    }
+  },
+  "faq": {
+    "home": {
+      "title": "Questions",
+      "items": [
+        {
+          "q": "Who does the seller think he’s talking to?",
+          "a": "To you. The message goes out in your name, from your account. When he replies, you’re the one who calls."
+        },
+        {
+          "q": "I don’t speak German, Dutch or Italian. Is that a problem?",
+          "a": "No. The first message goes out in the seller’s own language. After that most sellers are happy with a call, simple English, or a translator."
+        },
+        {
+          "q": "Do I need to be good with computers?",
+          "a": "No. We set everything up. You just use WhatsApp, like you already do."
+        },
+        {
+          "q": "Can I check messages before they go out?",
+          "a": "Yes. Fully automatic, or one tap on WhatsApp to approve each car. Your choice, any time."
+        },
+        {
+          "q": "Do you negotiate or buy for me?",
+          "a": "No. The bot gets you the first conversation. Price, payment, papers and transport stay with you."
+        },
+        {
+          "q": "Which cars can it look for?",
+          "a": "Any make and model you buy, with your years, kilometres and budget. Damaged cars too, if that’s your business."
+        },
+        {
+          "q": "Why €250 a month? Alerts cost €30.",
+          "a": "An alert tells you about a car. It doesn’t write to the seller, doesn’t write in the seller’s language and doesn’t work at 7 a.m. while you sleep. Your fee pays for the AI, the sender, the upkeep and a real person. One extra car a month pays it back many times."
+        },
+        {
+          "q": "Is it really AI?",
+          "a": "Yes. A few AI helpers work in the background: one reads the listings, one checks the car against your rules, one writes the message in the seller’s language. The automation sends it. We watch over all of it."
+        },
+        {
+          "q": "Will sellers think it’s spam?",
+          "a": "No. One polite, personal message per car, in proper German, never the same text twice. It reads like a serious buyer, because behind it there is one: you."
+        },
+        {
+          "q": "Is it legal and safe?",
+          "a": "It’s built to follow the marketplace rules and EU data protection. Messages are honest and in your real name, and the bot stops if a platform asks for a check. If anything goes wrong, we fix it at our cost. More in the safety section above."
+        },
+        {
+          "q": "What if something breaks, or I get no messages?",
+          "a": "Write to us on WhatsApp. We answer and start the fix within 24 hours, and it’s on us."
+        },
+        {
+          "q": "How fast is the setup, and where does it run?",
+          "a": "24 to 48 hours after our call. On your computer, in our cloud or on our own servers, whichever we pick together. You never touch the tech."
+        },
+        {
+          "q": "What happens in the free test?",
+          "a": "You send up to 3 mobile.de searches. We run them on our side and message sellers from our own account. If a seller answers, you get a WhatsApp from us and you decide if you take over. No card, no strings."
+        },
+        {
+          "q": "Do you take a cut of my deals?",
+          "a": "Never. The price is fixed. Every euro of profit stays with you."
+        },
+        {
+          "q": "Can I cancel? Can I use Telegram?",
+          "a": "Monthly plan: cancel any month. Yearly plan: you’ve paid for 12 months, with setup free. We start with WhatsApp and can set up Telegram too."
+        }
+      ]
+    },
+    "partners": {
+      "title": "Partner questions",
+      "items": [
+        {
+          "q": "Is this an affiliate program?",
+          "a": "Yes, it works like one: your own tracking link, a discount code and commissions on every dealership you bring. We call you a partner because you get real support and a long-term relationship, not just a link."
+        },
+        {
+          "q": "Do I need technical knowledge?",
+          "a": "None. You never set anything up and never fix anything. We do the full setup, run the bot and handle every problem."
+        },
+        {
+          "q": "Who can I bring?",
+          "a": "Car dealers and importers who buy used cars in Europe, from any country in the Balkans or Europe. They can talk to you in their own language."
+        },
+        {
+          "q": "How long do I earn from one dealership?",
+          "a": "€150 at signup, then €50 each month the dealership pays, up to 12 months, plus a €50 bonus when they’re still with us at month 6. That’s up to €800."
+        },
+        {
+          "q": "What if the dealership cancels?",
+          "a": "The monthly commission stops when they stop paying. That’s why a friendly check-in from you helps: happy dealers stay."
+        },
+        {
+          "q": "Am I responsible if something goes wrong?",
+          "a": "No. Setup, fixes, support and every technical question are ours. If a dealer has a problem, you pass it to us."
+        },
+        {
+          "q": "How do I get paid?",
+          "a": "Your earnings are tracked in your partner dashboard. If your dealership takes the yearly plan, you get a flat €800 once we receive their payment. For monthly plans we send the payout details in your welcome package."
+        }
+      ]
+    }
+  },
+  "partners": {
+    "meta": {
+      "title": "Car Bot Partners | Earn €800 per dealership",
+      "description": "Introduce car importers and dealers to Car Bot. We set it up, run it and fix it. You earn €150 per setup and €50 every month, up to €800 per dealership in year one.",
+      "ogTitle": "Bring the dealers. We do everything else.",
+      "ogSub": "Car Bot partner program · up to €800 per dealership"
+    },
+    "hero": {
+      "eyebrow": "Car Bot partner program",
+      "title": "Bring the dealers. We do everything else. Earn up to €800 per dealership.",
+      "lead": "Know car importers or dealers who buy cars in Europe? Introduce them to Car Bot. We set it up, run it and fix it. You stay their friendly point of contact and earn every month while they stay. Yes, it’s an affiliate program, just with real support behind it.",
+      "ctaPrimary": "Become a partner",
+      "ctaSecondary": "Calculate your earnings",
+      "stats": [
+        {
+          "value": "€150",
+          "label": "per setup"
+        },
+        {
+          "value": "€50",
+          "label": "every month, up to 12 months"
+        },
+        {
+          "value": "€0",
+          "label": "tech work for you"
+        }
+      ]
+    },
+    "earn": {
+      "eyebrow": "What you earn",
+      "title": "One dealership can be worth €800 to you in the first year.",
+      "lead": "You earn while the dealership keeps paying. The longer you keep them happy, the more you earn.",
+      "cards": [
+        {
+          "value": "€150",
+          "title": "Setup share",
+          "body": "30% of the €500 setup fee, paid when your dealership signs up."
+        },
+        {
+          "value": "€50",
+          "suffix": " / month",
+          "title": "Monthly income",
+          "body": "20% of the €250 subscription, every month the dealership pays, up to 12 months. That’s €600 a year."
+        },
+        {
+          "value": "€50",
+          "title": "Loyalty bonus",
+          "body": "Extra when your dealership is still with us after 6 months."
+        },
+        {
+          "value": "€800",
+          "title": "Per dealership, year one",
+          "body": "€150 + €600 + €50. Bring three dealerships and that’s €2,400."
+        }
+      ],
+      "note": "On the yearly plan you earn a flat €800, paid once we receive the dealership’s payment. On the monthly plan, commissions are paid while the dealership is an active paying client. Your dealership gets 10% off the setup and the monthly fee with your code, and that discount never comes out of your commission."
+    },
+    "split": {
+      "title": "You bring the introduction. We carry the weight.",
+      "lead": "Nothing technical, nothing to set up, nothing to fix. If something breaks, it’s ours to solve, never yours.",
+      "yourTitle": "Your part",
+      "yourItems": [
+        "Find dealerships and importers: calls, messages, social posts, videos, your community",
+        "Tell them about Car Bot in your own language",
+        "Jump on one call if it helps to convince them",
+        "Stay friendly with them, so they stay motivated",
+        "Pass any support question straight to us"
+      ],
+      "ourTitle": "Our part",
+      "ourItems": [
+        "The full setup and all the technical work",
+        "The platform, the AI and every tool, paid by us",
+        "Reliability, fixes and updates",
+        "Support for your dealership, in a real WhatsApp chat",
+        "Billing, onboarding and keeping them happy"
+      ]
+    },
+    "how": {
+      "eyebrow": "How it works",
+      "title": "Sign up, share your link, get paid.",
+      "steps": [
+        {
+          "title": "Sign up in a minute",
+          "body": "Tell us who you are and how you’ll find dealers. We confirm and welcome you."
+        },
+        {
+          "title": "Get your link and code",
+          "body": "Your own tracking link and a 10% discount code for your dealers, plus a simple partner dashboard."
+        },
+        {
+          "title": "Introduce Car Bot",
+          "body": "Call, message, post a video or share in your community. Dealers can sign up from any country in the Balkans or Europe, in their own language."
+        },
+        {
+          "title": "They sign, you earn",
+          "body": "We do the setup. Your commissions show up in your dashboard, month after month."
+        }
+      ]
+    },
+    "calc": {
+      "eyebrow": "Do the maths",
+      "title": "What could you earn this year?",
+      "lead": "Pick how many dealerships you sign each month. This counts your first 12 months, with every dealership staying at least 6 months.",
+      "clientsLabel": "Dealerships you sign per month",
+      "clientsValue": "{count, plural, one {# dealership} other {# dealerships}}",
+      "total": "That’s <b>{count} dealerships</b> by the end of the year. Each one pays you €150 up front, €50 every month and a €50 bonus at month 6.",
+      "perDealer": "Per dealership, over its first 12 months: <b>€800</b> (€150 + €600 + €50)",
+      "yearTotal": "You earn in your first 12 months",
+      "monthlyAt12": "Monthly income by month 12",
+      "perMonth": " / month",
+      "disclaimer": "An example, not a promise. Your earnings depend on how many dealerships you bring and how long they stay as paying clients."
+    },
+    "kit": {
+      "title": "Everything you need to sell it, from us.",
+      "lead": "You’re never on your own. We support you all year round.",
+      "cards": [
+        {
+          "title": "🔗 Your link and code",
+          "body": "Every signup is tracked to you. Your dealers get 10% off with your code."
+        },
+        {
+          "title": "📊 A simple dashboard",
+          "body": "See your leads, signups and earnings in one place."
+        },
+        {
+          "title": "🎁 Welcome package",
+          "body": "Onboarding, tips and ready-to-use messages, so you start fast."
+        },
+        {
+          "title": "🎬 Materials",
+          "body": "Pitch material, examples and content ideas for calls, chats and social posts."
+        },
+        {
+          "title": "🤝 Backup on calls",
+          "body": "A dealer wants details? We jump on the call and explain the rest."
+        },
+        {
+          "title": "💬 Support, all year",
+          "body": "Questions about the program or a client? Write to us. A real person answers."
+        }
+      ],
+      "honesty": "Our one ask: be honest with dealers. Explain what Car Bot does, don’t promise results, and don’t make up earnings claims. It keeps your name, and ours, clean."
+    },
+    "apply": {
+      "title": "Become a Car Bot partner.",
+      "lead": "Takes a minute. We’ll message you on WhatsApp with your link, your code and your welcome package.",
+      "howLabel": "How will you find dealers?",
+      "how": {
+        "calls": "Calls and messages",
+        "social": "Social media or videos",
+        "community": "My community or group",
+        "network": "My business network",
+        "other": "Something else"
+      },
+      "consent": "I agree that Car Bot uses my details to contact me about the partner program.",
+      "submit": "Become a partner",
+      "sending": "Sending…",
+      "doneTitle": "Welcome aboard.",
+      "doneText": "We’ll message you on WhatsApp with your link, your code and your welcome package.",
+      "continue": "Continue →",
+      "waFallback": "Send on WhatsApp"
+    }
+  },
+  "thanks": {
+    "meta": {
+      "title": "Thank you | Car Bot",
+      "description": "We got your details. A real person from Car Bot will message you on WhatsApp."
+    },
+    "title": "You’re in. Here’s what happens next.",
+    "titlePartner": "Welcome aboard. Here’s what happens next.",
+    "lead": {
+      "default": "We got your details. A real person from Car Bot will message you on WhatsApp. Keep your phone close.",
+      "test": "We got your searches. A real person from Car Bot will message you on WhatsApp. Keep your phone close.",
+      "monthly": "We got your details for the monthly plan. A real person from Car Bot will message you on WhatsApp with the payment link. Keep your phone close.",
+      "yearly": "We got your details for the yearly plan. A real person from Car Bot will message you on WhatsApp with the payment link. Keep your phone close.",
+      "partner": "We got your application. A real person from Car Bot will message you on WhatsApp with your link, your code and your welcome package."
+    },
+    "whatsapp": "Message us on WhatsApp",
+    "home": "Back to the main page",
+    "partnerPage": "Back to the partner page",
+    "steps": {
+      "default": [
+        {
+          "title": "We read your details",
+          "body": "We check your searches or your plan and get everything ready."
+        },
+        {
+          "title": "You get a WhatsApp from us",
+          "body": "To confirm what we got, answer questions, and agree the next step with you."
+        },
+        {
+          "title": "A seller answers, you’re pinged",
+          "body": "You take over the conversation. The bot already opened the door."
+        }
+      ],
+      "test": [
+        {
+          "title": "We read your searches",
+          "body": "We check your mobile.de searches and get everything ready."
+        },
+        {
+          "title": "You get a WhatsApp from us",
+          "body": "To confirm what we got, answer questions, and agree the next step with you."
+        },
+        {
+          "title": "A seller answers, you’re pinged",
+          "body": "You take over the conversation. The bot already opened the door."
+        }
+      ],
+      "plan": [
+        {
+          "title": "We read your details",
+          "body": "We check your plan and get everything ready."
+        },
+        {
+          "title": "You get a WhatsApp from us",
+          "body": "With the payment link (card, bank transfer or invoice) and a time for your setup call."
+        },
+        {
+          "title": "Your bot goes live",
+          "body": "We set it up in 24 to 48 hours after our call. Then your WhatsApp starts pinging."
+        }
+      ],
+      "partner": [
+        {
+          "title": "We read your application",
+          "body": "We check your details and how you plan to find dealers."
+        },
+        {
+          "title": "You get your link and code",
+          "body": "On WhatsApp, together with your welcome package and your partner dashboard."
+        },
+        {
+          "title": "You introduce Car Bot",
+          "body": "We do the setup. Your commissions show up in your dashboard, month after month."
+        }
+      ]
+    },
+    "promo": {
+      "title": "Know other dealers who’d love this?",
+      "body": "Join the partner program and earn up to €800 for every dealership you bring.",
+      "button": "Become a partner"
+    }
+  },
+  "legal": {
+    "draftNote": "Draft. Placeholders in braces are filled in before launch.",
+    "updated": "Last updated: {date}",
+    "privacy": {
+      "metaTitle": "Privacy policy | Car Bot",
+      "metaDescription": "What personal data Car Bot collects, why, who processes it and how to reach us.",
+      "title": "Privacy policy",
+      "intro": "This policy explains what personal data {{LEGAL_ENTITY}} (“Car Bot”, “we”) collects on getcarbot.co, why we collect it and what rights you have.",
+      "sections": [
+        {
+          "title": "Who we are",
+          "body": [
+            "Car Bot is run by {{LEGAL_ENTITY}}, {{LEGAL_ADDRESS}}, company number {{COMPANY_NUMBER}}, Skopje, North Macedonia.",
+            "For anything about your data, write to {{DPO_EMAIL}}."
+          ]
+        },
+        {
+          "title": "What we collect",
+          "body": [
+            "Free test and plan requests: your name, surname, email, WhatsApp number, the mobile.de search links you send us, the plan you choose, a partner or discount code if you have one, your language and the time of the request.",
+            "Partner applications: your name, surname, email, WhatsApp number, country and how you plan to find dealers.",
+            "Partner referral: if you arrive through a partner link and accept cookies, we store the partner’s code (for example “ABC”) in a cookie for 90 days so the right partner is credited.",
+            "Technical data: your IP address is used briefly to stop abuse of our forms (rate limiting). Our analytics are cookieless and do not identify you."
+          ]
+        },
+        {
+          "title": "Why we use it",
+          "body": [
+            "To run your free test: we run your searches and contact sellers on your behalf.",
+            "To contact you on WhatsApp and by email about your test, your plan, your setup call and payment.",
+            "To run the partner program: to welcome partners, credit them for the dealerships they bring and pay commissions.",
+            "Legal basis: your consent (the box you tick on the form), steps before a contract you ask for, and our legitimate interest in keeping the site safe. You can withdraw consent at any time."
+          ]
+        },
+        {
+          "title": "Who processes it for us",
+          "body": [
+            "Resend (email delivery and contact lists), Vercel (hosting and cookieless analytics), our partner-tracking tool {{AFFILIATE_TOOL}} and, if enabled, Upstash (rate limiting). They process data only on our instructions.",
+            "Some of these providers are outside North Macedonia and the EU. Where that is the case, transfers rely on standard contractual clauses or an equivalent safeguard.",
+            "We never sell your data and never share it for advertising."
+          ]
+        },
+        {
+          "title": "How long we keep it",
+          "body": [
+            "Free test requests that do not become clients: up to 12 months after the last contact.",
+            "Client and partner data: for as long as the relationship lasts, then as long as accounting law requires.",
+            "The partner referral cookie: 90 days."
+          ]
+        },
+        {
+          "title": "Your rights",
+          "body": [
+            "You can ask for a copy of your data, ask us to correct it or delete it, object to its use, or ask us to stop. Write to {{DPO_EMAIL}} and we answer within 30 days.",
+            "You can also complain to the Personal Data Protection Agency of North Macedonia (or the authority in your EU country)."
+          ]
+        },
+        {
+          "title": "Contact",
+          "body": ["{{LEGAL_ENTITY}} · {{LEGAL_ADDRESS}} · {{DPO_EMAIL}} · WhatsApp +389 78 662 817"]
+        }
+      ]
+    },
+    "terms": {
+      "metaTitle": "Terms | Car Bot",
+      "metaDescription": "The terms for using getcarbot.co, the free test and the Car Bot service.",
+      "title": "Terms",
+      "intro": "These terms apply to getcarbot.co and to the Car Bot service offered by {{LEGAL_ENTITY}}.",
+      "sections": [
+        {
+          "title": "The service",
+          "body": [
+            "Car Bot is a managed service. We set up and run a bot that watches car marketplaces for the cars you choose and sends the first message to the seller. When a seller replies, we notify you on WhatsApp and you take over.",
+            "We do not negotiate, buy, pay for or transport cars for you. Price, payment, papers and transport stay with you."
+          ]
+        },
+        {
+          "title": "Free test",
+          "body": [
+            "The free test covers up to 3 mobile.de search links. It is free and needs no card. For the test we contact sellers from our own account, in our own words, on your behalf.",
+            "We may decline or stop a test at any time, for example if a search breaks a marketplace’s rules."
+          ]
+        },
+        {
+          "title": "Plans and payment",
+          "body": [
+            "Monthly plan: €500 setup, then €250 a month. You can cancel any month; the month already paid is not refunded.",
+            "Yearly plan: €3,000 a year, setup included.",
+            "Prices are in euros. We send a payment link (card), bank details or an invoice. Taxes: {{TAX_NOTE}}."
+          ]
+        },
+        {
+          "title": "Fair use and marketplace rules",
+          "body": [
+            "The bot is built to follow each marketplace’s rules and EU data protection law. It stops when a platform asks for a check or a verification.",
+            "You agree to use the service honestly, in your real name, and only to buy cars. We may pause the bot if it is used for spam or anything unlawful."
+          ]
+        },
+        {
+          "title": "Our responsibility",
+          "body": [
+            "We do our best to keep the bot running. Marketplaces change their sites, so we cannot promise that every listing is found or every message is delivered. If something goes wrong, write to us: we answer and start fixing within 24 hours, at our cost.",
+            "We are not liable for the deals you make or do not make. Our total liability is limited to the fees you paid in the last 12 months, unless the law says otherwise."
+          ]
+        },
+        {
+          "title": "Partner program",
+          "body": [
+            "Partner commissions, payouts and rules are described in the partner welcome package. Partners must be honest with dealers and must not promise results or invent earnings claims."
+          ]
+        },
+        {
+          "title": "Law and contact",
+          "body": [
+            "These terms are governed by the law of North Macedonia. Courts in Skopje have jurisdiction, unless consumer law gives you another option.",
+            "Questions: {{CONTACT_EMAIL}} or WhatsApp +389 78 662 817."
+          ]
+        }
+      ]
+    },
+    "cookies": {
+      "metaTitle": "Cookies | Car Bot",
+      "metaDescription": "Which cookies getcarbot.co uses and how to change your choice.",
+      "title": "Cookie policy",
+      "intro": "We keep cookies to a minimum. Essential cookies are always on. Everything else waits for your OK.",
+      "sections": [
+        {
+          "title": "Essential (always on)",
+          "body": [
+            "NEXT_LOCALE: remembers the language you picked. 1 year.",
+            "cb_consent: remembers your cookie choice. 1 year."
+          ]
+        },
+        {
+          "title": "Functional (only after you accept)",
+          "body": [
+            "cb_ref: remembers which partner sent you here (the partner’s code and the date of your first click), so the right partner is credited if you sign up. 90 days. A copy is kept in your browser’s local storage.",
+            "If you do not accept, the partner code is kept only for your current browser tab session and is sent with a form only if you submit one."
+          ]
+        },
+        {
+          "title": "Analytics",
+          "body": [
+            "We use Vercel Web Analytics and Speed Insights. They are cookieless and do not track you across sites. No advertising or third-party trackers."
+          ]
+        },
+        {
+          "title": "Change your choice",
+          "body": [
+            "Use the button below or “Cookie settings” in the footer at any time. You can also delete cookies in your browser settings."
+          ]
+        }
+      ],
+      "change": "Change cookie settings"
+    }
+  },
+  "emails": {
+    "lead": {
+      "subjectTest": "We got your searches · Car Bot",
+      "subjectPlan": "Your Car Bot plan: next steps",
+      "greeting": "Hi {name},",
+      "bodyTest": "We got your searches and we’re on it. When a seller answers you’ll get a WhatsApp from us.",
+      "bodyPlan": "We’ll message you on WhatsApp with the payment link and a time for your setup call.",
+      "planMonthly": "Your plan: monthly, €500 setup then €250 a month.",
+      "planYearly": "Your plan: yearly, €3,000, setup free.",
+      "searches": "Your searches:",
+      "contact": "Questions? Just reply to this email or write to us on WhatsApp: {phone}",
+      "signoff": "The Car Bot team",
+      "footer": "You get this email because you sent a request on getcarbot.co."
+    },
+    "partner": {
+      "subject": "Welcome to the Car Bot partner program",
+      "greeting": "Hi {name},",
+      "body": "Welcome aboard. We’ll message you on WhatsApp with your link, your code and your welcome package.",
+      "honesty": "Our one ask: be honest with dealers. Explain what Car Bot does, don’t promise results, and don’t make up earnings claims.",
+      "contact": "Questions? Just reply to this email or write to us on WhatsApp: {phone}",
+      "signoff": "The Car Bot team",
+      "footer": "You get this email because you applied to the partner program on getcarbot.co."
+    }
+  }
+}

@@ -1,0 +1,483 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Car Bot | The first message, sent for you</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;800&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#111418}
+a{color:#F08A3C}a:hover{color:#FFB27A}
+.b{animation:pop .5s ease both}
+.d1{animation-delay:.6s}.d2{animation-delay:1.4s}.d3{animation-delay:2.2s}.d4{animation-delay:3s}
+@keyframes pop{from{opacity:0;transform:translateY(12px) scale(.97)}}
+details summary{cursor:pointer;list-style:none}
+details summary::-webkit-details-marker{display:none}
+.ping{animation:ring 2s ease-out infinite}
+@keyframes ring{0%{box-shadow:0 0 0 0 rgba(37,211,102,.55)}100%{box-shadow:0 0 0 14px rgba(37,211,102,0)}}
+.lift{transition:transform .25s ease}.lift:hover{transform:translateY(-6px)}
+.float{animation:fl 6s ease-in-out infinite}@keyframes fl{50%{transform:translateY(-8px)}}
+.f{width:100%;box-sizing:border-box;padding:13px 14px;border-radius:12px;border:1px solid #CFC7BA;font-size:16px;background:#fff;color:#1D2026;font-family:inherit}
+input[type=range]{width:100%;accent-color:#F08A3C}
+textarea:focus,.f:focus{outline:2px solid #F08A3C}
+@keyframes mb1{0%,5%{opacity:0;transform:translateY(12px) scale(.97)}7%,94%{opacity:1;transform:none}97%,100%{opacity:0}}
+.cb1{animation:mb1 18s ease infinite}
+@keyframes mt1{0%,12%{opacity:0;transform:translateY(12px) scale(.97)}14%,20%{opacity:1;transform:none}21%,100%{opacity:0}}
+.ct1{animation:mt1 18s ease infinite}
+@keyframes mb2{0%,21%{opacity:0;transform:translateY(12px) scale(.97)}23%,94%{opacity:1;transform:none}97%,100%{opacity:0}}
+.cb2{animation:mb2 18s ease infinite}
+@keyframes mt2{0%,30%{opacity:0;transform:translateY(12px) scale(.97)}32%,44%{opacity:1;transform:none}45%,100%{opacity:0}}
+.ct2{animation:mt2 18s ease infinite}
+@keyframes mb3{0%,45%{opacity:0;transform:translateY(12px) scale(.97)}47%,94%{opacity:1;transform:none}97%,100%{opacity:0}}
+.cb3{animation:mb3 18s ease infinite}
+@keyframes mb4{0%,56%{opacity:0;transform:translateY(12px) scale(.97)}58%,94%{opacity:1;transform:none}97%,100%{opacity:0}}
+.cb4{animation:mb4 18s ease infinite}
+@keyframes mb5{0%,68%{opacity:0;transform:translateY(12px) scale(.97)}70%,94%{opacity:1;transform:none}97%,100%{opacity:0}}
+.cb5{animation:mb5 18s ease infinite}
+/*chat*/.cb1{animation:mb1 18s ease infinite}.cb2{animation:mb2 18s ease infinite}.cb3{animation:mb3 18s ease infinite}.cb4{animation:mb4 18s ease infinite}.cb5{animation:mb5 18s ease infinite}.ctt1{animation:mt1 18s ease infinite}.ctt2{animation:mt2 18s ease infinite}
+.dots i{display:inline-block;width:6px;height:6px;border-radius:50%;background:#8FA3AD;margin-right:3px;animation:bl 1s infinite}.dots i:nth-child(2){animation-delay:.15s}.dots i:nth-child(3){animation-delay:.3s}
+@keyframes bl{50%{opacity:.25;transform:translateY(-3px)}}
+@keyframes mq{to{transform:translateX(-50%)}}
+.mq{display:flex;width:max-content;animation:mq 46s linear infinite}
+h1{font-size:clamp(38px,10.4vw,68px)!important}
+h2{font-size:clamp(30px,7.4vw,50px)!important}
+@media (max-width:640px){
+.lead{font-size:17px!important;margin-bottom:24px!important}
+.heroin{padding:36px 20px 52px!important;gap:32px!important}
+.heroov{background:rgba(17,20,24,.86)!important}
+.stats{gap:20px!important;margin-top:28px!important}
+.cta a{flex:1 1 100%;text-align:center;box-sizing:border-box}
+section{padding-top:56px!important;padding-bottom:56px!important}
+div[style*="padding: 120px 24px"]{padding:72px 20px!important}
+img[style*="height: 440px"],img[style*="height: 480px"]{height:250px!important}
+header nav a:not(.ping){display:none}
+header{padding:14px 20px!important}
+.eyebrow{font-size:13px!important}
+}
+@media (prefers-reduced-motion: reduce){.tp{display:none}}
+
+@media (prefers-reduced-motion: reduce){*{animation:none!important;transition:none!important}}
+</style>
+</helmet>
+<div style="font-family: Inter, system-ui, sans-serif; color: #F2EEE7; background: #111418; line-height: 1.55">
+
+<header style="max-width: 1200px; margin: 0 auto; padding: 20px 24px; display: flex; flex-wrap: wrap; gap: 16px; align-items: center; justify-content: space-between">
+  <div style="display: flex; align-items: center; gap: 10px; font-family: Archivo, sans-serif; font-weight: 800; font-size: 22px">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#F08A3C" stroke-width="2" aria-hidden="true"><path d="M5 16l1.5-5A2 2 0 0 1 8.4 9.5h7.2a2 2 0 0 1 1.9 1.5L19 16"/><rect x="3" y="16" width="18" height="4" rx="1"/><circle cx="7" cy="20" r="1.5"/><circle cx="17" cy="20" r="1.5"/></svg>
+    Car Bot
+  </div>
+  <nav style="display: flex; flex-wrap: wrap; gap: 22px; align-items: center; font-weight: 600; font-size: 15px">
+    <a href="#how" style="text-decoration: none; color: #F2EEE7">How the bot works</a>
+    <a href="#try" style="text-decoration: none; color: #F2EEE7">Free test</a>
+    <a href="Partners.dc.html" style="text-decoration: none; color: #F2EEE7">Partners</a>
+    <a href="#pricing" style="text-decoration: none; color: #F2EEE7">Pricing</a>
+    <a href="#faq" style="text-decoration: none; color: #F2EEE7">FAQ</a>
+    <a class="ping" href="https://wa.me/38978662817" style="text-decoration: none; background: #25D366; color: #0B1F14; padding: 12px 18px; border-radius: 999px">WhatsApp</a>
+  </nav>
+</header>
+
+<section style="position: relative; overflow: hidden">
+  <img src="/_blob/91ff3e6283a210a41752fb3b9f90ff6c" alt="Used VW Passat parked on a German street at night" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 60% 50%">
+  <div class="heroov" style="position: absolute; inset: 0; background: linear-gradient(90deg, rgba(17,20,24,.92) 0%, rgba(17,20,24,.7) 50%, rgba(17,20,24,.35) 100%)"></div>
+  <div class="heroin" style="position: relative; max-width: 1200px; margin: 0 auto; padding: 72px 24px 96px; display: flex; flex-wrap: wrap; gap: 56px; align-items: center">
+    <div style="flex: 1 1 520px; min-width: 0">
+      <p class="eyebrow" style="margin: 0 0 16px; font-weight: 600; color: #F08A3C; font-size: 15px; letter-spacing: .08em; text-transform: uppercase">The automated buying bot for car importers</p>
+      <h1 style="margin: 0 0 24px; font-family: Archivo, sans-serif; font-size: 68px; line-height: 1.02; font-weight: 800">Be the first buyer every seller hears from.</h1>
+      <p class="lead" style="margin: 0 0 32px; font-size: 20px; max-width: 580px; color: #D9D3C8">Your Car Bot watches 20+ car marketplaces across Europe, 24/7. The moment a good car goes online, it messages the seller in their own language, in your name. The seller answers, your WhatsApp pings, you take over.</p>
+      <div class="cta" style="display: flex; flex-wrap: wrap; gap: 12px">
+        <a href="#try" style="text-decoration: none; background: #F08A3C; color: #1A1208; font-weight: 700; padding: 17px 26px; border-radius: 999px; font-size: 17px">Try it free on 3 cars</a>
+        <a href="#how" style="text-decoration: none; border: 2px solid #F2EEE7; color: #F2EEE7; font-weight: 700; padding: 15px 24px; border-radius: 999px; font-size: 17px">See how it works</a>
+      </div>
+      <div class="stats" style="display: flex; flex-wrap: wrap; gap: 36px; margin-top: 44px">
+        <div><div style="font-family: Archivo, sans-serif; font-size: 34px; font-weight: 800">20+</div><div style="color: #B9B3A8; font-size: 14px">marketplaces watched</div></div>
+        <div><div style="font-family: Archivo, sans-serif; font-size: 34px; font-weight: 800">24/7</div><div style="color: #B9B3A8; font-size: 14px">no breaks, no sleep</div></div>
+        <div><div style="font-family: Archivo, sans-serif; font-size: 34px; font-weight: 800">Minutes</div><div style="color: #B9B3A8; font-size: 14px">from listing to your message</div></div>
+      </div>
+    </div>
+    <div class="float" style="flex: 0 1 330px; margin: 0 auto">
+      <div style="background: #08090B; border-radius: 44px; padding: 12px; box-shadow: 0 30px 80px rgba(0,0,0,.55)">
+        <div style="background: #0B141A; border-radius: 34px; padding: 18px 14px 22px; display: flex; flex-direction: column; gap: 10px; font-size: 13.5px; min-height: 540px">
+          <div style="display: flex; align-items: center; gap: 10px; padding-bottom: 10px; border-bottom: 1px solid #22303A"><div style="width: 34px; height: 34px; border-radius: 50%; background: #F08A3C"></div><div><div style="font-weight: 600">Car Bot</div><div style="font-size: 11px; color: #8FA3AD">online</div></div></div>
+          <div class="cb1" style="align-self: flex-start; background: #1F2C34; padding: 10px 12px; border-radius: 4px 14px 14px 14px; max-width: 88%">New car found · VW Passat B8 2.0 TDI, 2017 · 142,000 km · €9,900 · listed 1 min ago<div style="font-size: 11px; color: #8FA3AD; text-align: right; margin-top: 4px">07:02</div></div>
+          <div class="ctt1 tp" style="align-self: flex-start; background: #1F2C34; padding: 10px 12px; border-radius: 4px 14px 14px 14px; max-width: 88%; padding: 12px 14px"><span class="dots"><i></i><i></i><i></i></span> <span style="font-size: 12px; color: #8FA3AD">Car Bot is writing in German…</span></div>
+          <div class="cb2" style="align-self: flex-start; background: #1F2C34; padding: 10px 12px; border-radius: 4px 14px 14px 14px; max-width: 88%">Message sent to the seller in German, in your name ✓<div style="font-size: 11px; color: #8FA3AD; text-align: right; margin-top: 4px">07:03</div></div>
+          <div class="ctt2 tp" style="align-self: flex-start; background: #1F2C34; padding: 10px 12px; border-radius: 4px 14px 14px 14px; max-width: 88%; padding: 12px 14px; background: #16222A"><span class="dots"><i></i><i></i><i></i></span> <span style="font-size: 12px; color: #8FA3AD">Seller is typing…</span></div>
+          <div class="cb3" style="align-self: flex-start; background: #1F2C34; padding: 10px 12px; border-radius: 4px 14px 14px 14px; max-width: 88%"><b style="color: #F08A3C">Seller replied:</b> “Ja, der Wagen ist noch da. Rufen Sie gerne an.”<div style="font-size: 11px; color: #8FA3AD; text-align: right; margin-top: 4px">07:26</div></div>
+          <div class="cb4" style="align-self: flex-start; background: #1F2C34; padding: 10px 12px; border-radius: 4px 14px 14px 14px; max-width: 88%">You’re first in line. Seller’s number and listing below. Your turn 👇</div>
+          <div class="cb5" style="align-self: flex-end; background: #005C4B; padding: 10px 12px; border-radius: 14px 4px 14px 14px; max-width: 80%">Calling him now 🔥<div style="font-size: 11px; color: #9BD3C5; text-align: right; margin-top: 4px">07:27 ✓✓</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="background:#0B0D10;border-top:1px solid #20262E;border-bottom:1px solid #20262E;padding:0!important;position:relative;overflow:hidden">
+  <div style="position:absolute;left:0;top:0;bottom:0;z-index:2;display:flex;align-items:center;padding:0 16px;background:#0B0D10;color:#F08A3C;font-weight:700;font-size:12px;letter-spacing:.08em;text-transform:uppercase;box-shadow:12px 0 16px #0B0D10">Example activity</div>
+  <div class="mq" style="padding:16px 0 16px 150px"><span style="display:inline-flex;align-items:center;gap:8px;padding:0 28px;white-space:nowrap;color:#D9D3C8;font-size:15px"><span style="width:8px;height:8px;border-radius:50%;background:#25D366"></span>VW Passat B8 · München · message sent in 41 s ✓</span><span style="display:inline-flex;align-items:center;gap:8px;padding:0 28px;white-space:nowrap;color:#D9D3C8;font-size:15px"><span style="width:8px;height:8px;border-radius:50%;background:#25D366"></span>Audi A4 Avant · Wien · sent in 38 s ✓</span><span style="display:inline-flex;align-items:center;gap:8px;padding:0 28px;white-space:nowrap;color:#D9D3C8;font-size:15px"><span style="width:8px;height:8px;border-radius:50%;background:#25D366"></span>Škoda Octavia · Amsterdam · sent in 49 s ✓ (Nederlands)</span><span style="display:inline-flex;align-items:center;gap:8px;padding:0 28px;white-space:nowrap;color:#D9D3C8;font-size:15px"><span style="width:8px;height:8px;border-radius:50%;background:#25D366"></span>Peugeot 3008 · Lyon · sent in 44 s ✓ (Français)</span><span style="display:inline-flex;align-items:center;gap:8px;padding:0 28px;white-space:nowrap;color:#D9D3C8;font-size:15px"><span style="width:8px;height:8px;border-radius:50%;background:#25D366"></span>Fiat 500X · Milano · sent in 36 s ✓ (Italiano)</span><span style="display:inline-flex;align-items:center;gap:8px;padding:0 28px;white-space:nowrap;color:#D9D3C8;font-size:15px"><span style="width:8px;height:8px;border-radius:50%;background:#25D366"></span>Volvo V60 · Göteborg · sent in 52 s ✓ (Svenska)</span><span style="display:inline-flex;align-items:center;gap:8px;padding:0 28px;white-space:nowrap;color:#D9D3C8;font-size:15px"><span style="width:8px;height:8px;border-radius:50%;background:#25D366"></span>BMW 320d · Köln · sent in 40 s ✓</span><span style="display:inline-flex;align-items:center;gap:8px;padding:0 28px;white-space:nowrap;color:#D9D3C8;font-size:15px"><span style="width:8px;height:8px;border-radius:50%;background:#25D366"></span>VW Passat B8 · München · message sent in 41 s ✓</span><span style="display:inline-flex;align-items:center;gap:8px;padding:0 28px;white-space:nowrap;color:#D9D3C8;font-size:15px"><span style="width:8px;height:8px;border-radius:50%;background:#25D366"></span>Audi A4 Avant · Wien · sent in 38 s ✓</span><span style="display:inline-flex;align-items:center;gap:8px;padding:0 28px;white-space:nowrap;color:#D9D3C8;font-size:15px"><span style="width:8px;height:8px;border-radius:50%;background:#25D366"></span>Škoda Octavia · Amsterdam · sent in 49 s ✓ (Nederlands)</span><span style="display:inline-flex;align-items:center;gap:8px;padding:0 28px;white-space:nowrap;color:#D9D3C8;font-size:15px"><span style="width:8px;height:8px;border-radius:50%;background:#25D366"></span>Peugeot 3008 · Lyon · sent in 44 s ✓ (Français)</span><span style="display:inline-flex;align-items:center;gap:8px;padding:0 28px;white-space:nowrap;color:#D9D3C8;font-size:15px"><span style="width:8px;height:8px;border-radius:50%;background:#25D366"></span>Fiat 500X · Milano · sent in 36 s ✓ (Italiano)</span><span style="display:inline-flex;align-items:center;gap:8px;padding:0 28px;white-space:nowrap;color:#D9D3C8;font-size:15px"><span style="width:8px;height:8px;border-radius:50%;background:#25D366"></span>Volvo V60 · Göteborg · sent in 52 s ✓ (Svenska)</span><span style="display:inline-flex;align-items:center;gap:8px;padding:0 28px;white-space:nowrap;color:#D9D3C8;font-size:15px"><span style="width:8px;height:8px;border-radius:50%;background:#25D366"></span>BMW 320d · Köln · sent in 40 s ✓</span></div>
+</section>
+
+<section style="background: #F3EEE6; color: #1D2026; padding: 88px 24px">
+  <div style="max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 56px; align-items: center">
+    <img src="/_blob/943a362c7df4df3d6d5cb28a5539dff5" alt="Car dealer busy with a customer while his phone buzzes in his pocket" style="flex: 1 1 420px; min-width: 0; width: 100%; height: 440px; object-fit: cover; border-radius: 20px">
+    <div style="flex: 1 1 480px; min-width: 0">
+      <p style="margin: 0 0 12px; font-weight: 600; color: #A34E12; letter-spacing: .08em; text-transform: uppercase; font-size: 14px">What you’re missing</p>
+      <h2 style="margin: 0 0 22px; font-family: Archivo, sans-serif; font-size: 46px; line-height: 1.08; font-weight: 800">The good cars are gone before you even see them.</h2>
+      <p style="margin: 0 0 16px; font-size: 19px">A clean, private Passat goes online in Munich. Within the hour the seller has dozens of messages. He answers the first three, because they were first and they wrote in proper German.</p>
+      <p style="margin: 0 0 16px; font-size: 19px">You were with a customer. Or driving back from Germany with a car on the trailer. Or asleep. You saw the alert two hours later, and somebody else is already driving your car south.</p>
+      <p style="margin: 0; font-size: 19px; font-weight: 600">Alerts don’t buy cars. The first message does.</p>
+    </div>
+  </div>
+</section>
+
+<section id="how" style="max-width: 1200px; margin: 0 auto; padding: 96px 24px">
+  <p style="margin: 0 0 12px; font-weight: 600; color: #F08A3C; letter-spacing: .08em; text-transform: uppercase; font-size: 14px">How the bot works</p>
+  <h2 style="margin: 0 0 14px; font-family: Archivo, sans-serif; font-size: 50px; line-height: 1.05; font-weight: 800; max-width: 820px">One morning with your bot.</h2>
+  <p style="margin: 0 0 44px; font-size: 19px; color: #B9B3A8; max-width: 720px">From the listing to your first call in under 30 minutes. Example timeline.</p>
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px">
+    <div style="background: #1B1F25; border-radius: 22px; padding: 28px; display: flex; flex-direction: column; gap: 14px">
+      <div style="font-family: Archivo, sans-serif; font-size: 36px; font-weight: 800; color: #F08A3C">07:02</div>
+      <div style="font-weight: 600; font-size: 20px">A good car goes online</div>
+      <p style="margin: 0; color: #B9B3A8">The bot sees it on one of 20+ marketplaces in Germany, Austria, the Netherlands, Belgium, France or Italy, or on Facebook Marketplace.</p>
+    </div>
+    <div style="background: #1B1F25; border-radius: 22px; padding: 28px; display: flex; flex-direction: column; gap: 14px">
+      <div style="font-family: Archivo, sans-serif; font-size: 36px; font-weight: 800; color: #F08A3C">07:03</div>
+      <div style="font-weight: 600; font-size: 20px">The seller gets your message</div>
+      <div style="background: #0B141A; border-radius: 14px; padding: 12px; font-size: 13.5px; color: #D9D3C8">„Guten Tag, Ihr Passat mit Scheckheft gefällt mir sehr. Ist er noch verfügbar? Gerne würde ich Sie kurz anrufen. Viele Grüße, Marko“</div>
+      <p style="margin: 0; color: #B9B3A8">In the seller’s own language (German, Dutch, French, Italian, Swedish and more), in your name, polite and personal. Never the same robotic text twice.</p>
+    </div>
+    <div style="background: #1B1F25; border-radius: 22px; padding: 28px; display: flex; flex-direction: column; gap: 14px">
+      <div style="font-family: Archivo, sans-serif; font-size: 36px; font-weight: 800; color: #F08A3C">07:26</div>
+      <div style="font-weight: 600; font-size: 20px">The seller answers you first</div>
+      <div style="background: #0B141A; border-radius: 14px; padding: 12px; font-size: 13.5px; color: #D9D3C8">🔔 Car Bot: Seller replied on your Passat. Number and listing inside.</div>
+      <p style="margin: 0; color: #B9B3A8">Your WhatsApp pings the moment there’s a real reply. No noise, no endless alerts.</p>
+    </div>
+    <div style="background: #F08A3C; color: #1A1208; border-radius: 22px; padding: 28px; display: flex; flex-direction: column; gap: 14px">
+      <div style="font-family: Archivo, sans-serif; font-size: 36px; font-weight: 800">07:27</div>
+      <div style="font-weight: 600; font-size: 20px">You take over</div>
+      <p style="margin: 0">Coffee in one hand, phone in the other. You call, agree the price and plan the pickup. The bot already got you in the door.</p>
+    </div>
+  </div>
+</section>
+
+<section id="try" style="background: #1A140E; padding: 96px 24px">
+  <div style="max-width: 920px; margin: 0 auto">
+    <p style="margin: 0 0 12px; font-weight: 600; color: #F08A3C; letter-spacing: .08em; text-transform: uppercase; font-size: 14px">Free test</p>
+    <h2 style="margin: 0 0 16px; font-family: Archivo, sans-serif; font-size: 50px; line-height: 1.05; font-weight: 800">Try it on 3 cars. Free.</h2>
+    <p style="margin: 0 0 32px; font-size: 19px; color: #D9D3C8; max-width: 760px">Open mobile.de and set your filters like you do every day. Copy the link and paste it below, one link per row. We run your searches on our side, write to the sellers in their language, and send you a WhatsApp the moment one answers. You decide if you take over.</p>
+    <div style="background: #111418; border: 1px solid #2A313B; border-radius: 26px; padding: 22px; box-shadow: 0 30px 80px rgba(0,0,0,.45)">
+      <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 14px"><div style="width: 32px; height: 32px; border-radius: 50%; background: #F08A3C"></div><div style="font-weight: 600">Car Bot</div></div>
+      <div style="background: #1F2C34; padding: 12px 14px; border-radius: 4px 16px 16px 16px; max-width: 560px; margin-bottom: 14px">Drop your mobile.de searches here. One link per row, up to 3. Only mobile.de for this free test.</div>
+      <textarea rows="4" placeholder="https://suchen.mobile.de/fahrzeuge/search.html?...&#10;https://suchen.mobile.de/fahrzeuge/search.html?..." value="{{ links }}" onInput="{{ onLinks }}" style="width: 100%; box-sizing: border-box; background: #0B141A; color: #F2EEE7; border: 1px solid #2A313B; border-radius: 16px; padding: 14px; font-size: 15px; font-family: inherit; resize: vertical"></textarea>
+      <sc-if value="{{ hasErr }}" hint-placeholder-val="{{ false }}"><div style="margin-top: 10px; color: #FFB27A; font-size: 14px">{{ err }}</div></sc-if>
+      <div style="display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between; margin-top: 14px">
+        <div style="font-size: 14px; color: #8FA3AD">{{ countLabel }}</div>
+        <button type="button" onClick="{{ start }}" style="background: #F08A3C; color: #1A1208; font-weight: 700; font-size: 16px; padding: 14px 24px; border-radius: 999px; border: 0; cursor: pointer; font-family: inherit">Find my first cars</button>
+      </div>
+    </div>
+    <p style="margin: 18px 0 0; font-size: 14px; color: #9C968B; max-width: 760px">For the free test we contact sellers from our own account, in our own words, on your behalf. In your paid bot, every message goes out in your name.</p>
+  </div>
+  <sc-if value="{{ showDetails }}" hint-placeholder-val="{{ false }}">
+    <div style="position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,.72); z-index: 50; display: flex; align-items: center; justify-content: center; padding: 20px">
+      <div style="background: #F3EEE6; color: #1D2026; border-radius: 24px; padding: 30px; max-width: 460px; width: 100%; max-height: 92vh; overflow-y: auto">
+        <h3 style="margin: 0 0 8px; font-family: Archivo, sans-serif; font-size: 28px; font-weight: 800">{{ modalTitle }}</h3>
+        <p style="margin: 0 0 18px; color: #4F4A42">{{ modalSub }}</p>
+        <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin-bottom: 10px">
+          <input class="f" type="text" placeholder="Name" value="{{ first }}" onInput="{{ onFirst }}">
+          <input class="f" type="text" placeholder="Surname" value="{{ last }}" onInput="{{ onLast }}">
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 10px">
+          <input class="f" type="email" placeholder="Email" value="{{ email }}" onInput="{{ onEmail }}">
+          <input class="f" type="tel" placeholder="WhatsApp number, with country code" value="{{ phone }}" onInput="{{ onPhone }}">
+        </div>
+        <label style="display: flex; gap: 10px; align-items: flex-start; margin-top: 14px; font-size: 14px; color: #4F4A42"><input type="checkbox" checked="{{ consent }}" onChange="{{ onConsent }}" style="margin-top: 3px"><span>I agree that Car Bot uses my details and links to run this test and contact me about it.</span></label>
+        <sc-if value="{{ hasErr2 }}" hint-placeholder-val="{{ false }}"><div style="margin-top: 10px; color: #A34E12; font-size: 14px; font-weight: 600">{{ err2 }}</div></sc-if>
+        <div style="display: flex; gap: 10px; margin-top: 18px">
+          <button type="button" onClick="{{ back }}" style="background: transparent; border: 2px solid #1D2026; color: #1D2026; font-weight: 700; padding: 13px 20px; border-radius: 999px; cursor: pointer; font-family: inherit">Back</button>
+          <button type="button" onClick="{{ submit }}" style="flex: 1; background: #F08A3C; border: 0; color: #1A1208; font-weight: 700; font-size: 16px; padding: 14px 20px; border-radius: 999px; cursor: pointer; font-family: inherit">{{ sendLabel }}</button>
+        </div>
+      </div>
+    </div>
+  </sc-if>
+  <sc-if value="{{ showDone }}" hint-placeholder-val="{{ false }}">
+    <div style="position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,.72); z-index: 50; display: flex; align-items: center; justify-content: center; padding: 20px">
+      <div style="background: #F3EEE6; color: #1D2026; border-radius: 24px; padding: 32px; max-width: 460px; width: 100%; text-align: center">
+        <div style="font-size: 44px">✅</div>
+        <h3 style="margin: 8px 0; font-family: Archivo, sans-serif; font-size: 28px; font-weight: 800">Got your searches.</h3>
+        <sc-if value="{{ doneSent }}" hint-placeholder-val="{{ true }}"><p style="margin: 0 0 20px; color: #4F4A42">{{ doneText }}</p></sc-if>
+        <sc-if value="{{ doneNeedsWa }}" hint-placeholder-val="{{ false }}"><p style="margin: 0 0 20px; color: #4F4A42">{{ waBtnText }}</p><a href="{{ waLink }}" style="display: inline-block; text-decoration: none; background: #25D366; color: #0B1F14; font-weight: 700; padding: 15px 26px; border-radius: 999px; margin-bottom: 14px">Send on WhatsApp</a></sc-if>
+        <div style="margin-bottom: 10px"><a href="Thanks.dc.html" style="color: #A34E12; font-weight: 700">Continue →</a></div><div><button type="button" onClick="{{ closeDone }}" style="background: transparent; border: 0; color: #4F4A42; text-decoration: underline; cursor: pointer; font-family: inherit; font-size: 15px">Close</button></div>
+      </div>
+    </div>
+  </sc-if>
+</section>
+
+<section style="background: #1B1F25; padding: 96px 24px">
+  <div style="max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 56px; align-items: center">
+    <div style="flex: 1 1 480px; min-width: 0">
+      <h2 style="margin: 0 0 28px; font-family: Archivo, sans-serif; font-size: 46px; line-height: 1.08; font-weight: 800">What your bot does every day</h2>
+      <div style="display: flex; flex-direction: column; gap: 22px; font-size: 18px">
+        <div style="display: flex; gap: 16px"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#F08A3C" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg><div><b>Scouts 20+ marketplaces, 24/7.</b> mobile.de, AutoScout24, Kleinanzeigen, Marktplaats, leboncoin, Subito, Facebook Marketplace and more.</div></div>
+        <div style="display: flex; gap: 16px"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#F08A3C" stroke-width="2" aria-hidden="true"><path d="M4 4h16v12H8l-4 4z"/></svg><div><b>Sends the first message in your name.</b> In German, Dutch, French, Italian, Swedish or any EU language, written for each car.</div></div>
+        <div style="display: flex; gap: 16px"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#F08A3C" stroke-width="2" aria-hidden="true"><path d="M18 8a6 6 0 1 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg><div><b>Pings you on WhatsApp or Telegram</b> when a seller replies, with the number and the listing.</div></div>
+        <div style="display: flex; gap: 16px"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#F08A3C" stroke-width="2" aria-hidden="true"><path d="M3 12l6 6L21 6"/></svg><div><b>Skips the junk.</b> Dealers, damaged cars (unless you want them), sellers who don’t want offers, and cars it already messaged.</div></div>
+        <div style="display: flex; gap: 16px"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#F08A3C" stroke-width="2" aria-hidden="true"><path d="M12 2v20M17 6H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg><div><b>Quick price check</b> on every car, so you know it’s worth the call.</div></div>
+      </div>
+    </div>
+    <img src="/_blob/9e0743c000061664edb8435f327e374c" alt="Phone lighting up on a nightstand while its owner sleeps" style="flex: 1 1 400px; min-width: 0; width: 100%; height: 480px; object-fit: cover; border-radius: 20px">
+  </div>
+</section>
+
+<section style="background: #F3EEE6; color: #1D2026; padding: 96px 24px">
+  <div style="max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap-reverse; gap: 56px; align-items: center">
+    <img src="/_blob/63b41a3ad5201787fe30e3d1b6c6df18" alt="Buyer shaking hands with a German seller next to a Mercedes" style="flex: 1 1 420px; min-width: 0; width: 100%; height: 440px; object-fit: cover; object-position: 50% 35%; border-radius: 20px">
+    <div style="flex: 1 1 480px; min-width: 0">
+      <h2 style="margin: 0 0 22px; font-family: Archivo, sans-serif; font-size: 46px; line-height: 1.08; font-weight: 800">The bot opens the door. You close the deal.</h2>
+      <p style="margin: 0 0 20px; font-size: 19px">The boring, slow part is automated: searching, translating, writing, being first. You keep the part that makes money.</p>
+      <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; font-size: 17px; font-weight: 600">
+        <div style="background: #FFFFFF; border-radius: 14px; padding: 16px">Talk to the seller</div>
+        <div style="background: #FFFFFF; border-radius: 14px; padding: 16px">Negotiate the price</div>
+        <div style="background: #FFFFFF; border-radius: 14px; padding: 16px">See the car</div>
+        <div style="background: #FFFFFF; border-radius: 14px; padding: 16px">Bring it home</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="background: #1B1F25; padding: 96px 24px">
+  <div style="max-width: 1200px; margin: 0 auto">
+    <p style="margin: 0 0 12px; font-weight: 600; color: #F08A3C; letter-spacing: .08em; text-transform: uppercase; font-size: 14px">Getting started</p>
+    <h2 style="margin: 0 0 14px; font-family: Archivo, sans-serif; font-size: 46px; line-height: 1.08; font-weight: 800; max-width: 820px">From first call to first message in 48 hours.</h2>
+    <p style="margin: 0 0 40px; font-size: 19px; color: #B9B3A8; max-width: 760px">No technical knowledge, no pushy sales calls. We talk, you decide, we build.</p>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px">
+      <div class="lift" style="background: #111418; border-radius: 22px; padding: 28px"><div style="font-family: Archivo, sans-serif; font-size: 36px; font-weight: 800; color: #F08A3C">1</div><div style="font-weight: 600; font-size: 20px; margin: 8px 0">A short call</div><p style="margin: 0; color: #B9B3A8">We look at how you buy: which cars, which countries, which tools you already use. We explain what we can do and you pick what makes sense. No hard sell.</p></div>
+      <div class="lift" style="background: #111418; border-radius: 22px; padding: 28px"><div style="font-family: Archivo, sans-serif; font-size: 36px; font-weight: 800; color: #F08A3C">2</div><div style="font-weight: 600; font-size: 20px; margin: 8px 0">You approve the access</div><p style="margin: 0; color: #B9B3A8">A few approvals so the bot can work. We tell you exactly what we need and why, nothing more.</p></div>
+      <div class="lift" style="background: #111418; border-radius: 22px; padding: 28px"><div style="font-family: Archivo, sans-serif; font-size: 36px; font-weight: 800; color: #F08A3C">3</div><div style="font-weight: 600; font-size: 20px; margin: 8px 0">We set it up in 24 to 48 hours</div><p style="margin: 0; color: #B9B3A8">On your computer, in our cloud or on our own servers. We choose together on the call.</p></div>
+      <div class="lift" style="background: #111418; border-radius: 22px; padding: 28px"><div style="font-family: Archivo, sans-serif; font-size: 36px; font-weight: 800; color: #F08A3C">4</div><div style="font-weight: 600; font-size: 20px; margin: 8px 0">Your rules, built in</div><p style="margin: 0; color: #B9B3A8">First searches, filters, price limits, margin maths and which sellers to skip. Then the bot starts and your WhatsApp starts pinging.</p></div>
+    </div>
+  </div>
+</section>
+
+<section style="max-width: 1200px; margin: 0 auto; padding: 96px 24px; display: flex; flex-wrap: wrap; gap: 56px; align-items: center">
+  <div style="flex: 1 1 480px; min-width: 0">
+    <p style="margin: 0 0 12px; font-weight: 600; color: #F08A3C; letter-spacing: .08em; text-transform: uppercase; font-size: 14px">No tech on your side</p>
+    <h2 style="margin: 0 0 22px; font-family: Archivo, sans-serif; font-size: 46px; line-height: 1.08; font-weight: 800">We build it, run it and pay for it.</h2>
+    <div style="display: flex; flex-direction: column; gap: 14px; font-size: 18px; color: #D9D3C8">
+      <div>✓ We set up your bot on your computer or in our cloud</div>
+      <div>✓ We show you how to use it, in your language</div>
+      <div>✓ We maintain it and fix it if anything breaks</div>
+      <div>✓ All tools and running costs are on us</div>
+      <div>✓ No hidden fees, no contracts to read, no tech</div>
+    </div>
+  </div>
+  <img src="/_blob/c43a4b328325e16cd9e2aecd5b7aef5b" alt="Dealer smiling on a phone call in his car yard at sunset" style="flex: 1 1 420px; min-width: 0; width: 100%; height: 440px; object-fit: cover; object-position: 30% 40%; border-radius: 20px">
+</section>
+
+<section style="background: #1B1F25; padding: 96px 24px">
+  <div style="max-width: 1200px; margin: 0 auto">
+    <p style="margin: 0 0 12px; font-weight: 600; color: #F08A3C; letter-spacing: .08em; text-transform: uppercase; font-size: 14px">What you pay for</p>
+    <h2 style="margin: 0 0 14px; font-family: Archivo, sans-serif; font-size: 46px; line-height: 1.08; font-weight: 800; max-width: 820px">Your monthly fee is a whole team working in the background.</h2>
+    <p style="margin: 0 0 40px; font-size: 19px; color: #B9B3A8; max-width: 760px">Several AI helpers and a real person work for you. You pay one price. We pay everything behind it.</p>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px">
+      <div class="lift" style="background: #111418; border-radius: 22px; padding: 26px"><div style="font-weight: 600; font-size: 19px; margin-bottom: 8px">🧠 The AI brains</div><p style="margin: 0; color: #B9B3A8">The AI models that read every listing, judge the car and write the message in the seller’s language. Their bills are ours.</p></div>
+      <div class="lift" style="background: #111418; border-radius: 22px; padding: 26px"><div style="font-weight: 600; font-size: 19px; margin-bottom: 8px">⚡ The auto-sender</div><p style="margin: 0; color: #B9B3A8">The automation that sends the message, spaced out like a real person, around the clock.</p></div>
+      <div class="lift" style="background: #111418; border-radius: 22px; padding: 26px"><div style="font-weight: 600; font-size: 19px; margin-bottom: 8px">🔎 Searches and sign-ups</div><p style="margin: 0; color: #B9B3A8">Your searches keep running on every platform, and we take care of the accounts and sign-ups on each one.</p></div>
+      <div class="lift" style="background: #111418; border-radius: 22px; padding: 26px"><div style="font-weight: 600; font-size: 19px; margin-bottom: 8px">💬 A real person on WhatsApp</div><p style="margin: 0; color: #B9B3A8">A question, a change, a strange message? Write to us. A human answers.</p></div>
+      <div class="lift" style="background: #111418; border-radius: 22px; padding: 26px"><div style="font-weight: 600; font-size: 19px; margin-bottom: 8px">🛠 Fixes when something breaks</div><p style="margin: 0; color: #B9B3A8">Marketplaces change their sites all the time. When something stops working, we fix it.</p></div>
+      <div class="lift" style="background: #111418; border-radius: 22px; padding: 26px"><div style="font-weight: 600; font-size: 19px; margin-bottom: 8px">🔄 Free updates</div><p style="margin: 0; color: #B9B3A8">New tools, new AI models, new marketplaces: we upgrade your bot and it costs you nothing extra.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="calc" style="max-width: 1200px; margin: 0 auto; padding: 96px 24px">
+  <p style="margin: 0 0 12px; font-weight: 600; color: #F08A3C; letter-spacing: .08em; text-transform: uppercase; font-size: 14px">Do the maths</p>
+  <h2 style="margin: 0 0 14px; font-family: Archivo, sans-serif; font-size: 46px; line-height: 1.08; font-weight: 800; max-width: 860px">One extra car a month pays for the whole bot.</h2>
+  <p style="margin: 0 0 40px; font-size: 19px; color: #B9B3A8; max-width: 760px">Move the sliders and see what the cars you miss today are worth.</p>
+  <div style="display: flex; flex-wrap: wrap; gap: 24px; align-items: stretch">
+    <div style="flex: 1 1 440px; background: #1B1F25; border-radius: 24px; padding: 32px; display: flex; flex-direction: column; gap: 28px">
+      <div><div style="display: flex; justify-content: space-between; gap: 12px; margin-bottom: 10px"><b>Extra cars you win per month</b><span style="color: #F08A3C; font-weight: 700">{{ extraLabel }}</span></div><input type="range" min="0" max="6" step="1" value="{{ extra }}" onInput="{{ onExtra }}"><div style="font-size: 14px; color: #8FA3AD; margin-top: 8px">Cars you miss today because someone else wrote first.</div></div>
+      <div><div style="display: flex; justify-content: space-between; gap: 12px; margin-bottom: 10px"><b>Your profit per car</b><span style="color: #F08A3C; font-weight: 700">{{ marginLabel }}</span></div><input type="range" min="1000" max="2500" step="100" value="{{ margin }}" onInput="{{ onMargin }}"><div style="font-size: 14px; color: #8FA3AD; margin-top: 8px">Used cars usually leave €1,200 to €2,000. Use your own number.</div></div>
+      <div><div style="margin-bottom: 10px; font-weight: 700">Your plan</div><div style="display: flex; gap: 10px"><button type="button" onClick="{{ setAnnual }}" style="{{ annualStyle }}">Yearly €3,000</button><button type="button" onClick="{{ setMonthly }}" style="{{ monthlyStyle }}">Monthly €500 + €250</button></div></div>
+    </div>
+    <div style="flex: 1 1 380px; background: #0B141A; border: 1px solid #2A313B; border-radius: 24px; padding: 32px">
+      <div style="color: #8FA3AD; font-size: 14px">Extra profit per year</div>
+      <div style="font-family: Archivo, sans-serif; font-size: 40px; font-weight: 800; margin-bottom: 8px">{{ gainLabel }}</div>
+      <div style="{{ gainBarStyle }}"></div>
+      <div style="color: #8FA3AD; font-size: 14px; margin-top: 18px">Your bot, first year</div>
+      <div style="font-family: Archivo, sans-serif; font-size: 40px; font-weight: 800; margin-bottom: 8px">{{ costLabel }}</div>
+      <div style="{{ costBarStyle }}"></div>
+      <div style="color: #8FA3AD; font-size: 14px; margin-top: 22px">Left in your pocket</div>
+      <div style="{{ netStyle }}">{{ netLabel }}</div>
+      <p style="margin: 10px 0 0; font-weight: 600">{{ paybackLine }}</p>
+      <p style="margin: 6px 0 0; color: #B9B3A8">{{ monthsLine }}</p>
+      <p style="margin: 18px 0 0; font-size: 13px; color: #8FA3AD">An example, not a promise. Real results depend on the cars you buy, the prices you negotiate and how fast you close.</p>
+    </div>
+  </div>
+</section>
+
+<section id="pricing" style="background: #F3EEE6; color: #1D2026; padding: 96px 24px">
+  <div style="max-width: 1000px; margin: 0 auto">
+    <h2 style="margin: 0 0 12px; font-family: Archivo, sans-serif; font-size: 50px; font-weight: 800; text-align: center">One price. Everything included.</h2>
+    <p style="margin: 0 0 40px; text-align: center; font-size: 18px; color: #4F4A42">One car you would have missed pays for months of your bot.</p>
+    <div style="display: flex; flex-wrap: wrap; gap: 20px">
+      <div style="flex: 1 1 300px; background: #FFFFFF; border-radius: 22px; padding: 36px">
+        <div style="font-weight: 600; color: #A34E12">Pay monthly · setup, one time</div>
+        <div style="font-family: Archivo, sans-serif; font-size: 60px; font-weight: 800">€500</div>
+        <p style="margin: 0">Your bot built around the cars you buy, your accounts connected, tested and handed over.</p>
+      </div>
+      <div style="flex: 1 1 300px; background: #111418; color: #F2EEE7; border-radius: 22px; padding: 36px">
+        <div style="font-weight: 600; color: #F08A3C">Then, every month</div>
+        <div style="font-family: Archivo, sans-serif; font-size: 60px; font-weight: 800">€250<span style="font-size: 20px; font-weight: 600"> / month</span></div>
+        <p style="margin: 0; color: #D9D3C8">24/7 scouting, first messages, WhatsApp pings, maintenance, all tools and a real person on WhatsApp. Cancel any month.</p>
+      </div>
+    </div>
+    <div style="text-align: center; margin-top: 20px"><button type="button" onClick="{{ pickMonthly }}" style="background: #111418; color: #F2EEE7; font-weight: 700; padding: 17px 26px; border-radius: 999px; font-size: 17px; border: 0; cursor: pointer; font-family: inherit">Choose monthly: €500 + €250 / month</button></div>
+    <div style="margin-top: 20px; background: #F08A3C; color: #1A1208; border-radius: 22px; padding: 36px; display: flex; flex-wrap: wrap; gap: 24px; align-items: center; justify-content: space-between">
+      <div style="flex: 1 1 380px">
+        <div style="font-weight: 700">Pay yearly: setup is free, 2 months on us</div>
+        <div style="font-family: Archivo, sans-serif; font-size: 60px; font-weight: 800">€3,000<span style="font-size: 20px; font-weight: 600"> / year</span></div>
+        <p style="margin: 0">Monthly, your first year costs €3,500. Pay yearly and it’s €3,000, with nothing else to pay.</p>
+      </div>
+      <button type="button" onClick="{{ pickYearly }}" style="background: #111418; color: #F2EEE7; font-weight: 700; padding: 17px 26px; border-radius: 999px; font-size: 17px; border: 0; cursor: pointer; font-family: inherit">Choose yearly</button>
+    </div>
+    <p style="margin: 24px 0 0; font-size: 15px; color: #4F4A42; text-align: center">Card, bank transfer or invoice · Prices in euros · For importers in North Macedonia, Serbia, Kosovo, Albania, Bosnia and Herzegovina, Montenegro, Croatia, Slovenia and Bulgaria</p>
+  </div>
+</section>
+
+<section style="background: #1B1F25; padding: 96px 24px">
+  <div style="max-width: 1000px; margin: 0 auto">
+    <p style="margin: 0 0 12px; font-weight: 600; color: #F08A3C; letter-spacing: .08em; text-transform: uppercase; font-size: 14px">Safe, clean, and on us</p>
+    <h2 style="margin: 0 0 20px; font-family: Archivo, sans-serif; font-size: 46px; line-height: 1.08; font-weight: 800">Your bot writes like a polite buyer, not like a spam machine.</h2>
+    <p style="margin: 0 0 28px; font-size: 19px; color: #D9D3C8">A few messages a day, spaced out, one per car, never the same text twice, and never in the middle of the night in the seller’s time. Real name, honest words, no tricks.</p>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px">
+      <div style="background: #111418; border-radius: 18px; padding: 22px"><b>Rules respected</b><p style="margin: 8px 0 0; color: #B9B3A8">Built to follow each marketplace’s rules and EU data protection (GDPR). We use your data only to run your bot.</p></div>
+      <div style="background: #111418; border-radius: 18px; padding: 22px"><b>It stops when it should</b><p style="margin: 8px 0 0; color: #B9B3A8">If a marketplace asks for a check or a verification, the bot stops and tells you. It never pushes through.</p></div>
+      <div style="background: #111418; border-radius: 18px; padding: 22px"><b>You stay in control</b><p style="margin: 8px 0 0; color: #B9B3A8">Say stop on WhatsApp and it stops. You can also approve every message before it goes out.</p></div>
+      <div style="background: #111418; border-radius: 18px; padding: 22px"><b>If something goes wrong, it’s on us</b><p style="margin: 8px 0 0; color: #B9B3A8">A wrong message, a seller complaint, spam, replies that never reach you: write to us. We answer and start fixing within 24 hours, at our cost.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="faq" style="max-width: 820px; margin: 0 auto; padding: 96px 24px; display: flex; flex-direction: column; gap: 12px">
+  <h2 style="margin: 0 0 16px; font-family: Archivo, sans-serif; font-size: 46px; font-weight: 800">Questions</h2>
+  <details style="background: #1B1F25; border-radius: 14px; padding: 18px 20px"><summary style="font-weight: 600; font-size: 18px">Who does the seller think he’s talking to?</summary><p style="margin: 10px 0 0; color: #D9D3C8">To you. The message goes out in your name, from your account. When he replies, you’re the one who calls.</p></details>
+  <details style="background: #1B1F25; border-radius: 14px; padding: 18px 20px"><summary style="font-weight: 600; font-size: 18px">I don’t speak German, Dutch or Italian. Is that a problem?</summary><p style="margin: 10px 0 0; color: #D9D3C8">No. The first message goes out in the seller’s own language. After that most sellers are happy with a call, simple English, or a translator.</p></details>
+  <details style="background: #1B1F25; border-radius: 14px; padding: 18px 20px"><summary style="font-weight: 600; font-size: 18px">Do I need to be good with computers?</summary><p style="margin: 10px 0 0; color: #D9D3C8">No. We set everything up. You just use WhatsApp, like you already do.</p></details>
+  <details style="background: #1B1F25; border-radius: 14px; padding: 18px 20px"><summary style="font-weight: 600; font-size: 18px">Can I check messages before they go out?</summary><p style="margin: 10px 0 0; color: #D9D3C8">Yes. Fully automatic, or one tap on WhatsApp to approve each car. Your choice, any time.</p></details>
+  <details style="background: #1B1F25; border-radius: 14px; padding: 18px 20px"><summary style="font-weight: 600; font-size: 18px">Do you negotiate or buy for me?</summary><p style="margin: 10px 0 0; color: #D9D3C8">No. The bot gets you the first conversation. Price, payment, papers and transport stay with you.</p></details>
+  <details style="background: #1B1F25; border-radius: 14px; padding: 18px 20px"><summary style="font-weight: 600; font-size: 18px">Which cars can it look for?</summary><p style="margin: 10px 0 0; color: #D9D3C8">Any make and model you buy, with your years, kilometres and budget. Damaged cars too, if that’s your business.</p></details>
+  <details style="background: #1B1F25; border-radius: 14px; padding: 18px 20px"><summary style="font-weight: 600; font-size: 18px">Why €250 a month? Alerts cost €30.</summary><p style="margin: 10px 0 0; color: #D9D3C8">An alert tells you about a car. It doesn’t write to the seller, doesn’t write in the seller’s language and doesn’t work at 7 a.m. while you sleep. Your fee pays for the AI, the sender, the upkeep and a real person. One extra car a month pays it back many times.</p></details>
+  <details style="background: #1B1F25; border-radius: 14px; padding: 18px 20px"><summary style="font-weight: 600; font-size: 18px">Is it really AI?</summary><p style="margin: 10px 0 0; color: #D9D3C8">Yes. A few AI helpers work in the background: one reads the listings, one checks the car against your rules, one writes the message in the seller’s language. The automation sends it. We watch over all of it.</p></details>
+  <details style="background: #1B1F25; border-radius: 14px; padding: 18px 20px"><summary style="font-weight: 600; font-size: 18px">Will sellers think it’s spam?</summary><p style="margin: 10px 0 0; color: #D9D3C8">No. One polite, personal message per car, in proper German, never the same text twice. It reads like a serious buyer, because behind it there is one: you.</p></details>
+  <details style="background: #1B1F25; border-radius: 14px; padding: 18px 20px"><summary style="font-weight: 600; font-size: 18px">Is it legal and safe?</summary><p style="margin: 10px 0 0; color: #D9D3C8">It’s built to follow the marketplace rules and EU data protection. Messages are honest and in your real name, and the bot stops if a platform asks for a check. If anything goes wrong, we fix it at our cost. More in the safety section above.</p></details>
+  <details style="background: #1B1F25; border-radius: 14px; padding: 18px 20px"><summary style="font-weight: 600; font-size: 18px">What if something breaks, or I get no messages?</summary><p style="margin: 10px 0 0; color: #D9D3C8">Write to us on WhatsApp. We answer and start the fix within 24 hours, and it’s on us.</p></details>
+  <details style="background: #1B1F25; border-radius: 14px; padding: 18px 20px"><summary style="font-weight: 600; font-size: 18px">How fast is the setup, and where does it run?</summary><p style="margin: 10px 0 0; color: #D9D3C8">24 to 48 hours after our call. On your computer, in our cloud or on our own servers, whichever we pick together. You never touch the tech.</p></details>
+  <details style="background: #1B1F25; border-radius: 14px; padding: 18px 20px"><summary style="font-weight: 600; font-size: 18px">What happens in the free test?</summary><p style="margin: 10px 0 0; color: #D9D3C8">You send up to 3 mobile.de searches. We run them on our side and message sellers from our own account. If a seller answers, you get a WhatsApp from us and you decide if you take over. No card, no strings.</p></details>
+  <details style="background: #1B1F25; border-radius: 14px; padding: 18px 20px"><summary style="font-weight: 600; font-size: 18px">Do you take a cut of my deals?</summary><p style="margin: 10px 0 0; color: #D9D3C8">Never. The price is fixed. Every euro of profit stays with you.</p></details>
+  <details style="background: #1B1F25; border-radius: 14px; padding: 18px 20px"><summary style="font-weight: 600; font-size: 18px">Can I cancel? Can I use Telegram?</summary><p style="margin: 10px 0 0; color: #D9D3C8">Monthly plan: cancel any month. Yearly plan: you’ve paid for 12 months, with setup free. We start with WhatsApp and can set up Telegram too.</p></details>
+</section>
+
+<section style="position: relative; overflow: hidden">
+  <img src="/_blob/05b62e7fabb1bef56e83f7132a145f0f" alt="Car transporter loaded with used cars on the highway at dawn" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover">
+  <div style="position: absolute; inset: 0; background: rgba(17,20,24,.66)"></div>
+  <div style="position: relative; max-width: 820px; margin: 0 auto; padding: 120px 24px; text-align: center">
+    <h2 style="margin: 0 0 18px; font-family: Archivo, sans-serif; font-size: 54px; line-height: 1.05; font-weight: 800">Your next car goes online tonight. Your bot will be there first.</h2>
+    <p style="margin: 0 0 32px; font-size: 19px; color: #D9D3C8">Message us on WhatsApp. We’ll show you how it works and get your bot running.</p>
+    <a href="https://wa.me/38978662817?text=I%20want%20my%20Car%20Bot%20bot" style="text-decoration: none; display: inline-block; background: #25D366; color: #0B1F14; font-weight: 700; padding: 19px 32px; border-radius: 999px; font-size: 19px">Chat on WhatsApp</a>
+  </div>
+</section>
+
+<footer style="border-top: 1px solid #262C35; padding: 24px; text-align: center; font-size: 14px; color: #9C968B">Car Bot · getcarbot.co · Skopje · <a href="Partners.dc.html" style="color:#9C968B">Become a partner</a> · Not affiliated with any marketplace named on this page.</footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":10600},"waNumber":{"editor":"text","default":"38978662817"},"formEndpoint":{"editor":"text","default":""}}'>
+class Component extends DCLogic {
+  state = { mode: "test", links: "", step: "chat", err: "", err2: "", first: "", last: "", email: "", phone: "", consent: false, sending: false, extra: 1, margin: 1500, plan: "annual" };
+  renderVals() {
+    const s = this.state;
+    const fmt = (n) => "€" + Math.round(Math.abs(n)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    const lines = s.links.split("\n").map((x) => x.trim()).filter(Boolean);
+    const okLink = (l) => /^https?:\/\/([a-z0-9-]+\.)*mobile\.de\//i.test(l);
+    const num = this.props.waNumber ?? "38978662817";
+    const endpoint = (this.props.formEndpoint ?? "").trim();
+    const planName = s.mode === "yearly" ? "the yearly plan (EUR 3,000)" : "the monthly plan (EUR 500 setup + EUR 250/month)";
+    const waMsg = (s.mode === "test" ? "Hi, I want the free Car Bot test." : "Hi, I want Car Bot on " + planName + ".") + "\nName: " + s.first + " " + s.last + "\nEmail: " + s.email + "\nPhone: " + s.phone + (s.mode === "test" ? "\nSearches:\n" + lines.join("\n") : "");
+    const isTest = s.mode === "test";
+    const extra = s.extra, margin = s.margin;
+    const gain = extra * margin * 12;
+    const cost = s.plan === "annual" ? 3000 : 3500;
+    const net = gain - cost;
+    const mx = Math.max(gain, cost, 1);
+    const cars = Math.ceil(cost / margin);
+    const btn = "font-family:inherit;font-weight:700;font-size:15px;padding:12px 16px;border-radius:999px;cursor:pointer;";
+    const on = btn + "background:#F08A3C;color:#1A1208;border:2px solid #F08A3C;";
+    const off = btn + "background:transparent;color:#F2EEE7;border:2px solid #3A424D;";
+    return {
+      links: s.links,
+      onLinks: (e) => this.setState({ links: e.target.value }),
+      hasErr: !!s.err, err: s.err,
+      countLabel: lines.length + " of 3 searches",
+      start: () => {
+        if (!lines.length) return this.setState({ err: "Paste at least one mobile.de search link." });
+        if (lines.length > 3) return this.setState({ err: "Up to 3 searches for the free test. Remove a row." });
+        if (!lines.every(okLink)) return this.setState({ err: "Only mobile.de links for now. One link per row." });
+        this.setState({ step: "details", mode: "test", err: "" });
+      },
+      showDetails: s.step === "details",
+      showDone: s.step === "done",
+      pickMonthly: () => this.setState({ step: "details", mode: "monthly", err2: "" }),
+      pickYearly: () => this.setState({ step: "details", mode: "yearly", err2: "" }),
+      modalTitle: isTest ? "Where do we send the replies?" : "Almost there. Who are we setting up?",
+      modalSub: isTest ? "Your searches are ready. Tell us who you are and we start." : "Plan: " + (s.mode === "yearly" ? "yearly, €3,000, setup free." : "monthly, €500 setup then €250 a month.") + " Next we send the payment link and book your setup call.",
+      doneText: isTest ? "We’re on it. When a seller answers, you get a WhatsApp from us. Then you decide if you take over." : "Got it. We’ll message you on WhatsApp with the payment link (card, bank transfer or invoice) and a time for your setup call.",
+      waBtnText: isTest ? "One last tap: send them to us on WhatsApp, so we can start right away." : "One last tap: confirm your plan with us on WhatsApp.",
+      doneSent: !!endpoint, doneNeedsWa: !endpoint,
+      waLink: "https://wa.me/" + num + "?text=" + encodeURIComponent(waMsg),
+      first: s.first, last: s.last, email: s.email, phone: s.phone, consent: s.consent,
+      onFirst: (e) => this.setState({ first: e.target.value }),
+      onLast: (e) => this.setState({ last: e.target.value }),
+      onEmail: (e) => this.setState({ email: e.target.value }),
+      onPhone: (e) => this.setState({ phone: e.target.value }),
+      onConsent: (e) => this.setState({ consent: e.target.checked }),
+      hasErr2: !!s.err2, err2: s.err2,
+      sendLabel: s.sending ? "Sending…" : (isTest ? "Start my free test" : "Confirm my plan"),
+      back: () => this.setState({ step: "chat", err2: "" }),
+      closeDone: () => this.setState({ step: "chat" }),
+      submit: () => {
+        if (s.sending) return;
+        if (!s.first.trim() || !s.last.trim()) return this.setState({ err2: "Please add your name and surname." });
+        if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(s.email.trim())) return this.setState({ err2: "Please add a valid email." });
+        if (s.phone.replace(/\D/g, "").length < 7) return this.setState({ err2: "Please add your WhatsApp number with country code." });
+        if (!s.consent) return this.setState({ err2: "Please tick the box so we can contact you." });
+        if (!endpoint) return this.setState({ step: "done", err2: "" });
+        this.setState({ sending: true, err2: "" });
+        fetch(endpoint, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ firstName: s.first.trim(), lastName: s.last.trim(), email: s.email.trim(), phone: s.phone.trim(), searches: lines, source: isTest ? "free-test" : "plan", plan: isTest ? null : s.mode, at: new Date().toISOString() }) })
+          .then((r) => { if (!r.ok) throw new Error("bad"); this.setState({ step: "done", sending: false }); })
+          .catch(() => this.setState({ sending: false, err2: "Something went wrong. Please try again or message us on WhatsApp." }));
+      },
+      extra: s.extra, margin: s.margin,
+      onExtra: (e) => this.setState({ extra: Number(e.target.value) }),
+      onMargin: (e) => this.setState({ margin: Number(e.target.value) }),
+      setAnnual: () => this.setState({ plan: "annual" }),
+      setMonthly: () => this.setState({ plan: "monthly" }),
+      annualStyle: s.plan === "annual" ? on : off,
+      monthlyStyle: s.plan === "annual" ? off : on,
+      extraLabel: extra === 0 ? "0 cars" : extra + (extra === 1 ? " car" : " cars") + " / month",
+      marginLabel: fmt(margin),
+      gainLabel: fmt(gain), costLabel: fmt(cost),
+      gainBarStyle: "height:12px;border-radius:8px;background:#25D366;width:" + (gain / mx * 100) + "%",
+      costBarStyle: "height:12px;border-radius:8px;background:#F08A3C;width:" + (cost / mx * 100) + "%",
+      netLabel: (net < 0 ? "−" : "+") + fmt(net),
+      netStyle: "font-family:Archivo,sans-serif;font-size:56px;font-weight:800;line-height:1.1;color:" + (net < 0 ? "#F08A3C" : "#25D366"),
+      paybackLine: "Your whole first year is covered by " + cars + (cars === 1 ? " extra car" : " extra cars") + " at " + fmt(margin) + " profit each.",
+      monthsLine: "One extra car pays about " + Math.floor(margin / 250) + " months of the monthly fee."
+    };
+  }
+}
+</script>
+</body>
+</html>
