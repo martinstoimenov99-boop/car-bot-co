@@ -92,9 +92,9 @@ export async function Hero() {
         name="hero-night-passat.jpg"
         alt={t("imageAlt")}
         sizes="100vw"
-        objectPosition="60% 50%"
+        objectPosition="30% 55%"
       />
-      <div className="absolute inset-0 bg-[rgba(17,20,24,.86)] sm:bg-[linear-gradient(90deg,rgba(17,20,24,.92)_0%,rgba(17,20,24,.7)_50%,rgba(17,20,24,.35)_100%)]" />
+      <div className="absolute inset-0 bg-[rgba(17,20,24,.86)] sm:bg-[linear-gradient(90deg,rgba(17,20,24,.9)_0%,rgba(17,20,24,.58)_48%,rgba(17,20,24,.15)_100%)]" />
       <div className="relative mx-auto flex max-w-[1200px] flex-wrap items-center gap-8 px-5 pt-9 pb-[52px] sm:gap-14 sm:px-6 sm:pt-[72px] sm:pb-24">
         <div className="min-w-0 flex-[1_1_520px]">
           <p className="eyebrow text-accent mb-4 sm:text-[15px]">{t("eyebrow")}</p>
