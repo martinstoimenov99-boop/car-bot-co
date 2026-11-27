@@ -133,7 +133,7 @@ Some clients will pay by bank transfer or invoice, so the tool must let you **re
 
 ## Deploy (Vercel)
 
-Current setup: Vercel project **`car-bot-co`** (team “Martin’s projects”), production branch **`main`**, domains `getcarbot.co` and `www.getcarbot.co`. Every other branch gets a preview deployment; production changes only by merging into `main`.
+Current setup: Vercel project **`car-bot-co`** (team “Martin’s projects”), production branch **`main`** (Vercel → Project → Settings → Environments → Production → Branch Tracking), domains `getcarbot.co` and `www.getcarbot.co`. Every other branch gets a preview deployment; production changes only by merging into `main`.
 
 1. Import the GitHub repo in Vercel (framework: Next.js, install `pnpm install`, build `pnpm build`).
 2. Add the environment variables for **Production** and **Preview**.
