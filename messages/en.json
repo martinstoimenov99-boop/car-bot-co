@@ -475,7 +475,7 @@
         },
         {
           "q": "How do I get paid?",
-          "a": "Your earnings are tracked in your partner dashboard. If your dealership takes the yearly plan, you get a flat €800 once we receive their payment. For monthly plans we send the payout details in your welcome package."
+          "a": "Your €150 setup share is paid within 7 days after we receive the dealership’s payment. Your €50 monthly commissions are paid on the 1st of the next month, as one total for the previous month. If your dealership takes the yearly plan, you get a flat €800 within 7 days after we receive their payment."
         }
       ]
     }
@@ -516,13 +516,13 @@
         {
           "value": "€150",
           "title": "Setup share",
-          "body": "30% of the €500 setup fee, paid when your dealership signs up."
+          "body": "30% of the €500 setup fee, paid within 7 days after we receive your dealership’s payment."
         },
         {
           "value": "€50",
           "suffix": " / month",
           "title": "Monthly income",
-          "body": "20% of the €250 subscription, every month the dealership pays, up to 12 months. That’s €600 a year."
+          "body": "20% of the €250 subscription, every month the dealership pays, up to 12 months. That’s €600 a year. Paid on the 1st of the next month."
         },
         {
           "value": "€50",
@@ -535,7 +535,7 @@
           "body": "€150 + €600 + €50. Bring three dealerships and that’s €2,400."
         }
       ],
-      "note": "On the yearly plan you earn a flat €800, paid once we receive the dealership’s payment. On the monthly plan, commissions are paid while the dealership is an active paying client. Your dealership gets 10% off the setup and the monthly fee with your code, and that discount never comes out of your commission."
+      "note": "Your €150 setup share (or the flat €800 on the yearly plan) is paid within 7 days after we receive the dealership’s payment. Monthly commissions are paid on the 1st of the next month, as one total for the previous month, while the dealership is an active paying client. Your dealership gets 10% off the setup and the monthly fee with your code, and that discount never comes out of your commission."
     },
     "split": {
       "title": "You bring the introduction. We carry the weight.",
@@ -567,7 +567,7 @@
         },
         {
           "title": "Get your link and code",
-          "body": "Your own tracking link and a 10% discount code for your dealers, plus a simple partner dashboard."
+          "body": "We send you your own tracking link and a 10% discount code for your dealers."
         },
         {
           "title": "Introduce Car Bot",
@@ -575,7 +575,7 @@
         },
         {
           "title": "They sign, you earn",
-          "body": "We do the setup. Your commissions show up in your dashboard, month after month."
+          "body": "We do the setup. We track every dealership you bring, and you get paid month after month."
         }
       ]
     },
@@ -601,8 +601,8 @@
           "body": "Every signup is tracked to you. Your dealers get 10% off with your code."
         },
         {
-          "title": "📊 A simple dashboard",
-          "body": "See your leads, signups and earnings in one place."
+          "title": "📊 Clear tracking",
+          "body": "We track every dealership you bring, so you always know where you stand."
         },
         {
           "title": "🎁 Welcome package",
@@ -710,11 +710,11 @@
         },
         {
           "title": "You get your link and code",
-          "body": "On WhatsApp, together with your welcome package and your partner dashboard."
+          "body": "On WhatsApp, together with your welcome package."
         },
         {
           "title": "You introduce Car Bot",
-          "body": "We do the setup. Your commissions show up in your dashboard, month after month."
+          "body": "We do the setup. We track every dealership you bring, and you get paid month after month."
         }
       ]
     },
@@ -761,7 +761,7 @@
         {
           "title": "Who processes it for us",
           "body": [
-            "Resend (email delivery and contact lists), Vercel (hosting and cookieless analytics), our partner-tracking tool {{AFFILIATE_TOOL}} and, if enabled, Upstash (rate limiting). They process data only on our instructions.",
+            "Resend (email delivery and contact lists), Vercel (hosting and cookieless analytics) and, if enabled, Upstash (rate limiting). They process data only on our instructions.",
             "Some of these providers are outside North Macedonia and the EU. Where that is the case, transfers rely on standard contractual clauses or an equivalent safeguard.",
             "We never sell your data and never share it for advertising."
           ]

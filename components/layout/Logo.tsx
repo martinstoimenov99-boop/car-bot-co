@@ -26,7 +26,7 @@ export async function Logo() {
     <Link
       href="/"
       aria-label={t("homeLink")}
-      className="font-display text-ink hover:text-ink flex items-center gap-2.5 text-[22px] font-extrabold no-underline"
+      className="font-display text-ink hover:text-ink flex shrink-0 items-center gap-2 text-xl font-extrabold whitespace-nowrap no-underline max-[350px]:text-base sm:gap-2.5 sm:text-[22px]"
     >
       <CarIcon />
       {t("brand")}

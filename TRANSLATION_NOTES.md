@@ -36,6 +36,12 @@
 19. **404 text** “Оваа страница веќе замина.” is a car joke (“this page already drove off”). Replace if it does not land.
 20. **Plural forms**: Macedonian uses `one` for 1, 21, 31… (“21 автокуќа”) and `other` for the rest. The calculators only show 1–6 and 12–72, so check “1 автокуќа”, “2 автокуќи”, “1 возило / месец”, “6 месеци”.
 
+## Added with the payout rules (please check these too)
+
+21. **Payout lines** in `partners.earn` (cards 1 and 2 and the note below them) and the “How do I get paid?” FAQ. Key phrases: “во рок од 7 дена откако ќе ја примиме уплатата”, “на 1-ви во следниот месец”, “како еден збир за претходниот месец”.
+22. **“Dashboard” wording replaced** because there is no partner dashboard. New titles and lines: “📊 Јасно следење”, “Ги следиме сите автокуќи што ќе ги донесете…”, “Ви праќаме свој линк за следење и код за 10% попуст”.
+23. **Privacy policy:** the sentence about processors no longer names an affiliate tool.
+
 ## Not translated on purpose
 
 Car Bot, WhatsApp, Telegram, mobile.de, AutoScout24, Kleinanzeigen, Marktplaats, leboncoin, Subito, Facebook Marketplace, GDPR, AI, the German seller messages, the cookie names (`cb_ref`, `cb_consent`, `NEXT_LOCALE`) and the mobile.de URL placeholder.

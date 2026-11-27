@@ -14,11 +14,11 @@ export async function Header({ variant }: { variant: "home" | "partners" | "than
   const p = variant === "thanks" ? "/partners" : "";
 
   return (
-    <header className="mx-auto flex max-w-[1200px] flex-wrap items-center justify-between gap-4 px-5 py-3.5 sm:px-6 sm:py-5">
+    <header className="mx-auto flex max-w-[1200px] flex-nowrap items-center justify-between gap-3 px-5 py-3.5 sm:flex-wrap sm:gap-4 sm:px-6 sm:py-5">
       <Logo />
       <nav
         aria-label={t("label")}
-        className="flex flex-wrap items-center gap-[22px] text-[15px] font-semibold"
+        className="flex items-center gap-2 text-[15px] font-semibold sm:flex-wrap sm:gap-[22px]"
       >
         {variant === "home" ? (
           <>
@@ -68,26 +68,26 @@ export async function Header({ variant }: { variant: "home" | "partners" | "than
             {t("partnerLogin")}
           </a>
         )}
-        <LanguageSwitcher className="text-muted hidden text-[15px] sm:flex" />
+        <LanguageSwitcher variant="pill" />
         {variant === "home" ? (
           <a
             href={waLink()}
             aria-label={t("whatsappAria")}
-            className="ping btn bg-wa text-on-wa hover:text-on-wa px-[18px] py-3 hover:bg-[#4be083]"
+            className="ping btn bg-wa text-on-wa hover:text-on-wa px-3.5 py-3 hover:bg-[#4be083] max-[350px]:px-2.5 sm:px-[18px]"
           >
             {t("whatsapp")}
           </a>
         ) : variant === "partners" ? (
           <a
             href="#apply"
-            className="btn bg-accent text-on-accent hover:bg-accent-hover hover:text-on-accent px-[18px] py-3"
+            className="btn bg-accent text-on-accent hover:bg-accent-hover hover:text-on-accent px-3.5 py-3 max-[350px]:px-2.5 sm:px-[18px]"
           >
             {t("becomePartner")}
           </a>
         ) : (
           <Link
             href={{ pathname: "/partners", hash: "apply" }}
-            className="btn bg-accent text-on-accent hover:bg-accent-hover hover:text-on-accent px-[18px] py-3"
+            className="btn bg-accent text-on-accent hover:bg-accent-hover hover:text-on-accent px-3.5 py-3 max-[350px]:px-2.5 sm:px-[18px]"
           >
             {t("becomePartner")}
           </Link>

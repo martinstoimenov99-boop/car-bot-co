@@ -45,6 +45,25 @@ test.describe("landing", () => {
   });
 });
 
+test.describe("language toggle", () => {
+  for (const width of [360, 1280]) {
+    test(`is visible in the header and switches language at ${width}px`, async ({ page }) => {
+      await page.setViewportSize({ width, height: 800 });
+      await page.goto("/en");
+      await dismissCookies(page);
+      const toggle = page.getByRole("banner").getByRole("group", { name: "Language" });
+      await expect(toggle).toBeVisible();
+      await expect(toggle.locator("[aria-current]")).toHaveText("EN");
+      await toggle.getByRole("link", { name: /Македонски/ }).click();
+      await expect(page).toHaveURL(/\/mk$/);
+      await expect(page.getByRole("heading", { level: 1 })).toContainText("Бидете првиот купувач");
+      const back = page.getByRole("banner").getByRole("group", { name: "Јазик" });
+      await back.getByRole("link", { name: /English/ }).click();
+      await expect(page).toHaveURL(/\/en$/);
+    });
+  }
+});
+
 test.describe("free test", () => {
   test("shows validation messages", async ({ page }) => {
     await page.goto("/en");
@@ -185,6 +204,15 @@ test.describe("calculators", () => {
     await page.getByTestId("partner-clients").fill("1");
     await expect(page.getByTestId("partner-year-total")).toHaveText("€6,050");
     await expect(page.getByTestId("partner-monthly")).toHaveText("€600");
+  });
+
+  test("partner page states the payout timing and promises no dashboard", async ({ page }) => {
+    await page.goto("/en/partners");
+    await dismissCookies(page);
+    const body = page.locator("main");
+    await expect(body).toContainText("within 7 days after we receive");
+    await expect(body).toContainText("1st of the next month");
+    await expect(body).not.toContainText(/dashboard/i);
   });
 
   test("Macedonian number format", async ({ page }) => {

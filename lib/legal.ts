@@ -9,7 +9,6 @@ export const LEGAL_PLACEHOLDERS: Record<string, string | undefined> = {
   COMPANY_NUMBER: process.env.LEGAL_COMPANY_NUMBER,
   DPO_EMAIL: process.env.LEGAL_DPO_EMAIL,
   CONTACT_EMAIL: process.env.LEGAL_CONTACT_EMAIL,
-  AFFILIATE_TOOL: process.env.LEGAL_AFFILIATE_TOOL,
   TAX_NOTE: process.env.LEGAL_TAX_NOTE,
 };
 

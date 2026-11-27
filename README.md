@@ -100,6 +100,8 @@ curl -X POST http://localhost:3000/api/lead -H 'Content-Type: application/json' 
 
 ## Languages
 
+Plan for more languages (order, steps, what to change): [`docs/LANGUAGES.md`](docs/LANGUAGES.md).
+
 Copy lives in `messages/<locale>.json`, one namespace per area (`common`, `forms`, `home`, `faq`, `partners`, `thanks`, `legal`, `emails`). Macedonian review notes are in `TRANSLATION_NOTES.md`.
 
 **Add a language (e.g. Serbian):**
@@ -111,7 +113,16 @@ Copy lives in `messages/<locale>.json`, one namespace per area (`common`, `forms
 
 **Prices:** English shows `€3,000`; Macedonian shows `3.000 €` everywhere (copy and `lib/format.ts`).
 
+## Partner payouts (as promised on the site)
+
+- **Setup share (€150)** and the **flat €800 on the yearly plan**: paid within 7 days after we receive the dealership's payment.
+- **Monthly commission (€50, up to 12 months):** paid on the 1st of the next month, as one total for the previous month.
+- The dealer's 10% discount never reduces the partner's commission.
+- No dashboard is promised. Tracking is manual for now (see below): one partner, known codes, live onboarding calls.
+
 ## Partner (affiliate) tracking
+
+**Current approach: manual.** Partners get a tracking link (`?ref=CODE`) and a discount code from you. The ref is added to every lead email, so you can see who sent whom. No affiliate tool is needed yet; the section below is only for when volume makes manual tracking painful.
 
 1. **Capture:** `?ref=CODE` or `?partner=CODE` (`^[A-Za-z0-9_-]{2,32}$`). Before cookie consent the code is kept for the browser tab only (sessionStorage). After “Accept”, it is stored in the `cb_ref` cookie (90 days, SameSite=Lax, Secure) and in localStorage. **First click wins**, unless the stored click is older than 30 days. Once consent exists, `proxy.ts` sets the cookie server-side too.
 2. **Attribute:** the ref goes into the lead email, the Resend contact properties, the webhook payload and the affiliate provider call.
