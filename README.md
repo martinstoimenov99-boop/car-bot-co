@@ -75,7 +75,6 @@ All listed in `.env.example`. Set them in **Vercel → Project → Settings → 
 | `NEXT_PUBLIC_SITE_URL`                                           | `https://getcarbot.co` (canonical URLs, sitemap, OG)                                                   |
 | `AFFILIATE_PROVIDER`                                             | `none` (default), `dub`, `tolt`, `firstpromoter`, `rewardful`                                          |
 | `PARTNER_PORTAL_URL`                                             | Shows “Partner login” in header and footer when set (https only)                                       |
-| `LEGAL_*`                                                        | Fill the `{{PLACEHOLDERS}}` on the legal pages without touching code                                   |
 
 ### What happens on a form submit
 
@@ -172,7 +171,7 @@ With a `mail.` subdomain the names become `send.mail`, `resend._domainkey.mail`,
 - Security headers in `next.config.ts`: CSP (self + Vercel analytics only; fonts are self-hosted), `X-Content-Type-Options`, `Referrer-Policy`, `Permissions-Policy`, `X-Frame-Options`, HSTS in production. Scripts need `'unsafe-inline'` because Next.js’ bootstrap is inline and nonces would make every page dynamic.
 - The site never takes card details. Payments are arranged on WhatsApp.
 - Cookies: essential only by default (`NEXT_LOCALE`, `cb_consent`); `cb_ref` only after “Accept”. Analytics are cookieless.
-- Legal pages are **drafts** with `{{PLACEHOLDERS}}`. Have a lawyer review them (EN and MK) before launch.
+- Legal pages are **drafts**: the business name and contact email live in `lib/legal.ts` (one place for English and Macedonian). Have a lawyer review the text (EN and MK) before launch.
 
 ## Content guardrails
 

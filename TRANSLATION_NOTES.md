@@ -27,7 +27,7 @@
 10. **“Safe, clean, and on us”** → “Безбедно, чисто и на наш трошок”.
 11. **“Say stop on WhatsApp”** → “Напишете „стоп“ на WhatsApp”. Check the quote marks („ “) are the ones you want.
 12. **Final CTA WhatsApp prefill** “Сакам свој Car Bot” (English: “I want my Car Bot bot”).
-13. **Company number** in the privacy policy is written as **ЕМБС** (the Central Register number). Change if you mean ЕДБ (tax number).
+13. _(removed: the privacy policy no longer mentions a company number or street address.)_
 14. **Legal pages**: translated from the English drafts. The lawyer should review the Macedonian version too, especially the GDPR / ЗЗЛП wording and the name of the Agency (“Агенција за заштита на личните податоци”).
 15. **“Welcome package”** → “пакет добредојде”. Alternative: “почетен пакет”.
 16. **“Partner dashboard”** → “партнерски панел”. Alternative: “партнерска контролна табла”.
@@ -40,7 +40,8 @@
 
 21. **Payout lines** in `partners.earn` (cards 1 and 2 and the note below them) and the “How do I get paid?” FAQ. Key phrases: “во рок од 7 дена откако ќе ја примиме уплатата”, “на 1-ви во следниот месец”, “како еден збир за претходниот месец”.
 22. **“Dashboard” wording replaced** because there is no partner dashboard. New titles and lines: “📊 Јасно следење”, “Ги следиме сите автокуќи што ќе ги донесете…”, “Ви праќаме свој линк за следење и код за 10% попуст”.
-23. **Privacy policy:** the sentence about processors no longer names an affiliate tool.
+23. **Bonus timing:** “Се исплаќа со месечната исплата.” (earn card) and “Бонусот за лојалност од 50 € се исплаќа со првата месечна исплата откако автокуќата ќе стигне до 6-тиот месец.” (FAQ).
+24. **Privacy policy:** the sentence about processors no longer names an affiliate tool.
 
 ## Not translated on purpose
 

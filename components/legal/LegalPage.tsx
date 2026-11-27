@@ -56,7 +56,6 @@ export async function LegalPage({ doc }: { doc: "privacy" | "terms" | "cookies" 
             className="btn bg-accent text-on-accent hover:bg-accent-hover px-6 py-3.5"
           />
         )}
-        <p className="text-slate mt-12 mb-0 text-xs">{t("draftNote")}</p>
       </main>
       <Footer variant="legal" />
     </>

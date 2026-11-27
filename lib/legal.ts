@@ -1,27 +1,24 @@
 /**
- * DRAFT: have a lawyer review before launch.
- * Legal placeholders. Fill these in (or set the env vars) before going live. Until then the
- * pages show the {{TOKEN}} so nobody mistakes the draft for final text.
+ * Details shown on the legal pages. The {{TOKENS}} in messages/*.json (legal.*) are replaced with
+ * the values below, so changing a detail here updates English and Macedonian at once.
+ * DRAFT: have a lawyer review the legal pages before launch.
  */
-export const LEGAL_PLACEHOLDERS: Record<string, string | undefined> = {
-  LEGAL_ENTITY: process.env.LEGAL_ENTITY,
-  LEGAL_ADDRESS: process.env.LEGAL_ADDRESS,
-  COMPANY_NUMBER: process.env.LEGAL_COMPANY_NUMBER,
-  DPO_EMAIL: process.env.LEGAL_DPO_EMAIL,
-  CONTACT_EMAIL: process.env.LEGAL_CONTACT_EMAIL,
-  TAX_NOTE: process.env.LEGAL_TAX_NOTE,
+export const LEGAL_DETAILS: Record<string, string> = {
+  LEGAL_ENTITY: "Smartin Labs",
+  DPO_EMAIL: "info@getcarbot.co",
+  CONTACT_EMAIL: "info@getcarbot.co",
 };
 
-export const LEGAL_UPDATED = "2026-11-26";
+export const LEGAL_UPDATED = "2026-11-27";
 
-/** Splits text into plain strings and unresolved {{TOKEN}} parts for highlighting. */
+/** Splits text into plain strings and unresolved {{TOKEN}} parts (shown highlighted so a gap is obvious). */
 export function fillLegal(text: string): Array<{ text: string; placeholder: boolean }> {
   const out: Array<{ text: string; placeholder: boolean }> = [];
   const re = /\{\{([A-Z_]+)\}\}/g;
   let last = 0;
   for (let m = re.exec(text); m; m = re.exec(text)) {
     if (m.index > last) out.push({ text: text.slice(last, m.index), placeholder: false });
-    const value = LEGAL_PLACEHOLDERS[m[1]];
+    const value = LEGAL_DETAILS[m[1]];
     out.push(value ? { text: value, placeholder: false } : { text: m[0], placeholder: true });
     last = m.index + m[0].length;
   }

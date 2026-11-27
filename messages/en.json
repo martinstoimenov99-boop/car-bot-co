@@ -475,7 +475,7 @@
         },
         {
           "q": "How do I get paid?",
-          "a": "Your €150 setup share is paid within 7 days after we receive the dealership’s payment. Your €50 monthly commissions are paid on the 1st of the next month, as one total for the previous month. If your dealership takes the yearly plan, you get a flat €800 within 7 days after we receive their payment."
+          "a": "Your €150 setup share is paid within 7 days after we receive the dealership’s payment. Your €50 monthly commissions are paid on the 1st of the next month, as one total for the previous month. The €50 loyalty bonus is paid with the next monthly payout after the dealership reaches month 6. If your dealership takes the yearly plan, you get a flat €800 within 7 days after we receive their payment."
         }
       ]
     }
@@ -527,7 +527,7 @@
         {
           "value": "€50",
           "title": "Loyalty bonus",
-          "body": "Extra when your dealership is still with us after 6 months."
+          "body": "Extra when your dealership is still with us after 6 months. Paid with your monthly payout."
         },
         {
           "value": "€800",
@@ -725,7 +725,6 @@
     }
   },
   "legal": {
-    "draftNote": "Draft. Placeholders in braces are filled in before launch.",
     "updated": "Last updated: {date}",
     "privacy": {
       "metaTitle": "Privacy policy | Car Bot",
@@ -736,7 +735,7 @@
         {
           "title": "Who we are",
           "body": [
-            "Car Bot is run by {{LEGAL_ENTITY}}, {{LEGAL_ADDRESS}}, company number {{COMPANY_NUMBER}}, Skopje, North Macedonia.",
+            "Car Bot is run by {{LEGAL_ENTITY}}, Skopje, North Macedonia.",
             "For anything about your data, write to {{DPO_EMAIL}}."
           ]
         },
@@ -783,7 +782,7 @@
         },
         {
           "title": "Contact",
-          "body": ["{{LEGAL_ENTITY}} · {{LEGAL_ADDRESS}} · {{DPO_EMAIL}} · WhatsApp +389 78 662 817"]
+          "body": ["{{LEGAL_ENTITY}} · Skopje, North Macedonia · {{DPO_EMAIL}} · WhatsApp +389 78 662 817"]
         }
       ]
     },
@@ -812,7 +811,7 @@
           "body": [
             "Monthly plan: €500 setup, then €250 a month. You can cancel any month; the month already paid is not refunded.",
             "Yearly plan: €3,000 a year, setup included.",
-            "Prices are in euros. We send a payment link (card), bank details or an invoice. Taxes: {{TAX_NOTE}}."
+            "Prices are in euros. We send a payment link (card), bank details or an invoice."
           ]
         },
         {

@@ -212,6 +212,7 @@ test.describe("calculators", () => {
     const body = page.locator("main");
     await expect(body).toContainText("within 7 days after we receive");
     await expect(body).toContainText("1st of the next month");
+    await expect(body).toContainText("loyalty bonus is paid with the next monthly payout");
     await expect(body).not.toContainText(/dashboard/i);
   });
 
@@ -292,6 +293,22 @@ test.describe("affiliate ref", () => {
     const ref = (await context.cookies()).find((c) => c.name === "cb_ref");
     expect(ref?.value).toMatch(/^XYZ_1/);
   });
+});
+
+test.describe("legal pages", () => {
+  for (const [path, who] of [
+    ["/en/privacy", "Smartin Labs"],
+    ["/mk/privacy", "Smartin Labs"],
+    ["/en/terms", "Smartin Labs"],
+  ] as const) {
+    test(`${path} names the business and has no placeholders left`, async ({ page }) => {
+      await page.goto(path);
+      const main = page.locator("main");
+      await expect(main).toContainText(who);
+      await expect(main).toContainText("info@getcarbot.co");
+      await expect(main).not.toContainText("{{");
+    });
+  }
 });
 
 test.describe("layout", () => {
