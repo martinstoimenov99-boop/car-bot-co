@@ -99,7 +99,7 @@ curl -X POST http://localhost:3000/api/lead -H 'Content-Type: application/json' 
 
 ## Languages
 
-Languages: English, Macedonian (`mk`), Albanian (`sq`) and Serbian in Latin script (`sr`). Albanian and Serbian are drafts until a native speaker has reviewed them. Plan for more languages (order, steps, what to change): [`docs/LANGUAGES.md`](docs/LANGUAGES.md).
+Languages: English, German (`de`), Macedonian (`mk`), Albanian (`sq`) and Serbian in Latin script (`sr`). German, Albanian and Serbian are drafts until a native speaker has reviewed them. Plan for more languages (order, steps, what to change): [`docs/LANGUAGES.md`](docs/LANGUAGES.md).
 
 Copy lives in `messages/<locale>.json`, one namespace per area (`common`, `forms`, `home`, `faq`, `partners`, `thanks`, `legal`, `emails`). Macedonian review notes are in `TRANSLATION_NOTES.md`.
 

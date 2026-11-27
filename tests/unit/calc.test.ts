@@ -61,5 +61,6 @@ describe("formatEuro for Albanian and Serbian", () => {
     expect(formatEuro(3000, "sq")).toBe("3.000 €");
     expect(formatEuro(12100, "sr")).toBe("12.100 €");
     expect(formatEuro(-3500, "sq")).toBe("−3.500 €");
+    expect(formatEuro(12100, "de")).toBe("12.100 €");
   });
 });

@@ -71,6 +71,9 @@ describe("email templates", () => {
     const sq = await leadConfirmation({ ...lead, locale: "sq" });
     expect(sq.subject).toBe("I morëm kërkimet tuaja · Car Bot");
     expect(sq.text).toContain("Përshëndetje Marko");
+    const de = await leadConfirmation({ ...lead, locale: "de" });
+    expect(de.subject).toBe("Wir haben Ihre Suchen erhalten · Car Bot");
+    expect(de.text).toContain("Hallo Marko");
     const sr = await leadConfirmation({ ...lead, locale: "sr" });
     expect(sr.subject).toBe("Primili smo Vaše pretrage · Car Bot");
     expect(sr.text).not.toContain("We got");

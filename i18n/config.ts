@@ -4,12 +4,13 @@
  *   2. add the code here and a label in LOCALE_LABELS,
  *   3. run `pnpm i18n:check`.
  */
-export const LOCALES = ["en", "mk", "sq", "sr"] as const;
+export const LOCALES = ["en", "de", "mk", "sq", "sr"] as const;
 export type Locale = (typeof LOCALES)[number];
 export const DEFAULT_LOCALE: Locale = "en";
 
 export const LOCALE_LABELS: Record<Locale, { short: string; long: string; htmlLang: string; og: string }> = {
   en: { short: "EN", long: "English", htmlLang: "en", og: "en_US" },
+  de: { short: "DE", long: "Deutsch", htmlLang: "de", og: "de_DE" },
   mk: { short: "МК", long: "Македонски", htmlLang: "mk", og: "mk_MK" },
   sq: { short: "SQ", long: "Shqip", htmlLang: "sq", og: "sq_AL" },
   // Serbian in Latin script (ekavian). Cyrillic would be a separate locale later (see docs/LANGUAGES.md).

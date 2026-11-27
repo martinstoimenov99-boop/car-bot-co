@@ -1,8 +1,8 @@
 # Adding languages: plan
 
-**Status:** English (default), Macedonian, Albanian and Serbian (Latin) exist. Albanian and Serbian are machine-drafted and still need a native read-through (see `TRANSLATION_NOTES.md`). Next up: Bulgarian, then Croatian/Bosnian and Slovenian, or Serbian Cyrillic.
+**Status:** English (default), German, Macedonian, Albanian and Serbian (Latin) exist. German, Albanian and Serbian are machine-drafted and still need a native read-through (see `TRANSLATION_NOTES.md`). Next up: Bulgarian, then Croatian/Bosnian and Slovenian, or Serbian Cyrillic.
 
-The site has English (default) and Macedonian, Albanian and Serbian. Everything visitors read lives in `messages/<locale>.json`, so a new language is one JSON file plus a few lines of config. Nothing else in the code has to change for the Latin-script languages below.
+The site has English (default), German, Macedonian, Albanian and Serbian. Everything visitors read lives in `messages/<locale>.json`, so a new language is one JSON file plus a few lines of config. Nothing else in the code has to change for the Latin-script languages below.
 
 ## Suggested order
 
@@ -33,6 +33,7 @@ Order by where your partners and importers actually are. If your first partners 
 - **Which language a visitor lands on:** `/` sends people to their browser language when we have it, otherwise English.
 - **Plural forms** in the counters: English, Macedonian and Albanian need `one` / `other`. Serbian, Croatian and Bosnian also need `few` (2–4), already done in `sr.json`; copy that pattern (`{count, plural, one {…} few {…} other {…}}`) for hr/bs. Slovenian also has a dual. The e2e tests check the Serbian forms.
 - **Emails** to leads and partners go out in the language of the page they used. If the language file is missing, they fall back to English.
+- **German needs an Impressum** (provider name and address) if you promote the site in Germany or Austria. See `TRANSLATION_NOTES.md`.
 - **Do not translate:** Car Bot, WhatsApp, Telegram, mobile.de, AutoScout24, Kleinanzeigen, Marktplaats, leboncoin, Subito, Facebook Marketplace, GDPR, AI, and the German seller messages.
 
 ## Keeping them in sync

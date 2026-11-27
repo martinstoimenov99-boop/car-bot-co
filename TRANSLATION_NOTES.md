@@ -1,6 +1,6 @@
 # Translation notes for review
 
-Three sections: **Macedonian (mk)**, **Albanian (sq)** and **Serbian (sr)**. `sq` and `sr` were drafted the same way as Macedonian and have **not been read by a native speaker yet**. Please have one go through the live pages before you promote those languages.
+Four sections: **Macedonian (mk)**, **Albanian (sq)**, **Serbian (sr)** and **German (de)**. `sq`, `sr` and `de` were drafted the same way as Macedonian and have **not been read by a native speaker yet**. Please have one go through the live pages before you promote those languages.
 
 ---
 
@@ -99,6 +99,31 @@ Car Bot, WhatsApp, Telegram, mobile.de, AutoScout24, Kleinanzeigen, Marktplaats,
 11. **Hero title** “Budite prvi kupac koga svaki prodavac čuje.”
 12. **Legal pages:** the data-protection authority sentence says “Agencija za zaštitu ličnih podataka Severne Makedonije (ili nadležnom organu u Vašoj državi)”. Serbia has the “Poverenik za informacije od javnog značaja i zaštitu podataka o ličnosti”. A lawyer should check the wording for Serbia.
 13. **“Kolačići”** (_cookies_) and the cookie page wording.
+
+---
+
+# German translation (de)
+
+`messages/de.json`. Formal **Sie / Ihr** (capitalised), warm and direct, standard German with **ß** (Swiss readers would write “ss”). Prices as `3.000 €`. The German seller message and its quote stay German. Please read `/de`, `/de/partners`, `/de/thanks?type=test`, the legal pages and the email text.
+
+## Strings I was unsure about
+
+1. **“Autohaus”** (pl. “Autohäuser”) for _dealership_, and “Händler” for _dealer_. Alternative for partners: “Autohändler”.
+2. **“Seien Sie der erste Käufer, von dem jeder Verkäufer hört.”** Alternative: “Seien Sie der Erste, bei dem sich jeder Verkäufer meldet.”
+3. **Generic masculine** (“der Verkäufer”, “der Käufer”, “er”) follows the English source (“he”). Say if you want gender-neutral forms.
+4. **“Ihr WhatsApp meldet sich”** for _your WhatsApp pings_. Many Germans say “Ihre WhatsApp” for the message and “Ihr WhatsApp” for the app; I used the app sense. Check it reads right.
+5. **“Benachrichtigungen kaufen keine Autos. Die erste Nachricht schon.”** (_Alerts don’t buy cars. The first message does._)
+6. **“Sortiert den Ausschuss aus.”** for _skips the junk_. Alternative: “Lässt Unbrauchbares links liegen.”
+7. **“auf unsere Kosten”** for _at our cost_, **“Einrichtung”** for _setup_, **“Einrichtungsgespräch”** for _setup call_.
+8. **“DSGVO”** is used instead of “GDPR” (the German name). The brief lists GDPR as untranslated; tell me if you want “GDPR” back.
+9. **Tracking** is kept in English: “Tracking-Link”, “Klares Tracking”. Alternative: “Verfolgung”.
+10. **“Affiliate-Programm”** and “Partnerprogramm” are both used, like in English. Check it is not confusing.
+11. **Plattformen vs. Börsen.** I used “Plattformen” throughout (not “Fahrzeugbörsen”).
+12. **Legal text**, especially: “Agentur für den Schutz personenbezogener Daten Nordmazedoniens (oder bei der zuständigen Aufsichtsbehörde in Ihrem Land)” and “Standardvertragsklauseln”. A lawyer should check it.
+
+### Important for the German version: Impressum
+
+A commercial website aimed at Germany or Austria normally needs an **Impressum** (legal notice) with the provider’s name, postal address and contact details (§ 5 DDG in Germany, § 5 ECG in Austria). There is none on the site, because you chose not to show an address. This is a question for the lawyer before you promote the German page in Germany or Austria.
 
 ## Not translated (all languages)
 

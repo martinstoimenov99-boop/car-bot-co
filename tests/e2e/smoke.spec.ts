@@ -53,7 +53,13 @@ test.describe("language menu", () => {
       await expect(button).toHaveAttribute("aria-expanded", "false");
       await button.click();
       await expect(button).toHaveAttribute("aria-expanded", "true");
-      await expect(header.getByRole("link")).toContainText(["English", "Македонски", "Shqip", "Srpski"]);
+      await expect(header.getByRole("link")).toContainText([
+        "English",
+        "Deutsch",
+        "Македонски",
+        "Shqip",
+        "Srpski",
+      ]);
       await page.keyboard.press("Escape");
       await expect(button).toHaveAttribute("aria-expanded", "false");
 
@@ -73,11 +79,39 @@ test.describe("language menu", () => {
 
   test("header stays on one row at 320px", async ({ page }) => {
     await page.setViewportSize({ width: 320, height: 700 });
-    for (const path of ["/en", "/sq", "/sr"]) {
+    for (const path of ["/en", "/de", "/sq", "/sr"]) {
       await page.goto(path);
       const h = await page.evaluate(() => document.querySelector("header")!.getBoundingClientRect().height);
       expect(h).toBeLessThan(90);
     }
+  });
+});
+
+test.describe("German", () => {
+  test("home, partners and legal pages", async ({ page }) => {
+    await page.goto("/de");
+    await expect(page.locator("html")).toHaveAttribute("lang", "de");
+    await expect(page.getByRole("heading", { level: 1 })).toHaveText(
+      "Seien Sie der erste Käufer, von dem jeder Verkäufer hört.",
+    );
+    await page.goto("/de/partners");
+    await expect(page.getByTestId("partner-year-total")).toHaveText("12.100 €");
+    await expect(page.getByTestId("partner-total-clients")).toContainText("24 Autohäuser");
+    await expect(page.locator("main")).toContainText("innerhalb von 7 Tagen");
+    await expect(page.locator("main")).toContainText("am 1. des Folgemonats");
+    await page.goto("/de/privacy");
+    await expect(page.locator("main")).toContainText("Smartin Labs");
+    await expect(page.locator("main")).not.toContainText("{{");
+    await page.goto("/de/cookies");
+    await expect(page.locator("main")).toContainText("NEXT_LOCALE");
+  });
+
+  test("ROI calculator in German", async ({ page }) => {
+    await page.goto("/de");
+    await expect(page.getByTestId("roi-gain")).toHaveText("18.000 €");
+    await expect(page.getByTestId("roi-payback")).toContainText("2 zusätzliche Autos");
+    await page.getByTestId("roi-extra").fill("0");
+    await expect(page.getByTestId("roi-net")).toHaveText("−3.000 €");
   });
 });
 
@@ -134,7 +168,7 @@ test.describe("Albanian and Serbian", () => {
     });
   }
 
-  for (const lang of ["sq", "sr"]) {
+  for (const lang of ["de", "sq", "sr"]) {
     test(`${lang}: free test and plan modal work`, async ({ page }) => {
       let payload: Record<string, unknown> | undefined;
       await page.route("**/api/lead", async (route) => {
@@ -160,7 +194,7 @@ test.describe("Albanian and Serbian", () => {
     const langs = await page
       .locator('link[rel="alternate"][hreflang]')
       .evaluateAll((els) => els.map((e) => e.getAttribute("hreflang")));
-    expect(langs).toEqual(expect.arrayContaining(["en", "mk", "sq", "sr-Latn", "x-default"]));
+    expect(langs).toEqual(expect.arrayContaining(["en", "de", "mk", "sq", "sr-Latn", "x-default"]));
   });
 });
 
@@ -412,10 +446,12 @@ test.describe("layout", () => {
     "/mk",
     "/sq",
     "/sr",
+    "/de",
     "/en/partners",
     "/mk/partners",
     "/sq/partners",
     "/sr/partners",
+    "/de/partners",
     "/en/thanks?type=yearly",
     "/en/privacy",
   ]) {
