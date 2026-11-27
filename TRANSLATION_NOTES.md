@@ -1,4 +1,10 @@
-# Macedonian translation: notes for review
+# Translation notes for review
+
+Three sections: **Macedonian (mk)**, **Albanian (sq)** and **Serbian (sr)**. `sq` and `sr` were drafted the same way as Macedonian and have **not been read by a native speaker yet**. Please have one go through the live pages before you promote those languages.
+
+---
+
+# Macedonian translation (mk)
 
 `messages/mk.json` was written from `messages/en.json` following the glossary in the brief (formal **Вие**, short sentences, brand and platform names in Latin script). Please read the live pages at `/mk`, `/mk/partners`, `/mk/thanks?type=test` and the legal pages, and fix anything that does not sound natural. `pnpm i18n:check` makes sure no key or placeholder goes missing while you edit.
 
@@ -50,3 +56,50 @@
 ## Not translated on purpose
 
 Car Bot, WhatsApp, Telegram, mobile.de, AutoScout24, Kleinanzeigen, Marktplaats, leboncoin, Subito, Facebook Marketplace, GDPR, AI, the German seller messages, the cookie name (`NEXT_LOCALE`) and the mobile.de URL placeholder.
+
+---
+
+# Albanian translation (sq)
+
+`messages/sq.json`. Polite plural address (**ju / juaj**, lowercase), short sentences, no jargon. Prices as `3.000 €`. Read `/sq`, `/sq/partners`, `/sq/thanks?type=test`, the legal pages, and the confirmation email text under `emails.*`.
+
+## Strings I was unsure about
+
+1. **“autosallon”** for _dealership_ (used in Albania and Kosovo). Alternative: “shitës makinash”.
+2. **“tregtar”** for _dealer/importer_, with “importues” where the English says importer. Alternative: “shitës makinash”.
+3. **Hero title** “Bëhuni blerësi i parë që dëgjon çdo shitës.” Alternative: “Bëhuni blerësi i parë të cilin e dëgjon çdo shitës.”
+4. **“konfigurim”** for _setup_ (“konfigurimi”, “e konfigurojmë”). Alternatives: “vendosje”, “instalim”. Please pick one and I will apply it everywhere.
+5. **“njoftim”** for both _alert_ and _ping_, and “WhatsApp-i juaj bie” (_your WhatsApp rings_). Check it sounds right for a message, not a call.
+6. **“Njoftimet nuk blejnë makina. Mesazhi i parë blen.”** (_Alerts don’t buy cars. The first message does._)
+7. **“program afilimi”** for _affiliate program_. Alternative: “program partneriteti”.
+8. **“Cookie-t”** and “Politika e cookie-ve”. Alternative: “Skedarët cookie”.
+9. **“E sjellim në shtëpi / E sillni në shtëpi”** (_Bring it home_) and “Negocioni çmimin”.
+10. **Ticker** “u dërgua për 41 s”. Alternative: “u dërgua brenda 41 s”.
+11. **Hyphenated forms** like “WhatsApp-i”, “Car Bot-i”, “cloud-in”: check the style you prefer.
+12. **Legal pages:** “Agjencia për Mbrojtjen e të Dhënave Personale e Maqedonisë së Veriut”. Albania and Kosovo have their own authorities; the text only says “the authority in your country”. A lawyer should check the wording for Albania and Kosovo too.
+
+---
+
+# Serbian translation (sr, Latin script)
+
+`messages/sr.json`. **Latin script, ekavian**, polite address with capital **Vi / Vaš** (same style as the Macedonian file). Prices as `3.000 €`. Serbian has three plural forms (1 / 2–4 / 5+), written into the counters (“1 autokuća”, “2 autokuće”, “5 autokuća”). Cyrillic would be a separate language later (see `docs/LANGUAGES.md`).
+
+## Strings I was unsure about
+
+1. **“vozilo” vs “auto / automobil”.** I used “vozilo” (like _car/vehicle_ in English). In everyday Serbian “auto” is more natural, “vozilo” more formal. If you prefer “auto”, tell me and I will change it everywhere, including the grammar (“dobro vozilo” → “dobar auto”).
+2. **“autokuća”** for _dealership_. Alternative: “auto-plac” or “salon automobila”.
+3. **“trgovac”** for _dealer_. Alternative: “prodavac automobila”.
+4. **“mušterija”** (_customer_) in the “What you’re missing” text. Alternative: “kupac / klijent”.
+5. **“Pogađate se oko cene”** (_negotiate_). Alternative: “Pregovarate o ceni”.
+6. **“e-pošta”** vs “imejl”.
+7. **“Preskače sve nepotrebno”** for _skips the junk_.
+8. **“o našem trošku” / “na naš račun”** used for _at our cost_. Both are used; check one is not odd in context.
+9. **Dates in payouts:** “prvog dana sledećeg meseca” (_on the 1st of the next month_) and “u roku od 7 dana”.
+10. **“Vi ste prvi na redu … Vaš red 👇”** in the phone chat.
+11. **Hero title** “Budite prvi kupac koga svaki prodavac čuje.”
+12. **Legal pages:** the data-protection authority sentence says “Agencija za zaštitu ličnih podataka Severne Makedonije (ili nadležnom organu u Vašoj državi)”. Serbia has the “Poverenik za informacije od javnog značaja i zaštitu podataka o ličnosti”. A lawyer should check the wording for Serbia.
+13. **“Kolačići”** (_cookies_) and the cookie page wording.
+
+## Not translated (all languages)
+
+Car Bot, WhatsApp, Telegram, mobile.de, AutoScout24, Kleinanzeigen, Marktplaats, leboncoin, Subito, Facebook Marketplace, GDPR, AI, the German seller messages, the cookie name `NEXT_LOCALE`.

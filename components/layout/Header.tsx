@@ -68,7 +68,7 @@ export async function Header({ variant }: { variant: "home" | "partners" | "than
             {t("partnerLogin")}
           </a>
         )}
-        <LanguageSwitcher variant="pill" />
+        <LanguageSwitcher variant="menu" />
         {variant === "home" ? (
           <a
             href={waLink()}

@@ -1,6 +1,8 @@
 # Adding languages: plan
 
-The site has English (default) and Macedonian. Everything visitors read lives in `messages/<locale>.json`, so a new language is one JSON file plus a few lines of config. Nothing else in the code has to change for the Latin-script languages below.
+**Status:** English (default), Macedonian, Albanian and Serbian (Latin) exist. Albanian and Serbian are machine-drafted and still need a native read-through (see `TRANSLATION_NOTES.md`). Next up: Bulgarian, then Croatian/Bosnian and Slovenian, or Serbian Cyrillic.
+
+The site has English (default) and Macedonian, Albanian and Serbian. Everything visitors read lives in `messages/<locale>.json`, so a new language is one JSON file plus a few lines of config. Nothing else in the code has to change for the Latin-script languages below.
 
 ## Suggested order
 
@@ -27,9 +29,9 @@ Order by where your partners and importers actually are. If your first partners 
 
 - **Euro format** (`lib/format.ts`): English shows `€3,000`, Macedonian `3.000 €`. Add the new language's convention and a test. Albanian, Serbian, Croatian, Bosnian and Slovenian normally use `3.000 €`. Bulgarian uses a space (`3 000 €`).
 - **Cyrillic headings** (`app/globals.css`, the `html[lang="mk"]` rule): Archivo has no Cyrillic, so Cyrillic languages (`bg`, `sr-Cyrl`) need their code added to that rule. Latin languages need nothing; Latin Extended letters (č, ć, š, ž, đ, ë, ç) are already available.
-- **Language toggle** (`components/layout/LanguageSwitcher.tsx`): the pill shows each language as a short code and fits up to 3. From the 4th language on, switch it to a dropdown. Say so and I will do it.
+- **Language menu** (`components/layout/LanguageSwitcher.tsx`): the header shows the current code and opens a list of every language, so it scales to many languages and fits on a phone. The footer lists the codes as links. Nothing to change when you add a language.
 - **Which language a visitor lands on:** `/` sends people to their browser language when we have it, otherwise English.
-- **Plural forms** in the calculators (`one` / `other`) work for these languages. If a language needs more forms (Slovenian has a dual), the translator adds them in the same ICU message.
+- **Plural forms** in the counters: English, Macedonian and Albanian need `one` / `other`. Serbian, Croatian and Bosnian also need `few` (2–4), already done in `sr.json`; copy that pattern (`{count, plural, one {…} few {…} other {…}}`) for hr/bs. Slovenian also has a dual. The e2e tests check the Serbian forms.
 - **Emails** to leads and partners go out in the language of the page they used. If the language file is missing, they fall back to English.
 - **Do not translate:** Car Bot, WhatsApp, Telegram, mobile.de, AutoScout24, Kleinanzeigen, Marktplaats, leboncoin, Subito, Facebook Marketplace, GDPR, AI, and the German seller messages.
 

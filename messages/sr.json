@@ -1,0 +1,870 @@
+{
+  "common": {
+    "brand": "Car Bot",
+    "skipToContent": "Pređi na sadržaj",
+    "homeLink": "Car Bot, početna stranica",
+    "nav": {
+      "label": "Glavni meni",
+      "how": "Kako radi bot",
+      "test": "Besplatan test",
+      "partners": "Partneri",
+      "pricing": "Cene",
+      "faq": "Pitanja",
+      "whatsapp": "WhatsApp",
+      "whatsappAria": "Pišite nam na WhatsApp",
+      "forDealers": "Za trgovce",
+      "earn": "Koliko zarađujete",
+      "calculator": "Kalkulator",
+      "becomePartner": "Postanite partner",
+      "partnerLogin": "Prijava za partnere"
+    },
+    "lang": {
+      "label": "Jezik",
+      "switchTo": "Promeni jezik na {language}"
+    },
+    "footer": {
+      "city": "Skoplje",
+      "becomePartner": "Postanite partner",
+      "notAffiliated": "Nismo povezani ni sa jednom platformom pomenutom na ovoj stranici.",
+      "backHome": "Nazad na početnu stranicu",
+      "legalNav": "Pravne informacije",
+      "privacy": "Privatnost",
+      "terms": "Uslovi",
+      "cookies": "Kolačići"
+    },
+    "whatsappHello": "Zdravo Car Bot",
+    "notFound": {
+      "metaTitle": "Stranica nije pronađena | Car Bot",
+      "title": "Ova stranica je već odvezla.",
+      "text": "Link je star ili pogrešno ukucan. Dobra vozila su i dalje na početnoj stranici.",
+      "home": "Nazad na početnu stranicu"
+    },
+    "close": "Zatvori"
+  },
+  "forms": {
+    "fields": {
+      "first": "Ime",
+      "last": "Prezime",
+      "email": "E-pošta",
+      "phone": "WhatsApp broj, sa pozivnim brojem",
+      "country": "Država",
+      "honeypot": "Ostavite ovo polje praznim"
+    },
+    "errors": {
+      "name": "Unesite ime i prezime.",
+      "email": "Unesite ispravnu e-poštu.",
+      "phone": "Unesite svoj WhatsApp broj sa pozivnim brojem države.",
+      "consent": "Štiklirajte polje da bismo mogli da Vas kontaktiramo.",
+      "how": "Recite nam kako planirate da nalazite trgovce.",
+      "network": "Nešto nije u redu. Pokušajte ponovo ili nam pišite na WhatsApp.",
+      "rate": "Previše pokušaja sa ove veze. Sačekajte malo ili nam pišite na WhatsApp.",
+      "code": "Proverite kod: samo slova, brojevi, - i _."
+    },
+    "lead": {
+      "testTitle": "Gde da pošaljemo odgovore?",
+      "testSub": "Vaše pretrage su spremne. Recite nam ko ste i počinjemo.",
+      "planTitle": "Skoro gotovo. Za koga postavljamo bota?",
+      "planSubMonthly": "Paket: mesečni, 500 € postavljanje, zatim 250 € mesečno. Zatim šaljemo link za plaćanje i zakazujemo razgovor o postavljanju.",
+      "planSubYearly": "Paket: godišnji, 3.000 €, postavljanje je besplatno. Zatim šaljemo link za plaćanje i zakazujemo razgovor o postavljanju.",
+      "consentTest": "Saglasan sam da Car Bot koristi moje podatke i linkove za ovaj test i da me kontaktira u vezi sa njim.",
+      "consentPlan": "Saglasan sam da Car Bot koristi moje podatke za postavljanje paketa i da me kontaktira u vezi sa njim.",
+      "codeLabel": "Partnerski kod ili kod za popust (opciono)",
+      "codeDiscount": "10% popusta na postavljanje i mesečnu pretplatu",
+      "back": "Nazad",
+      "submitTest": "Pokreni moj besplatan test",
+      "submitPlan": "Potvrdi moj paket",
+      "sending": "Šalje se…",
+      "doneTitleTest": "Primili smo Vaše pretrage.",
+      "doneTitlePlan": "Primili smo Vaše podatke.",
+      "doneTest": "Počinjemo. Kada prodavac odgovori, dobićete poruku od nas na WhatsApp-u. Zatim Vi odlučujete da li preuzimate.",
+      "donePlan": "U redu. Pisaćemo Vam na WhatsApp sa linkom za plaćanje (kartica, bankovni prenos ili faktura) i terminom za razgovor o postavljanju.",
+      "continue": "Nastavi →",
+      "waFallback": "Pošalji na WhatsApp",
+      "waIntroTest": "Zdravo, želim besplatan Car Bot test.",
+      "waIntroPlan": "Zdravo, želim Car Bot sa {plan}.",
+      "waPlanMonthly": "mesečnim paketom (500 € postavljanje + 250 € mesečno)",
+      "waPlanYearly": "godišnjim paketom (3.000 €)",
+      "waName": "Ime",
+      "waEmail": "E-pošta",
+      "waPhone": "Telefon",
+      "waSearches": "Pretrage",
+      "waCode": "Kod"
+    },
+    "partner": {
+      "waIntro": "Zdravo, želim da postanem Car Bot partner.",
+      "waCountry": "Država",
+      "waHow": "Trgovce ću nalaziti preko"
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Car Bot | Prva poruka, poslata za Vas",
+      "description": "Car Bot prati 20+ evropskih platformi za vozila 24/7 i prvi piše prodavcu, na njegovom jeziku i u Vaše ime. Isprobajte besplatno sa 3 pretrage na mobile.de.",
+      "ogTitle": "Budite prvi kupac koga svaki prodavac čuje.",
+      "ogSub": "Automatski bot za kupovinu za uvoznike vozila"
+    },
+    "hero": {
+      "eyebrow": "Automatski bot za kupovinu za uvoznike vozila",
+      "title": "Budite prvi kupac koga svaki prodavac čuje.",
+      "lead": "Vaš Car Bot prati 20+ platformi za vozila širom Evrope, 24/7. Čim se pojavi dobro vozilo, piše prodavcu na njegovom jeziku, u Vaše ime. Prodavac odgovori, Vaš WhatsApp zazvoni, Vi preuzimate.",
+      "ctaPrimary": "Isprobajte besplatno na 3 vozila",
+      "ctaSecondary": "Pogledajte kako radi",
+      "imageAlt": "Polovni VW Passat parkiran na ulici u Nemačkoj noću",
+      "stats": [
+        { "value": "20+", "label": "platformi pod prismotrom" },
+        { "value": "24/7", "label": "bez pauze, bez spavanja" },
+        { "value": "Minuti", "label": "od oglasa do Vaše poruke" }
+      ]
+    },
+    "phone": {
+      "label": "Primer razgovora sa Car Botom: pronađen je VW Passat, bot piše prodavcu na nemačkom u Vaše ime, prodavac odgovara i Vi ga zovete.",
+      "name": "Car Bot",
+      "status": "na mreži",
+      "b1": "Novo vozilo · VW Passat B8 2.0 TDI, 2017 · 142.000 km · 9.900 € · objavljeno pre 1 min",
+      "t1": "Car Bot piše na nemačkom…",
+      "b2": "Poruka je poslata prodavcu na nemačkom, u Vaše ime ✓",
+      "t2": "Prodavac piše…",
+      "b3Label": "Prodavac je odgovorio:",
+      "b3Quote": "“Ja, der Wagen ist noch da. Rufen Sie gerne an.”",
+      "b4": "Vi ste prvi na redu. Broj prodavca i oglas su ispod. Vaš red 👇",
+      "b5": "Odmah ga zovem 🔥"
+    },
+    "ticker": {
+      "label": "Primer aktivnosti",
+      "srNote": "Ilustrativni primeri šta bot radi, nisu podaci uživo.",
+      "items": [
+        "VW Passat B8 · München · poruka poslata za 41 s ✓",
+        "Audi A4 Avant · Wien · poslato za 38 s ✓",
+        "Škoda Octavia · Amsterdam · poslato za 49 s ✓ (Nederlands)",
+        "Peugeot 3008 · Lyon · poslato za 44 s ✓ (Français)",
+        "Fiat 500X · Milano · poslato za 36 s ✓ (Italiano)",
+        "Volvo V60 · Göteborg · poslato za 52 s ✓ (Svenska)",
+        "BMW 320d · Köln · poslato za 40 s ✓"
+      ]
+    },
+    "missing": {
+      "eyebrow": "Šta propuštate",
+      "title": "Dobra vozila nestanu pre nego što ih uopšte vidite.",
+      "p1": "Čist Passat od privatnog vlasnika pojavi se u Minhenu. Za sat vremena prodavac ima desetine poruka. Odgovara prvoj trojici, jer su bili prvi i pisali su na ispravnom nemačkom.",
+      "p2": "Vi ste bili sa mušterijom. Ili ste se vraćali iz Nemačke sa vozilom na prikolici. Ili ste spavali. Obaveštenje ste videli dva sata kasnije, a neko drugi već vozi Vaše vozilo na jug.",
+      "p3": "Obaveštenja ne kupuju vozila. Prva poruka kupuje.",
+      "imageAlt": "Trgovac vozilima zauzet mušterijom dok mu telefon vibrira u džepu"
+    },
+    "morning": {
+      "eyebrow": "Kako radi bot",
+      "title": "Jedno jutro sa Vašim botom.",
+      "lead": "Od oglasa do Vašeg prvog poziva za manje od 30 minuta. Primer toka.",
+      "cards": [
+        {
+          "time": "07:02",
+          "title": "Pojavljuje se dobro vozilo",
+          "body": "Bot ga vidi na jednoj od 20+ platformi u Nemačkoj, Austriji, Holandiji, Belgiji, Francuskoj ili Italiji, ili na Facebook Marketplace-u."
+        },
+        {
+          "time": "07:03",
+          "title": "Prodavac dobija Vašu poruku",
+          "quote": "„Guten Tag, Ihr Passat mit Scheckheft gefällt mir sehr. Ist er noch verfügbar? Gerne würde ich Sie kurz anrufen. Viele Grüße, Marko“",
+          "quoteLang": "de",
+          "body": "Na jeziku samog prodavca (nemački, holandski, francuski, italijanski, švedski i drugi), u Vaše ime, ljubazno i lično. Nikada dvaput isti robotski tekst."
+        },
+        {
+          "time": "07:26",
+          "title": "Prodavac odgovara prvo Vama",
+          "quote": "🔔 Car Bot: Prodavac je odgovorio za Vaš Passat. Broj i oglas su unutra.",
+          "body": "Vaš WhatsApp zazvoni čim stigne pravi odgovor. Bez buke, bez beskrajnih obaveštenja."
+        },
+        {
+          "time": "07:27",
+          "title": "Vi preuzimate",
+          "body": "Kafa u jednoj ruci, telefon u drugoj. Zovete, dogovarate cenu i planirate preuzimanje. Bot Vam je već otvorio vrata."
+        }
+      ]
+    },
+    "freeTest": {
+      "eyebrow": "Besplatan test",
+      "title": "Isprobajte na 3 vozila. Besplatno.",
+      "lead": "Otvorite mobile.de i podesite filtere kao svakog dana. Kopirajte link i nalepite ga ispod, po jedan link u redu. Mi pokrećemo Vaše pretrage kod nas, pišemo prodavcima na njihovom jeziku i šaljemo Vam poruku na WhatsApp čim neko odgovori. Vi odlučujete da li preuzimate.",
+      "botName": "Car Bot",
+      "prompt": "Nalepite ovde svoje pretrage sa mobile.de. Po jedan link u redu, najviše 3. Za ovaj besplatan test samo mobile.de.",
+      "inputLabel": "Linkovi Vaših pretraga na mobile.de, po jedan u redu",
+      "placeholder": "https://suchen.mobile.de/fahrzeuge/search.html?...\nhttps://suchen.mobile.de/fahrzeuge/search.html?...",
+      "count": "{count} od 3 pretrage",
+      "submit": "Pronađi moja prva vozila",
+      "smallPrint": "Za besplatan test mi kontaktiramo prodavce sa našeg naloga, našim rečima, u Vaše ime. U Vašem plaćenom botu svaka poruka odlazi u Vaše ime.",
+      "errors": {
+        "empty": "Nalepite bar jedan link pretrage sa mobile.de.",
+        "tooMany": "Najviše 3 pretrage za besplatan test. Uklonite jedan red.",
+        "notMobile": "Za sada samo linkovi sa mobile.de. Po jedan link u redu."
+      }
+    },
+    "everyDay": {
+      "title": "Šta Vaš bot radi svakog dana",
+      "imageAlt": "Telefon svetli na noćnom ormariću dok vlasnik spava",
+      "items": [
+        {
+          "title": "Prati 20+ platformi, 24/7.",
+          "body": "mobile.de, AutoScout24, Kleinanzeigen, Marktplaats, leboncoin, Subito, Facebook Marketplace i druge."
+        },
+        {
+          "title": "Šalje prvu poruku u Vaše ime.",
+          "body": "Na nemačkom, holandskom, francuskom, italijanskom, švedskom ili bilo kom jeziku EU, napisanu posebno za svako vozilo."
+        },
+        {
+          "title": "Obaveštava Vas na WhatsApp-u ili Telegramu",
+          "body": "kada prodavac odgovori, sa brojem i oglasom."
+        },
+        {
+          "title": "Preskače sve nepotrebno.",
+          "body": "Trgovce, oštećena vozila (osim ako ih želite), prodavce koji ne žele ponude i vozila kojima je već pisao."
+        },
+        { "title": "Brza provera cene", "body": "za svako vozilo, da znate da li vredi pozvati." }
+      ]
+    },
+    "door": {
+      "title": "Bot otvara vrata. Vi zaključujete posao.",
+      "lead": "Dosadan, spor deo je automatizovan: pretraga, prevođenje, pisanje, biti prvi. Vama ostaje deo koji donosi novac.",
+      "imageAlt": "Kupac se rukuje sa nemačkim prodavcem pored Mercedesa",
+      "tasks": ["Razgovarate sa prodavcem", "Pogađate se oko cene", "Vidite vozilo", "Dovozite ga kući"]
+    },
+    "start": {
+      "eyebrow": "Kako počinjemo",
+      "title": "Od prvog razgovora do prve poruke za 48 sati.",
+      "lead": "Bez tehničkog znanja, bez nametljivih prodajnih poziva. Razgovaramo, Vi odlučujete, mi gradimo.",
+      "steps": [
+        {
+          "title": "Kratak razgovor",
+          "body": "Gledamo kako kupujete: koja vozila, iz kojih zemalja, koje alate već koristite. Objašnjavamo šta možemo, a Vi birate šta ima smisla. Bez pritiska."
+        },
+        {
+          "title": "Odobravate pristupe",
+          "body": "Nekoliko odobrenja da bot može da radi. Kažemo Vam tačno šta nam treba i zašto, ništa više."
+        },
+        {
+          "title": "Postavljamo ga za 24 do 48 sati",
+          "body": "Na Vašem računaru, u našem cloudu ili na našim serverima. Zajedno odlučujemo na razgovoru."
+        },
+        {
+          "title": "Vaša pravila, ugrađena",
+          "body": "Prve pretrage, filteri, granice cene, obračun marže i koje prodavce preskočiti. Zatim bot kreće i Vaš WhatsApp počinje da zvoni."
+        }
+      ]
+    },
+    "noTech": {
+      "eyebrow": "Bez tehnike sa Vaše strane",
+      "title": "Mi ga gradimo, vodimo i plaćamo.",
+      "imageAlt": "Nasmejan trgovac razgovara telefonom u svom placu za vozila pri zalasku sunca",
+      "items": [
+        "Postavljamo bota na Vašem računaru ili u našem cloudu",
+        "Pokazujemo Vam kako da ga koristite, na Vašem jeziku",
+        "Održavamo ga i popravljamo ako se nešto pokvari",
+        "Svi alati i troškovi rada su na nama",
+        "Bez skrivenih troškova, bez ugovora za čitanje, bez tehnike"
+      ]
+    },
+    "payFor": {
+      "eyebrow": "Za šta plaćate",
+      "title": "Vaša mesečna pretplata je ceo tim koji radi u pozadini.",
+      "lead": "Nekoliko AI pomoćnika i stvarna osoba rade za Vas. Vi plaćate jednu cenu. Mi plaćamo sve što stoji iza nje.",
+      "cards": [
+        {
+          "title": "🧠 AI mozgovi",
+          "body": "AI modeli koji čitaju svaki oglas, procenjuju vozilo i pišu poruku na jeziku prodavca. Njihovi računi su naši."
+        },
+        {
+          "title": "⚡ Automatski pošiljalac",
+          "body": "Automatizacija koja šalje poruku, sa pauzama kao pravi čovek, danonoćno."
+        },
+        {
+          "title": "🔎 Pretrage i registracije",
+          "body": "Vaše pretrage rade neprekidno na svakoj platformi, a mi brinemo o nalozima i registracijama na svakoj od njih."
+        },
+        {
+          "title": "💬 Stvarna osoba na WhatsApp-u",
+          "body": "Pitanje, promena, čudna poruka? Pišite nam. Odgovara čovek."
+        },
+        {
+          "title": "🛠 Popravke kada se nešto pokvari",
+          "body": "Platforme stalno menjaju svoje sajtove. Kada nešto prestane da radi, mi to popravljamo."
+        },
+        {
+          "title": "🔄 Besplatne nadogradnje",
+          "body": "Novi alati, novi AI modeli, nove platforme: nadograđujemo Vašeg bota i to Vas ne košta ništa dodatno."
+        }
+      ]
+    },
+    "roi": {
+      "eyebrow": "Izračunajte",
+      "title": "Jedno vozilo više mesečno plaća celog bota.",
+      "lead": "Pomerajte klizače i vidite koliko vrede vozila koja danas propuštate.",
+      "extraLabel": "Dodatna vozila koja dobijete mesečno",
+      "extraValue": "{count, plural, =0 {0 vozila} one {# vozilo / mesečno} few {# vozila / mesečno} other {# vozila / mesečno}}",
+      "extraHint": "Vozila koja danas propuštate zato što je neko drugi prvi pisao.",
+      "marginLabel": "Vaša zarada po vozilu",
+      "marginHint": "Polovna vozila obično ostavljaju 1.200 € do 2.000 €. Unesite svoj broj.",
+      "planLabel": "Vaš paket",
+      "planYearly": "Godišnji 3.000 €",
+      "planMonthly": "Mesečni 500 € + 250 €",
+      "gain": "Dodatna zarada godišnje",
+      "cost": "Vaš bot, prva godina",
+      "net": "Ostaje Vam u džepu",
+      "payback": "Za pokrivanje cele prve godine dovoljno je {cars, plural, one {# dodatno vozilo} few {# dodatna vozila} other {# dodatnih vozila}} sa zaradom od {margin} po vozilu.",
+      "months": "Jedno dodatno vozilo plaća otprilike {months, plural, one {# mesec} few {# meseca} other {# meseci}} mesečne pretplate.",
+      "disclaimer": "Primer, ne obećanje. Stvarni rezultati zavise od vozila koja kupujete, cena koje ugovorite i koliko brzo zaključite posao."
+    },
+    "pricing": {
+      "title": "Jedna cena. Sve je uključeno.",
+      "lead": "Jedno vozilo koje biste propustili plaća mesece Vašeg bota.",
+      "setupLabel": "Mesečno plaćanje · postavljanje, jednokratno",
+      "setupPrice": "500 €",
+      "setupBody": "Vaš bot napravljen prema vozilima koja kupujete, nalozi povezani, testiran i predat.",
+      "monthlyLabel": "Zatim, svakog meseca",
+      "monthlyPrice": "250 €",
+      "perMonth": " / mesec",
+      "monthlyBody": "Praćenje 24/7, prve poruke, obaveštenja na WhatsApp-u, održavanje, svi alati i stvarna osoba na WhatsApp-u. Otkažite bilo kog meseca.",
+      "chooseMonthly": "Izaberi mesečni: 500 € + 250 € / mesec",
+      "yearlyLabel": "Godišnje plaćanje: postavljanje je besplatno, 2 meseca na naš račun",
+      "yearlyPrice": "3.000 €",
+      "perYear": " / godina",
+      "yearlyBody": "Uz mesečno plaćanje prva godina košta 3.500 €. Uz godišnje plaćanje je 3.000 €, bez ičeg drugog za plaćanje.",
+      "chooseYearly": "Izaberi godišnji",
+      "note": "Kartica, bankovni prenos ili faktura · Cene u evrima · Za uvoznike u Severnoj Makedoniji, Srbiji, Kosovu, Albaniji, Bosni i Hercegovini, Crnoj Gori, Hrvatskoj, Sloveniji i Bugarskoj"
+    },
+    "safety": {
+      "eyebrow": "Bezbedno, čisto i na naš račun",
+      "title": "Vaš bot piše kao ljubazan kupac, a ne kao mašina za spam.",
+      "lead": "Nekoliko poruka dnevno, sa pauzama, po jedna za vozilo, nikada dvaput isti tekst i nikada usred noći po vremenu prodavca. Pravo ime, iskrene reči, bez trikova.",
+      "cards": [
+        {
+          "title": "Poštuju se pravila",
+          "body": "Napravljen da sledi pravila svake platforme i zaštitu podataka u EU (GDPR). Vaše podatke koristimo samo za rad Vašeg bota."
+        },
+        {
+          "title": "Staje kada treba",
+          "body": "Ako platforma zatraži proveru ili verifikaciju, bot staje i obaveštava Vas. Nikada ne forsira."
+        },
+        {
+          "title": "Vi imate kontrolu",
+          "body": "Napišite „stop“ na WhatsApp-u i staje. Možete i da odobrite svaku poruku pre nego što ode."
+        },
+        {
+          "title": "Ako nešto krene naopako, to je na nama",
+          "body": "Pogrešna poruka, žalba prodavca, spam, odgovori koji ne stižu do Vas: pišite nam. Odgovaramo i počinjemo da popravljamo u roku od 24 sata, o našem trošku."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Vaše sledeće vozilo se pojavljuje večeras. Vaš bot će biti prvi.",
+      "lead": "Pišite nam na WhatsApp. Pokazaćemo Vam kako radi i pokrenućemo Vašeg bota.",
+      "button": "Pišite nam na WhatsApp",
+      "waText": "Želim svog Car Bota",
+      "imageAlt": "Kamion autotransporter natovaren polovnim vozilima na auto-putu u cik zore"
+    }
+  },
+  "faq": {
+    "home": {
+      "title": "Pitanja",
+      "items": [
+        {
+          "q": "Sa kim prodavac misli da razgovara?",
+          "a": "Sa Vama. Poruka odlazi u Vaše ime, sa Vašeg naloga. Kada odgovori, Vi ste taj koji zove."
+        },
+        {
+          "q": "Ne govorim nemački, holandski ni italijanski. Da li je to problem?",
+          "a": "Ne. Prva poruka odlazi na jeziku samog prodavca. Posle toga većini prodavaca odgovara poziv, jednostavan engleski ili prevodilac."
+        },
+        {
+          "q": "Da li moram dobro da se razumem u računare?",
+          "a": "Ne. Mi sve postavljamo. Vi samo koristite WhatsApp, kao i do sada."
+        },
+        {
+          "q": "Mogu li da proverim poruke pre nego što odu?",
+          "a": "Da. Potpuno automatski ili jednim dodirom na WhatsApp-u odobravate svako vozilo. Vaš izbor, bilo kada."
+        },
+        {
+          "q": "Da li se pogađate ili kupujete umesto mene?",
+          "a": "Ne. Bot Vam donosi prvi razgovor. Cena, plaćanje, papiri i prevoz ostaju kod Vas."
+        },
+        {
+          "q": "Koja vozila može da traži?",
+          "a": "Bilo koju marku i model koje kupujete, sa Vašim godištima, kilometražom i budžetom. I oštećena vozila, ako je to Vaš posao."
+        },
+        {
+          "q": "Zašto 250 € mesečno? Obaveštenja koštaju 30 €.",
+          "a": "Obaveštenje Vam kaže da postoji vozilo. Ne piše prodavcu, ne piše na jeziku prodavca i ne radi u 7 ujutru dok spavate. Vaša pretplata plaća AI, pošiljaoca, održavanje i stvarnu osobu. Jedno dodatno vozilo mesečno je višestruko vraća."
+        },
+        {
+          "q": "Da li je to zaista AI?",
+          "a": "Da. Nekoliko AI pomoćnika radi u pozadini: jedan čita oglase, jedan proverava vozilo prema Vašim pravilima, jedan piše poruku na jeziku prodavca. Automatizacija je šalje. Mi nadziremo sve to."
+        },
+        {
+          "q": "Hoće li prodavci misliti da je spam?",
+          "a": "Ne. Jedna ljubazna, lična poruka po vozilu, na ispravnom nemačkom, nikada dvaput isti tekst. Zvuči kao ozbiljan kupac, jer iza nje stoji jedan: Vi."
+        },
+        {
+          "q": "Da li je legalno i bezbedno?",
+          "a": "Napravljen je da sledi pravila platformi i zaštitu podataka u EU. Poruke su iskrene i u Vaše pravo ime, a bot staje ako platforma zatraži proveru. Ako nešto krene naopako, popravljamo o našem trošku. Više u odeljku o bezbednosti iznad."
+        },
+        {
+          "q": "Šta ako se nešto pokvari ili ne dobijam poruke?",
+          "a": "Pišite nam na WhatsApp. Odgovaramo i počinjemo popravku u roku od 24 sata, o našem trošku."
+        },
+        {
+          "q": "Koliko brzo se postavlja i gde radi?",
+          "a": "24 do 48 sati nakon našeg razgovora. Na Vašem računaru, u našem cloudu ili na našim serverima, kako zajedno odlučimo. Vi nikada ne dirate tehniku."
+        },
+        {
+          "q": "Šta se dešava u besplatnom testu?",
+          "a": "Šaljete do 3 pretrage sa mobile.de. Mi ih pokrećemo kod nas i pišemo prodavcima sa našeg naloga. Ako prodavac odgovori, dobijate poruku od nas na WhatsApp-u i Vi odlučujete da li preuzimate. Bez kartice, bez obaveza."
+        },
+        {
+          "q": "Da li uzimate procenat od mojih poslova?",
+          "a": "Nikada. Cena je fiksna. Svaki evro zarade ostaje kod Vas."
+        },
+        {
+          "q": "Mogu li da otkažem? Mogu li da koristim Telegram?",
+          "a": "Mesečni paket: otkazujete bilo kog meseca. Godišnji paket: platili ste 12 meseci, uz besplatno postavljanje. Počinjemo sa WhatsApp-om, a možemo da postavimo i Telegram."
+        }
+      ]
+    },
+    "partners": {
+      "title": "Pitanja za partnere",
+      "items": [
+        {
+          "q": "Da li je ovo afilijat program?",
+          "a": "Da, radi kao takav: Vaš link za praćenje, kod za popust i provizija za svaku autokuću koju dovedete. Zovemo Vas partnerom jer dobijate pravu podršku i dugoročnu saradnju, a ne samo link."
+        },
+        {
+          "q": "Da li mi treba tehničko znanje?",
+          "a": "Nikakvo. Nikada ništa ne postavljate i ništa ne popravljate. Mi radimo celo postavljanje, vodimo bota i rešavamo svaki problem."
+        },
+        {
+          "q": "Koga mogu da dovedem?",
+          "a": "Trgovce i uvoznike vozila koji kupuju polovna vozila u Evropi, iz bilo koje zemlje Balkana ili Evrope. Mogu da razgovaraju sa Vama na svom jeziku."
+        },
+        {
+          "q": "Koliko dugo zarađujem od jedne autokuće?",
+          "a": "150 € pri prijavi, zatim 50 € svakog meseca dok autokuća plaća, do 12 meseci, plus bonus od 50 € kada je još uvek sa nama u 6. mesecu. To je do 800 €."
+        },
+        {
+          "q": "Šta ako autokuća otkaže?",
+          "a": "Mesečna provizija prestaje kada oni prestanu da plaćaju. Zato pomaže prijateljski poziv sa Vaše strane: zadovoljni trgovci ostaju."
+        },
+        {
+          "q": "Da li sam odgovoran ako nešto krene naopako?",
+          "a": "Ne. Postavljanje, popravke, podrška i svako tehničko pitanje su naši. Ako trgovac ima problem, Vi nam ga prosledite."
+        },
+        {
+          "q": "Kako se isplaćujem?",
+          "a": "Vaš deo od postavljanja od 150 € isplaćuje se u roku od 7 dana nakon što primimo uplatu autokuće. Mesečne provizije od 50 € isplaćuju se prvog dana sledećeg meseca, kao jedan zbir za prethodni mesec. Bonus za lojalnost od 50 € isplaćuje se uz sledeću mesečnu isplatu nakon što autokuća dostigne 6. mesec. Ako Vaša autokuća uzme godišnji paket, dobijate fiksnih 800 € u roku od 7 dana nakon što primimo njihovu uplatu."
+        }
+      ]
+    }
+  },
+  "partners": {
+    "meta": {
+      "title": "Car Bot partneri | Zaradite 800 € po autokući",
+      "description": "Upoznajte uvoznike i trgovce vozilima sa Car Botom. Mi ga postavljamo, vodimo i popravljamo. Vi zarađujete 150 € po postavljanju i 50 € svakog meseca, do 800 € po autokući u prvoj godini.",
+      "ogTitle": "Dovedite trgovce. Mi radimo sve ostalo.",
+      "ogSub": "Car Bot partnerski program · do 800 € po autokući"
+    },
+    "hero": {
+      "eyebrow": "Car Bot partnerski program",
+      "title": "Dovedite trgovce. Mi radimo sve ostalo. Zaradite do 800 € po autokući.",
+      "lead": "Poznajete uvoznike ili trgovce koji kupuju vozila u Evropi? Upoznajte ih sa Car Botom. Mi ga postavljamo, vodimo i popravljamo. Vi ostajete njihov prijateljski kontakt i zarađujete svakog meseca dok oni ostaju. Da, ovo je afilijat program, samo sa pravom podrškom iza sebe.",
+      "ctaPrimary": "Postanite partner",
+      "ctaSecondary": "Izračunajte zaradu",
+      "stats": [
+        { "value": "150 €", "label": "po postavljanju" },
+        { "value": "50 €", "label": "svakog meseca, do 12 meseci" },
+        { "value": "0 €", "label": "tehničkog posla za Vas" }
+      ]
+    },
+    "earn": {
+      "eyebrow": "Koliko zarađujete",
+      "title": "Jedna autokuća Vam može doneti 800 € u prvoj godini.",
+      "lead": "Zarađujete dok autokuća nastavlja da plaća. Što je duže održavate zadovoljnom, to više zarađujete.",
+      "cards": [
+        {
+          "value": "150 €",
+          "title": "Deo od postavljanja",
+          "body": "30% od naknade za postavljanje od 500 €, isplaćeno u roku od 7 dana nakon što primimo uplatu Vaše autokuće."
+        },
+        {
+          "value": "50 €",
+          "suffix": " / mesec",
+          "title": "Mesečni prihod",
+          "body": "20% od pretplate od 250 €, svakog meseca dok autokuća plaća, do 12 meseci. To je 600 € godišnje. Isplaćuje se prvog dana sledećeg meseca."
+        },
+        {
+          "value": "50 €",
+          "title": "Bonus za lojalnost",
+          "body": "Dodatno kada je Vaša autokuća još uvek sa nama nakon 6 meseci. Isplaćuje se uz Vašu mesečnu isplatu."
+        },
+        {
+          "value": "800 €",
+          "title": "Po autokući, prva godina",
+          "body": "150 € + 600 € + 50 €. Dovedite tri autokuće i to je 2.400 €."
+        }
+      ],
+      "note": "Vaš deo od postavljanja od 150 € (ili fiksnih 800 € na godišnjem paketu) isplaćuje se u roku od 7 dana nakon što primimo uplatu autokuće. Mesečne provizije isplaćuju se prvog dana sledećeg meseca, kao jedan zbir za prethodni mesec, dok je autokuća aktivan klijent koji plaća. Vaša autokuća dobija 10% popusta na postavljanje i mesečnu pretplatu uz Vaš kod, a taj popust se nikada ne oduzima od Vaše provizije."
+    },
+    "split": {
+      "title": "Vi pravite uvod. Mi nosimo teret.",
+      "lead": "Ništa tehničko, ništa za postavljanje, ništa za popravljanje. Ako se nešto pokvari, naše je da rešimo, nikada Vaše.",
+      "yourTitle": "Vaš deo",
+      "yourItems": [
+        "Nalazite autokuće i uvoznike: pozivi, poruke, objave na društvenim mrežama, video snimci, Vaša zajednica",
+        "Pričate im o Car Botu na svom jeziku",
+        "Priključite se jednom razgovoru ako pomaže da ih ubedite",
+        "Održavajte prijateljske odnose sa njima, da ostanu motivisani",
+        "Svako pitanje o podršci prosledite pravo nama"
+      ],
+      "ourTitle": "Naš deo",
+      "ourItems": [
+        "Celo postavljanje i sav tehnički posao",
+        "Platforma, AI i svaki alat, koje plaćamo mi",
+        "Pouzdanost, popravke i nadogradnje",
+        "Podrška za Vašu autokuću, u pravom WhatsApp razgovoru",
+        "Naplata, uvođenje i održavanje njihovog zadovoljstva"
+      ]
+    },
+    "how": {
+      "eyebrow": "Kako funkcioniše",
+      "title": "Prijavite se, podelite link, budite plaćeni.",
+      "steps": [
+        {
+          "title": "Prijava za jedan minut",
+          "body": "Recite nam ko ste i kako ćete nalaziti trgovce. Mi potvrđujemo i dočekujemo Vas."
+        },
+        {
+          "title": "Dobijate link i kod",
+          "body": "Šaljemo Vam Vaš link za praćenje i kod za 10% popusta za Vaše trgovce."
+        },
+        {
+          "title": "Predstavite Car Bot",
+          "body": "Pozovite, pišite, objavite video ili podelite u svojoj zajednici. Trgovci se mogu prijaviti iz bilo koje zemlje Balkana ili Evrope, na svom jeziku."
+        },
+        {
+          "title": "Oni potpišu, Vi zarađujete",
+          "body": "Mi radimo postavljanje. Pratimo svaku autokuću koju dovedete, a Vi se isplaćujete mesec za mesecom."
+        }
+      ]
+    },
+    "calc": {
+      "eyebrow": "Izračunajte",
+      "title": "Koliko biste mogli da zaradite ove godine?",
+      "lead": "Izaberite koliko autokuća prijavljujete svakog meseca. Ovo računa Vaših prvih 12 meseci, pri čemu svaka autokuća ostaje najmanje 6 meseci.",
+      "clientsLabel": "Autokuće koje prijavljujete mesečno",
+      "clientsValue": "{count, plural, one {# autokuća} few {# autokuće} other {# autokuća}}",
+      "total": "To je <b>{count, plural, one {# autokuća} few {# autokuće} other {# autokuća}}</b> do kraja godine. Svaka Vam donosi 150 € unapred, 50 € svakog meseca i bonus od 50 € u 6. mesecu.",
+      "perDealer": "Po autokući, u prvih 12 meseci: <b>800 €</b> (150 € + 600 € + 50 €)",
+      "yearTotal": "Zarađujete u prvih 12 meseci",
+      "monthlyAt12": "Mesečni prihod do 12. meseca",
+      "perMonth": " / mesec",
+      "disclaimer": "Primer, ne obećanje. Vaša zarada zavisi od toga koliko autokuća dovedete i koliko dugo ostanu kao klijenti koji plaćaju."
+    },
+    "kit": {
+      "title": "Sve što Vam treba da ga prodajete, od nas.",
+      "lead": "Nikada niste sami. Podržavamo Vas tokom cele godine.",
+      "cards": [
+        {
+          "title": "🔗 Vaš link i kod",
+          "body": "Svaka prijava se vodi na Vas. Vaši trgovci dobijaju 10% popusta uz Vaš kod."
+        },
+        {
+          "title": "📊 Jasno praćenje",
+          "body": "Pratimo svaku autokuću koju dovedete, da uvek znate gde stojite."
+        },
+        {
+          "title": "🎁 Paket dobrodošlice",
+          "body": "Uvođenje, saveti i gotove poruke, da brzo počnete."
+        },
+        {
+          "title": "🎬 Materijali",
+          "body": "Materijal za prezentaciju, primeri i ideje za sadržaj za pozive, razgovore i objave."
+        },
+        {
+          "title": "🤝 Podrška na pozivima",
+          "body": "Trgovac želi detalje? Priključujemo se pozivu i objašnjavamo ostalo."
+        },
+        {
+          "title": "💬 Podrška, cele godine",
+          "body": "Pitanja o programu ili o klijentu? Pišite nam. Odgovara stvarna osoba."
+        }
+      ],
+      "honesty": "Imamo samo jednu molbu: budite iskreni prema trgovcima. Objasnite šta Car Bot radi, ne obećavajte rezultate i ne izmišljajte brojke o zaradi. Tako Vaše i naše ime ostaju čisti."
+    },
+    "apply": {
+      "title": "Postanite Car Bot partner.",
+      "lead": "Traje jedan minut. Pisaćemo Vam na WhatsApp sa Vašim linkom, Vašim kodom i paketom dobrodošlice.",
+      "howLabel": "Kako ćete nalaziti trgovce?",
+      "how": {
+        "calls": "Pozivi i poruke",
+        "social": "Društvene mreže ili video",
+        "community": "Moja zajednica ili grupa",
+        "network": "Moja poslovna mreža",
+        "other": "Nešto drugo"
+      },
+      "consent": "Saglasan sam da Car Bot koristi moje podatke da me kontaktira u vezi sa partnerskim programom.",
+      "submit": "Postanite partner",
+      "sending": "Šalje se…",
+      "doneTitle": "Dobrodošli.",
+      "doneText": "Pisaćemo Vam na WhatsApp sa Vašim linkom, Vašim kodom i paketom dobrodošlice.",
+      "continue": "Nastavi →",
+      "waFallback": "Pošalji na WhatsApp"
+    }
+  },
+  "thanks": {
+    "meta": {
+      "title": "Hvala Vam | Car Bot",
+      "description": "Primili smo Vaše podatke. Stvarna osoba iz Car Bota pisaće Vam na WhatsApp."
+    },
+    "title": "Ušli ste. Evo šta sledi.",
+    "titlePartner": "Dobrodošli. Evo šta sledi.",
+    "lead": {
+      "default": "Primili smo Vaše podatke. Stvarna osoba iz Car Bota pisaće Vam na WhatsApp. Držite telefon blizu.",
+      "test": "Primili smo Vaše pretrage. Stvarna osoba iz Car Bota pisaće Vam na WhatsApp. Držite telefon blizu.",
+      "monthly": "Primili smo Vaše podatke za mesečni paket. Stvarna osoba iz Car Bota pisaće Vam na WhatsApp sa linkom za plaćanje. Držite telefon blizu.",
+      "yearly": "Primili smo Vaše podatke za godišnji paket. Stvarna osoba iz Car Bota pisaće Vam na WhatsApp sa linkom za plaćanje. Držite telefon blizu.",
+      "partner": "Primili smo Vašu prijavu. Stvarna osoba iz Car Bota pisaće Vam na WhatsApp sa Vašim linkom, Vašim kodom i paketom dobrodošlice."
+    },
+    "whatsapp": "Pišite nam na WhatsApp",
+    "home": "Nazad na početnu stranicu",
+    "partnerPage": "Nazad na stranicu za partnere",
+    "steps": {
+      "default": [
+        { "title": "Čitamo Vaše podatke", "body": "Proveravamo Vaše pretrage ili paket i pripremamo sve." },
+        {
+          "title": "Dobijate poruku od nas na WhatsApp-u",
+          "body": "Da potvrdimo šta smo primili, odgovorimo na pitanja i dogovorimo sledeći korak sa Vama."
+        },
+        {
+          "title": "Prodavac odgovara, Vi dobijate obaveštenje",
+          "body": "Vi preuzimate razgovor. Bot je već otvorio vrata."
+        }
+      ],
+      "test": [
+        {
+          "title": "Čitamo Vaše pretrage",
+          "body": "Proveravamo Vaše pretrage na mobile.de i pripremamo sve."
+        },
+        {
+          "title": "Dobijate poruku od nas na WhatsApp-u",
+          "body": "Da potvrdimo šta smo primili, odgovorimo na pitanja i dogovorimo sledeći korak sa Vama."
+        },
+        {
+          "title": "Prodavac odgovara, Vi dobijate obaveštenje",
+          "body": "Vi preuzimate razgovor. Bot je već otvorio vrata."
+        }
+      ],
+      "plan": [
+        { "title": "Čitamo Vaše podatke", "body": "Proveravamo Vaš paket i pripremamo sve." },
+        {
+          "title": "Dobijate poruku od nas na WhatsApp-u",
+          "body": "Sa linkom za plaćanje (kartica, bankovni prenos ili faktura) i terminom za razgovor o postavljanju."
+        },
+        {
+          "title": "Vaš bot kreće",
+          "body": "Postavljamo ga za 24 do 48 sati nakon našeg razgovora. Zatim Vaš WhatsApp počinje da zvoni."
+        }
+      ],
+      "partner": [
+        {
+          "title": "Čitamo Vašu prijavu",
+          "body": "Proveravamo Vaše podatke i kako planirate da nalazite trgovce."
+        },
+        {
+          "title": "Dobijate link i kod",
+          "body": "Na WhatsApp-u, zajedno sa paketom dobrodošlice."
+        },
+        {
+          "title": "Predstavljate Car Bot",
+          "body": "Mi radimo postavljanje. Pratimo svaku autokuću koju dovedete, a Vi se isplaćujete mesec za mesecom."
+        }
+      ]
+    },
+    "promo": {
+      "title": "Poznajete druge trgovce kojima bi ovo bilo korisno?",
+      "body": "Pridružite se partnerskom programu i zaradite do 800 € za svaku autokuću koju dovedete.",
+      "button": "Postanite partner"
+    }
+  },
+  "legal": {
+    "updated": "Poslednja izmena: {date}",
+    "privacy": {
+      "metaTitle": "Politika privatnosti | Car Bot",
+      "metaDescription": "Koje lične podatke Car Bot prikuplja, zašto, ko ih obrađuje i kako da nas kontaktirate.",
+      "title": "Politika privatnosti",
+      "intro": "Ova politika objašnjava koje lične podatke {{LEGAL_ENTITY}} („Car Bot“, „mi“) prikuplja na getcarbot.co, zašto ih prikupljamo i koja prava imate.",
+      "sections": [
+        {
+          "title": "Ko smo mi",
+          "body": [
+            "Car Bot vodi {{LEGAL_ENTITY}}, Skoplje, Severna Makedonija.",
+            "Za sve u vezi sa Vašim podacima pišite na {{DPO_EMAIL}}."
+          ]
+        },
+        {
+          "title": "Šta prikupljamo",
+          "body": [
+            "Zahtevi za besplatan test i paket: Vaše ime, prezime, e-pošta, WhatsApp broj, linkovi pretraga sa mobile.de koje nam šaljete, paket koji birate, partnerski kod ili kod za popust ako ga imate, Vaš jezik i vreme zahteva.",
+            "Prijave partnera: Vaše ime, prezime, e-pošta, WhatsApp broj, država i kako planirate da nalazite trgovce.",
+            "Partnerska preporuka: ako dođete preko partnerskog linka, Vaš pregledač čuva kod partnera za tu posetu (memorija sesije, bez kolačića) i dodajemo ga Vašem zahtevu ako ga pošaljete, kako bi se priznao pravom partneru.",
+            "Tehnički podaci: Vaša IP adresa se kratko koristi da se spreči zloupotreba naših formulara (ograničenje broja zahteva). Naša analitika ne koristi kolačiće i ne identifikuje Vas."
+          ]
+        },
+        {
+          "title": "Zašto ih koristimo",
+          "body": [
+            "Da sprovedemo Vaš besplatan test: pokrećemo Vaše pretrage i pišemo prodavcima u Vaše ime.",
+            "Da Vas kontaktiramo na WhatsApp-u i e-poštom u vezi sa testom, paketom, razgovorom o postavljanju i plaćanjem.",
+            "Za partnerski program: da dočekamo partnere, priznamo im autokuće koje dovedu i isplatimo provizije.",
+            "Pravni osnov: Vaša saglasnost (polje koje štiklirate u formularu), koraci pre ugovora koje Vi tražite i naš legitimni interes da sajt bude bezbedan. Saglasnost možete povući u bilo kom trenutku."
+          ]
+        },
+        {
+          "title": "Ko ih obrađuje za nas",
+          "body": [
+            "Resend (slanje e-pošte i liste kontakata), Vercel (hosting i analitika bez kolačića) i, ako je uključen, Upstash (ograničenje broja zahteva). Oni obrađuju podatke samo prema našim uputstvima.",
+            "Neki od ovih pružalaca su van Severne Makedonije i EU. Kada je to slučaj, prenos se zasniva na standardnim ugovornim klauzulama ili ekvivalentnoj zaštiti.",
+            "Nikada ne prodajemo Vaše podatke i nikada ih ne delimo radi oglašavanja."
+          ]
+        },
+        {
+          "title": "Koliko dugo ih čuvamo",
+          "body": [
+            "Zahtevi za besplatan test koji ne postanu klijenti: do 12 meseci nakon poslednjeg kontakta.",
+            "Podaci o klijentima i partnerima: dok traje saradnja, a zatim koliko zahteva računovodstveni zakon.",
+            "Partnerski kod u Vašem pregledaču: dok ne zatvorite karticu."
+          ]
+        },
+        {
+          "title": "Vaša prava",
+          "body": [
+            "Možete zatražiti kopiju svojih podataka, zatražiti da ih ispravimo ili izbrišemo, uložiti prigovor na njihovu upotrebu ili zatražiti da prestanemo. Pišite na {{DPO_EMAIL}} i odgovaramo u roku od 30 dana.",
+            "Možete podneti pritužbu i Agenciji za zaštitu ličnih podataka Severne Makedonije (ili nadležnom organu u Vašoj državi)."
+          ]
+        },
+        {
+          "title": "Kontakt",
+          "body": [
+            "{{LEGAL_ENTITY}} · Skoplje, Severna Makedonija · {{DPO_EMAIL}} · WhatsApp +389 78 662 817"
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "metaTitle": "Uslovi | Car Bot",
+      "metaDescription": "Uslovi korišćenja sajta getcarbot.co, besplatnog testa i usluge Car Bot.",
+      "title": "Uslovi",
+      "intro": "Ovi uslovi važe za getcarbot.co i za uslugu Car Bot koju nudi {{LEGAL_ENTITY}}.",
+      "sections": [
+        {
+          "title": "Usluga",
+          "body": [
+            "Car Bot je upravljana usluga. Postavljamo i vodimo bota koji prati platforme za vozila za vozila koja izaberete i šalje prvu poruku prodavcu. Kada prodavac odgovori, obaveštavamo Vas na WhatsApp-u i Vi preuzimate.",
+            "Mi se ne pogađamo, ne kupujemo, ne plaćamo i ne prevozimo vozila umesto Vas. Cena, plaćanje, papiri i prevoz ostaju kod Vas."
+          ]
+        },
+        {
+          "title": "Besplatan test",
+          "body": [
+            "Besplatan test obuhvata do 3 linka pretrage sa mobile.de. Besplatan je i ne zahteva karticu. Za test mi kontaktiramo prodavce sa našeg naloga, našim rečima, u Vaše ime.",
+            "Možemo odbiti ili prekinuti test u bilo kom trenutku, na primer ako pretraga krši pravila platforme."
+          ]
+        },
+        {
+          "title": "Paketi i plaćanje",
+          "body": [
+            "Mesečni paket: 500 € postavljanje, zatim 250 € mesečno. Možete otkazati bilo kog meseca; već plaćen mesec se ne vraća.",
+            "Godišnji paket: 3.000 € godišnje, postavljanje je uključeno.",
+            "Cene su u evrima. Šaljemo link za plaćanje (kartica), bankovne podatke ili fakturu."
+          ]
+        },
+        {
+          "title": "Fer korišćenje i pravila platformi",
+          "body": [
+            "Bot je napravljen da sledi pravila svake platforme i propise EU o zaštiti podataka. Staje kada platforma zatraži proveru ili verifikaciju.",
+            "Saglasni ste da uslugu koristite iskreno, u svoje pravo ime i samo za kupovinu vozila. Možemo pauzirati bota ako se koristi za spam ili nešto nezakonito."
+          ]
+        },
+        {
+          "title": "Naša odgovornost",
+          "body": [
+            "Činimo sve da bot radi. Platforme menjaju svoje sajtove, pa ne možemo obećati da će svaki oglas biti pronađen ili svaka poruka isporučena. Ako nešto krene naopako, pišite nam: odgovaramo i počinjemo da popravljamo u roku od 24 sata, o našem trošku.",
+            "Nismo odgovorni za poslove koje sklopite ili ne sklopite. Naša ukupna odgovornost ograničena je na naknade koje ste platili u poslednjih 12 meseci, osim ako zakon ne propisuje drugačije."
+          ]
+        },
+        {
+          "title": "Partnerski program",
+          "body": [
+            "Provizije, isplate i pravila za partnere opisani su u paketu dobrodošlice za partnere. Partneri moraju biti iskreni prema trgovcima i ne smeju obećavati rezultate niti izmišljati brojke o zaradi."
+          ]
+        },
+        {
+          "title": "Pravo i kontakt",
+          "body": [
+            "Na ove uslove primenjuje se pravo Severne Makedonije. Nadležni su sudovi u Skoplju, osim ako Vam propisi o zaštiti potrošača ne daju drugu mogućnost.",
+            "Pitanja: {{CONTACT_EMAIL}} ili WhatsApp +389 78 662 817."
+          ]
+        }
+      ]
+    },
+    "cookies": {
+      "metaTitle": "Kolačići | Car Bot",
+      "metaDescription": "Koje kolačiće koristi getcarbot.co i kako da promenite izbor.",
+      "title": "Politika kolačića",
+      "intro": "Kolačiće svodimo na minimum. Nema banera za kolačiće jer ne koristimo kolačiće za koje je potrebna Vaša saglasnost.",
+      "sections": [
+        {
+          "title": "Jedini kolačić koji koristimo",
+          "body": [
+            "NEXT_LOCALE: pamti jezik koji ste izabrali. Potreban je da se sajt otvori na Vašem jeziku i ističe nakon 1 godine."
+          ]
+        },
+        {
+          "title": "Partnerski kod (nije kolačić)",
+          "body": [
+            "Ako dođete preko partnerskog linka, Vaš pregledač čuva kod partnera samo za tu posetu (u memoriji sesije kartice). Šalje nam se samo ako pošaljete formular, kako bi se priznao pravom partneru. Nestaje kada zatvorite karticu."
+          ]
+        },
+        {
+          "title": "Analitika",
+          "body": [
+            "Koristimo Vercel Web Analytics i Speed Insights. Ne koriste kolačiće i ne prate Vas preko drugih sajtova. Bez reklamnih alata i bez alata za praćenje trećih strana."
+          ]
+        },
+        {
+          "title": "Vaš izbor",
+          "body": [
+            "Kolačiće i podatke sajta možete izbrisati u podešavanjima pregledača u bilo kom trenutku. Sajt nastavlja da radi, samo će zaboraviti Vaš jezik."
+          ]
+        }
+      ]
+    }
+  },
+  "emails": {
+    "lead": {
+      "subjectTest": "Primili smo Vaše pretrage · Car Bot",
+      "subjectPlan": "Vaš Car Bot paket: sledeći koraci",
+      "greeting": "Zdravo {name},",
+      "bodyTest": "Primili smo Vaše pretrage i počinjemo. Kada prodavac odgovori, dobićete poruku od nas na WhatsApp-u.",
+      "bodyPlan": "Pisaćemo Vam na WhatsApp sa linkom za plaćanje i terminom za razgovor o postavljanju.",
+      "planMonthly": "Vaš paket: mesečni, 500 € postavljanje, zatim 250 € mesečno.",
+      "planYearly": "Vaš paket: godišnji, 3.000 €, postavljanje je besplatno.",
+      "searches": "Vaše pretrage:",
+      "contact": "Pitanja? Samo odgovorite na ovu poruku ili nam pišite na WhatsApp: {phone}",
+      "signoff": "Tim Car Bota",
+      "footer": "Dobijate ovu poruku jer ste poslali zahtev na getcarbot.co."
+    },
+    "partner": {
+      "subject": "Dobrodošli u Car Bot partnerski program",
+      "greeting": "Zdravo {name},",
+      "body": "Dobrodošli. Pisaćemo Vam na WhatsApp sa Vašim linkom, Vašim kodom i paketom dobrodošlice.",
+      "honesty": "Imamo samo jednu molbu: budite iskreni prema trgovcima. Objasnite šta Car Bot radi, ne obećavajte rezultate i ne izmišljajte brojke o zaradi.",
+      "contact": "Pitanja? Samo odgovorite na ovu poruku ili nam pišite na WhatsApp: {phone}",
+      "signoff": "Tim Car Bota",
+      "footer": "Dobijate ovu poruku jer ste se prijavili za partnerski program na getcarbot.co."
+    }
+  }
+}

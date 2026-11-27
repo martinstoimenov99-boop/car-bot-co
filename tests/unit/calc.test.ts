@@ -55,3 +55,11 @@ describe("formatEuro", () => {
     expect(formatEuro(800, "mk")).toBe("800 €");
   });
 });
+
+describe("formatEuro for Albanian and Serbian", () => {
+  it("uses 3.000 € like Macedonian", () => {
+    expect(formatEuro(3000, "sq")).toBe("3.000 €");
+    expect(formatEuro(12100, "sr")).toBe("12.100 €");
+    expect(formatEuro(-3500, "sq")).toBe("−3.500 €");
+  });
+});

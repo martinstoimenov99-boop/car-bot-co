@@ -1,0 +1,877 @@
+{
+  "common": {
+    "brand": "Car Bot",
+    "skipToContent": "Kalo te përmbajtja",
+    "homeLink": "Car Bot, faqja kryesore",
+    "nav": {
+      "label": "Menuja kryesore",
+      "how": "Si punon boti",
+      "test": "Testi falas",
+      "partners": "Partnerët",
+      "pricing": "Çmimet",
+      "faq": "Pyetje",
+      "whatsapp": "WhatsApp",
+      "whatsappAria": "Na shkruani në WhatsApp",
+      "forDealers": "Për tregtarët",
+      "earn": "Sa fitoni",
+      "calculator": "Kalkulatori",
+      "becomePartner": "Bëhuni partner",
+      "partnerLogin": "Hyrje për partnerët"
+    },
+    "lang": {
+      "label": "Gjuha",
+      "switchTo": "Ndrysho gjuhën në {language}"
+    },
+    "footer": {
+      "city": "Shkup",
+      "becomePartner": "Bëhuni partner",
+      "notAffiliated": "Nuk jemi të lidhur me asnjë platformë të përmendur në këtë faqe.",
+      "backHome": "Kthehu te faqja kryesore",
+      "legalNav": "Informacione ligjore",
+      "privacy": "Privatësia",
+      "terms": "Kushtet",
+      "cookies": "Cookie-t"
+    },
+    "whatsappHello": "Përshëndetje Car Bot",
+    "notFound": {
+      "metaTitle": "Faqja nuk u gjet | Car Bot",
+      "title": "Kjo faqe ka ikur tashmë.",
+      "text": "Lidhja është e vjetër ose e shkruar gabim. Makinat e mira janë ende në faqen kryesore.",
+      "home": "Kthehu te faqja kryesore"
+    },
+    "close": "Mbyll"
+  },
+  "forms": {
+    "fields": {
+      "first": "Emri",
+      "last": "Mbiemri",
+      "email": "Email",
+      "phone": "Numri i WhatsApp, me kodin e shtetit",
+      "country": "Shteti",
+      "honeypot": "Lëreni këtë fushë bosh"
+    },
+    "errors": {
+      "name": "Shkruani emrin dhe mbiemrin.",
+      "email": "Shkruani një email të vlefshëm.",
+      "phone": "Shkruani numrin tuaj të WhatsApp me kodin e shtetit.",
+      "consent": "Shënoni kutinë që të mund t’ju kontaktojmë.",
+      "how": "Na tregoni si planifikoni të gjeni tregtarë.",
+      "network": "Diçka shkoi keq. Provoni përsëri ose na shkruani në WhatsApp.",
+      "rate": "Shumë përpjekje nga kjo lidhje. Prisni pak ose na shkruani në WhatsApp.",
+      "code": "Kontrolloni kodin: vetëm shkronja, numra, - dhe _."
+    },
+    "lead": {
+      "testTitle": "Ku t’i dërgojmë përgjigjet?",
+      "testSub": "Kërkimet tuaja janë gati. Na tregoni kush jeni dhe fillojmë.",
+      "planTitle": "Pothuajse gati. Për kë e konfigurojmë?",
+      "planSubMonthly": "Paketa: mujore, 500 € konfigurim, pastaj 250 € në muaj. Më pas ju dërgojmë lidhjen e pagesës dhe caktojmë telefonatën e konfigurimit.",
+      "planSubYearly": "Paketa: vjetore, 3.000 €, konfigurimi falas. Më pas ju dërgojmë lidhjen e pagesës dhe caktojmë telefonatën e konfigurimit.",
+      "consentTest": "Pranoj që Car Bot t’i përdorë të dhënat dhe lidhjet e mia për këtë test dhe të më kontaktojë rreth tij.",
+      "consentPlan": "Pranoj që Car Bot t’i përdorë të dhënat e mia për të konfiguruar paketën time dhe të më kontaktojë rreth saj.",
+      "codeLabel": "Kodi i partnerit ose i zbritjes (opsional)",
+      "codeDiscount": "10% zbritje në konfigurim dhe në abonimin mujor",
+      "back": "Mbrapa",
+      "submitTest": "Nis testin tim falas",
+      "submitPlan": "Konfirmo paketën time",
+      "sending": "Po dërgohet…",
+      "doneTitleTest": "I morëm kërkimet tuaja.",
+      "doneTitlePlan": "I morëm të dhënat tuaja.",
+      "doneTest": "Po merremi me to. Kur një shitës përgjigjet, do të merrni një mesazh nga ne në WhatsApp. Pastaj ju vendosni nëse e merrni përsipër.",
+      "donePlan": "Në rregull. Do t’ju shkruajmë në WhatsApp me lidhjen e pagesës (kartë, transfertë bankare ose faturë) dhe një orar për telefonatën e konfigurimit.",
+      "continue": "Vazhdo →",
+      "waFallback": "Dërgo në WhatsApp",
+      "waIntroTest": "Përshëndetje, dua testin falas të Car Bot.",
+      "waIntroPlan": "Përshëndetje, dua Car Bot me {plan}.",
+      "waPlanMonthly": "paketën mujore (500 € konfigurim + 250 € në muaj)",
+      "waPlanYearly": "paketën vjetore (3.000 €)",
+      "waName": "Emri",
+      "waEmail": "Email",
+      "waPhone": "Telefoni",
+      "waSearches": "Kërkimet",
+      "waCode": "Kodi"
+    },
+    "partner": {
+      "waIntro": "Përshëndetje, dua të bëhem partner i Car Bot.",
+      "waCountry": "Shteti",
+      "waHow": "Tregtarët do t’i gjej përmes"
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Car Bot | Mesazhi i parë, i dërguar për ju",
+      "description": "Car Bot monitoron 20+ platforma evropiane makinash 24/7 dhe i shkruan i pari shitësit, në gjuhën e tij dhe në emrin tuaj. Provojeni falas me 3 kërkime në mobile.de.",
+      "ogTitle": "Bëhuni blerësi i parë që dëgjon çdo shitës.",
+      "ogSub": "Boti automatik i blerjes për importuesit e makinave"
+    },
+    "hero": {
+      "eyebrow": "Boti automatik i blerjes për importuesit e makinave",
+      "title": "Bëhuni blerësi i parë që dëgjon çdo shitës.",
+      "lead": "Car Bot-i juaj monitoron 20+ platforma makinash në të gjithë Evropën, 24/7. Sapo del një makinë e mirë online, i shkruan shitësit në gjuhën e tij, në emrin tuaj. Shitësi përgjigjet, WhatsApp-i juaj bie, ju merrni vendin.",
+      "ctaPrimary": "Provojeni falas me 3 makina",
+      "ctaSecondary": "Shihni si funksionon",
+      "imageAlt": "Një VW Passat i përdorur i parkuar në një rrugë në Gjermani natën",
+      "stats": [
+        { "value": "20+", "label": "platforma në monitorim" },
+        { "value": "24/7", "label": "pa pushim, pa gjumë" },
+        { "value": "Minuta", "label": "nga shpallja te mesazhi juaj" }
+      ]
+    },
+    "phone": {
+      "label": "Bisedë shembull me Car Bot: gjendet një VW Passat, boti i shkruan shitësit në gjermanisht në emrin tuaj, shitësi përgjigjet dhe ju e telefononi.",
+      "name": "Car Bot",
+      "status": "në linjë",
+      "b1": "Makinë e re · VW Passat B8 2.0 TDI, 2017 · 142.000 km · 9.900 € · publikuar para 1 min",
+      "t1": "Car Bot po shkruan në gjermanisht…",
+      "b2": "Mesazhi iu dërgua shitësit në gjermanisht, në emrin tuaj ✓",
+      "t2": "Shitësi po shkruan…",
+      "b3Label": "Shitësi u përgjigj:",
+      "b3Quote": "“Ja, der Wagen ist noch da. Rufen Sie gerne an.”",
+      "b4": "Jeni i pari në radhë. Numri i shitësit dhe shpallja janë më poshtë. Radha juaj 👇",
+      "b5": "Po e thërras tani 🔥"
+    },
+    "ticker": {
+      "label": "Aktivitet shembull",
+      "srNote": "Shembuj ilustrues të asaj që bën boti, jo të dhëna në kohë reale.",
+      "items": [
+        "VW Passat B8 · München · mesazhi u dërgua për 41 s ✓",
+        "Audi A4 Avant · Wien · u dërgua për 38 s ✓",
+        "Škoda Octavia · Amsterdam · u dërgua për 49 s ✓ (Nederlands)",
+        "Peugeot 3008 · Lyon · u dërgua për 44 s ✓ (Français)",
+        "Fiat 500X · Milano · u dërgua për 36 s ✓ (Italiano)",
+        "Volvo V60 · Göteborg · u dërgua për 52 s ✓ (Svenska)",
+        "BMW 320d · Köln · u dërgua për 40 s ✓"
+      ]
+    },
+    "missing": {
+      "eyebrow": "Çfarë humbisni",
+      "title": "Makinat e mira ikin përpara se t’i shihni.",
+      "p1": "Një Passat i pastër, nga pronar privat, del online në Mynih. Brenda një ore shitësi ka dhjetëra mesazhe. Ai u përgjigjet të parëve, sepse ishin të parët dhe shkruan në gjermanisht të rrjedhshme.",
+      "p2": "Ju ishit me një klient. Ose ktheheshit nga Gjermania me një makinë në rimorkio. Ose flinit. Njoftimin e patë dy orë më vonë, dhe dikush tjetër po e çon tashmë makinën tuaj drejt jugut.",
+      "p3": "Njoftimet nuk blejnë makina. Mesazhi i parë blen.",
+      "imageAlt": "Tregtar makinash i zënë me një klient ndërsa telefoni i dridhet në xhep"
+    },
+    "morning": {
+      "eyebrow": "Si punon boti",
+      "title": "Një mëngjes me botin tuaj.",
+      "lead": "Nga shpallja te telefonata juaj e parë për më pak se 30 minuta. Kronologji shembull.",
+      "cards": [
+        {
+          "time": "07:02",
+          "title": "Del online një makinë e mirë",
+          "body": "Boti e sheh në një nga 20+ platformat në Gjermani, Austri, Holandë, Belgjikë, Francë ose Itali, ose në Facebook Marketplace."
+        },
+        {
+          "time": "07:03",
+          "title": "Shitësi merr mesazhin tuaj",
+          "quote": "„Guten Tag, Ihr Passat mit Scheckheft gefällt mir sehr. Ist er noch verfügbar? Gerne würde ich Sie kurz anrufen. Viele Grüße, Marko“",
+          "quoteLang": "de",
+          "body": "Në gjuhën e vetë shitësit (gjermanisht, holandisht, frëngjisht, italisht, suedisht e të tjera), në emrin tuaj, me edukatë dhe personal. Asnjëherë i njëjti tekst robotik dy herë."
+        },
+        {
+          "time": "07:26",
+          "title": "Shitësi ju përgjigjet juve i pari",
+          "quote": "🔔 Car Bot: Shitësi u përgjigj për Passat-in tuaj. Numri dhe shpallja janë brenda.",
+          "body": "WhatsApp-i juaj bie sapo vjen një përgjigje e vërtetë. Pa zhurmë, pa njoftime të pafundme."
+        },
+        {
+          "time": "07:27",
+          "title": "Ju merrni përsipër",
+          "body": "Kafe në njërën dorë, telefoni në tjetrën. Telefononi, merreni vesh për çmimin dhe planifikoni marrjen. Boti ju hapi tashmë derën."
+        }
+      ]
+    },
+    "freeTest": {
+      "eyebrow": "Test falas",
+      "title": "Provojeni me 3 makina. Falas.",
+      "lead": "Hapni mobile.de dhe vendosni filtrat siç bëni çdo ditë. Kopjoni lidhjen dhe ngjiteni më poshtë, një lidhje për rresht. Ne i ekzekutojmë kërkimet tek ne, u shkruajmë shitësve në gjuhën e tyre dhe ju dërgojmë një mesazh në WhatsApp sapo dikush përgjigjet. Ju vendosni nëse e merrni përsipër.",
+      "botName": "Car Bot",
+      "prompt": "Ngjitni këtu kërkimet tuaja nga mobile.de. Një lidhje për rresht, deri në 3. Për këtë test falas vetëm mobile.de.",
+      "inputLabel": "Lidhjet e kërkimeve tuaja në mobile.de, një për rresht",
+      "placeholder": "https://suchen.mobile.de/fahrzeuge/search.html?...\nhttps://suchen.mobile.de/fahrzeuge/search.html?...",
+      "count": "{count} nga 3 kërkime",
+      "submit": "Gjej makinat e mia të para",
+      "smallPrint": "Për testin falas ne kontaktojmë shitësit nga llogaria jonë, me fjalët tona, në emrin tuaj. Në botin tuaj me pagesë, çdo mesazh dërgohet në emrin tuaj.",
+      "errors": {
+        "empty": "Ngjitni të paktën një lidhje kërkimi nga mobile.de.",
+        "tooMany": "Deri në 3 kërkime për testin falas. Hiqni një rresht.",
+        "notMobile": "Për momentin vetëm lidhje nga mobile.de. Një lidhje për rresht."
+      }
+    },
+    "everyDay": {
+      "title": "Çfarë bën boti juaj çdo ditë",
+      "imageAlt": "Telefoni ndizet mbi komodinë ndërsa pronari fle",
+      "items": [
+        {
+          "title": "Monitoron 20+ platforma, 24/7.",
+          "body": "mobile.de, AutoScout24, Kleinanzeigen, Marktplaats, leboncoin, Subito, Facebook Marketplace e të tjera."
+        },
+        {
+          "title": "Dërgon mesazhin e parë në emrin tuaj.",
+          "body": "Në gjermanisht, holandisht, frëngjisht, italisht, suedisht ose çdo gjuhë tjetër të BE-së, i shkruar posaçërisht për çdo makinë."
+        },
+        {
+          "title": "Ju njofton në WhatsApp ose Telegram",
+          "body": "kur shitësi përgjigjet, me numrin dhe shpalljen."
+        },
+        {
+          "title": "Anashkalon çdo gjë të padobishme.",
+          "body": "Tregtarët, makinat e dëmtuara (përveç nëse i doni), shitësit që nuk duan oferta dhe makinat ku ka shkruar tashmë."
+        },
+        {
+          "title": "Kontroll i shpejtë i çmimit",
+          "body": "për çdo makinë, që të dini nëse ia vlen telefonata."
+        }
+      ]
+    },
+    "door": {
+      "title": "Boti hap derën. Ju e mbyllni marrëveshjen.",
+      "lead": "Pjesa e mërzitshme dhe e ngadaltë automatizohet: kërkimi, përkthimi, shkrimi, të qenit i pari. Ju mbani pjesën që sjell para.",
+      "imageAlt": "Blerës duke shtrënguar duart me një shitës gjerman pranë një Mercedesi",
+      "tasks": ["Bisedoni me shitësin", "Negocioni çmimin", "Shihni makinën", "E sillni në shtëpi"]
+    },
+    "start": {
+      "eyebrow": "Si fillojmë",
+      "title": "Nga biseda e parë te mesazhi i parë për 48 orë.",
+      "lead": "Pa njohuri teknike, pa telefonata shitjeje të ngacmuese. Bisedojmë, ju vendosni, ne ndërtojmë.",
+      "steps": [
+        {
+          "title": "Një telefonatë e shkurtër",
+          "body": "Shohim si blini: cilat makina, nga cilat vende, cilat mjete i përdorni tashmë. Ju shpjegojmë çfarë mund të bëjmë dhe ju zgjidhni çfarë ka kuptim. Pa shtypje."
+        },
+        {
+          "title": "Ju miratoni qasjet",
+          "body": "Disa miratime që boti të mund të punojë. Ju themi saktësisht çfarë na duhet dhe pse, asgjë më shumë."
+        },
+        {
+          "title": "E konfigurojmë për 24 deri në 48 orë",
+          "body": "Në kompjuterin tuaj, në cloud-in tonë ose në serverët tanë. Vendosim bashkë gjatë telefonatës."
+        },
+        {
+          "title": "Rregullat tuaja, të ndërtuara brenda",
+          "body": "Kërkimet e para, filtrat, kufijtë e çmimit, llogaritja e marzhës dhe cilët shitës të anashkalohen. Pastaj boti niset dhe WhatsApp-i juaj fillon të bjerë."
+        }
+      ]
+    },
+    "noTech": {
+      "eyebrow": "Pa teknikë nga ana juaj",
+      "title": "Ne e ndërtojmë, e menaxhojmë dhe e paguajmë.",
+      "imageAlt": "Tregtar duke buzëqeshur gjatë një telefonate në oborrin e makinave në perëndim të diellit",
+      "items": [
+        "E konfigurojmë botin tuaj në kompjuterin tuaj ose në cloud-in tonë",
+        "Ju tregojmë si ta përdorni, në gjuhën tuaj",
+        "E mirëmbajmë dhe e rregullojmë nëse prishet diçka",
+        "Të gjitha mjetet dhe kostot e funksionimit janë tonat",
+        "Pa tarifa të fshehura, pa kontrata për t’u lexuar, pa teknikë"
+      ]
+    },
+    "payFor": {
+      "eyebrow": "Për çfarë paguani",
+      "title": "Abonimi juaj mujor është një ekip i tërë që punon në sfond.",
+      "lead": "Disa ndihmës AI dhe një njeri i vërtetë punojnë për ju. Ju paguani një çmim. Ne paguajmë gjithçka që qëndron pas tij.",
+      "cards": [
+        {
+          "title": "🧠 Truri AI",
+          "body": "Modelet AI që lexojnë çdo shpallje, vlerësojnë makinën dhe shkruajnë mesazhin në gjuhën e shitësit. Faturat e tyre janë tonat."
+        },
+        {
+          "title": "⚡ Dërguesi automatik",
+          "body": "Automatizimi që e dërgon mesazhin, me pauza si një njeri i vërtetë, gjithë ditën e natën."
+        },
+        {
+          "title": "🔎 Kërkime dhe regjistrime",
+          "body": "Kërkimet tuaja punojnë vazhdimisht në çdo platformë dhe ne kujdesemi për llogaritë dhe regjistrimet në secilën."
+        },
+        {
+          "title": "💬 Një njeri i vërtetë në WhatsApp",
+          "body": "Një pyetje, një ndryshim, një mesazh i çuditshëm? Na shkruani. Ju përgjigjet një njeri."
+        },
+        {
+          "title": "🛠 Riparime kur prishet diçka",
+          "body": "Platformat i ndryshojnë faqet vazhdimisht. Kur diçka ndalon së punuari, e rregullojmë ne."
+        },
+        {
+          "title": "🔄 Përditësime falas",
+          "body": "Mjete të reja, modele të reja AI, platforma të reja: e përmirësojmë botin tuaj dhe nuk ju kushton asgjë më shumë."
+        }
+      ]
+    },
+    "roi": {
+      "eyebrow": "Bëjini llogaritë",
+      "title": "Një makinë më shumë në muaj e paguan të gjithë botin.",
+      "lead": "Lëvizni rrëshqitësit dhe shihni sa vlejnë makinat që sot i humbisni.",
+      "extraLabel": "Makina shtesë që fitoni në muaj",
+      "extraValue": "{count, plural, =0 {0 makina} one {# makinë / muaj} other {# makina / muaj}}",
+      "extraHint": "Makina që sot i humbisni sepse dikush tjetër ka shkruar i pari.",
+      "marginLabel": "Fitimi juaj për makinë",
+      "marginHint": "Makinat e përdorura zakonisht lënë 1.200 € deri 2.000 €. Përdorni numrin tuaj.",
+      "planLabel": "Paketa juaj",
+      "planYearly": "Vjetore 3.000 €",
+      "planMonthly": "Mujore 500 € + 250 €",
+      "gain": "Fitim shtesë në vit",
+      "cost": "Boti juaj, viti i parë",
+      "net": "Ju mbetet në xhep",
+      "payback": "Gjithë viti i parë mbulohet nga {cars, plural, one {# makinë shtesë} other {# makina shtesë}} me fitim {margin} për secilën.",
+      "months": "Një makinë shtesë paguan rreth {months, plural, one {# muaj} other {# muaj}} të abonimit mujor.",
+      "disclaimer": "Shembull, jo premtim. Rezultatet e vërteta varen nga makinat që blini, çmimet që negocioni dhe sa shpejt e mbyllni."
+    },
+    "pricing": {
+      "title": "Një çmim. Gjithçka e përfshirë.",
+      "lead": "Një makinë që do ta humbisnit paguan muaj të tërë të botit tuaj.",
+      "setupLabel": "Pagesë mujore · konfigurimi, një herë",
+      "setupPrice": "500 €",
+      "setupBody": "Boti juaj i ndërtuar sipas makinave që blini, llogaritë e lidhura, i testuar dhe i dorëzuar.",
+      "monthlyLabel": "Pastaj, çdo muaj",
+      "monthlyPrice": "250 €",
+      "perMonth": " / muaj",
+      "monthlyBody": "Monitorim 24/7, mesazhet e para, njoftime në WhatsApp, mirëmbajtje, të gjitha mjetet dhe një njeri i vërtetë në WhatsApp. Anulojeni çdo muaj.",
+      "chooseMonthly": "Zgjidh mujoren: 500 € + 250 € / muaj",
+      "yearlyLabel": "Pagesë vjetore: konfigurimi falas, 2 muaj nga ne",
+      "yearlyPrice": "3.000 €",
+      "perYear": " / vit",
+      "yearlyBody": "Me pagesë mujore, viti i parë kushton 3.500 €. Me pagesë vjetore është 3.000 €, pa asgjë tjetër për të paguar.",
+      "chooseYearly": "Zgjidh vjetoren",
+      "note": "Kartë, transfertë bankare ose faturë · Çmimet në euro · Për importuesit në Maqedoninë e Veriut, Serbi, Kosovë, Shqipëri, Bosnjë dhe Hercegovinë, Mal të Zi, Kroaci, Slloveni dhe Bullgari"
+    },
+    "safety": {
+      "eyebrow": "E sigurt, e pastër dhe në llogari tonë",
+      "title": "Boti juaj shkruan si një blerës i sjellshëm, jo si një makinë spami.",
+      "lead": "Disa mesazhe në ditë, me pauza, një për makinë, asnjëherë i njëjti tekst dy herë dhe asnjëherë në mes të natës sipas orës së shitësit. Emër i vërtetë, fjalë të ndershme, pa dredhi.",
+      "cards": [
+        {
+          "title": "Rregullat respektohen",
+          "body": "Ndërtuar të ndjekë rregullat e secilës platformë dhe mbrojtjen e të dhënave në BE (GDPR). Të dhënat tuaja i përdorim vetëm për të drejtuar botin tuaj."
+        },
+        {
+          "title": "Ndalon kur duhet",
+          "body": "Nëse një platformë kërkon një kontroll ose verifikim, boti ndalon dhe ju njofton. Nuk shtyn kurrë me forcë."
+        },
+        {
+          "title": "Ju keni kontrollin",
+          "body": "Shkruani “stop” në WhatsApp dhe ndalon. Mund të miratoni edhe çdo mesazh para se të dërgohet."
+        },
+        {
+          "title": "Nëse shkon keq diçka, është në ngarkesë tonë",
+          "body": "Një mesazh i gabuar, një ankesë nga shitësi, spam, përgjigje që nuk ju arrijnë: na shkruani. Përgjigjemi dhe fillojmë ta rregullojmë brenda 24 orësh, në shpenzimin tonë."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Makina juaj e radhës del online sonte. Boti juaj do të jetë i pari.",
+      "lead": "Na shkruani në WhatsApp. Do t’ju tregojmë si funksionon dhe do ta vëmë në punë botin tuaj.",
+      "button": "Na shkruani në WhatsApp",
+      "waText": "Dua Car Bot-in tim",
+      "imageAlt": "Kamion transportues me makina të përdorura në autostradë në agim"
+    }
+  },
+  "faq": {
+    "home": {
+      "title": "Pyetje",
+      "items": [
+        {
+          "q": "Me kë mendon shitësi se po flet?",
+          "a": "Me ju. Mesazhi dërgohet në emrin tuaj, nga llogaria juaj. Kur ai përgjigjet, ju jeni ai që telefonon."
+        },
+        {
+          "q": "Nuk flas gjermanisht, holandisht apo italisht. A është problem?",
+          "a": "Jo. Mesazhi i parë dërgohet në gjuhën e vetë shitësit. Pas kësaj shumica e shitësve janë të kënaqur me një telefonatë, anglishte të thjeshtë ose një përkthyes."
+        },
+        {
+          "q": "A duhet të jem i mirë me kompjuterat?",
+          "a": "Jo. Ne e konfigurojmë gjithçka. Ju përdorni vetëm WhatsApp, si tani."
+        },
+        {
+          "q": "Mund t’i kontrolloj mesazhet para se të dërgohen?",
+          "a": "Po. Plotësisht automatik ose me një prekje në WhatsApp për të miratuar çdo makinë. Zgjedhja është e juaja, në çdo kohë."
+        },
+        {
+          "q": "A negocioni ose blini për mua?",
+          "a": "Jo. Boti ju sjell bisedën e parë. Çmimi, pagesa, dokumentet dhe transporti mbeten tek ju."
+        },
+        {
+          "q": "Cilat makina mund t’i kërkojë?",
+          "a": "Çdo markë dhe model që blini, me vitet, kilometrat dhe buxhetin tuaj. Edhe makina të dëmtuara, nëse ky është biznesi juaj."
+        },
+        {
+          "q": "Pse 250 € në muaj? Njoftimet kushtojnë 30 €.",
+          "a": "Një njoftim ju tregon për një makinë. Nuk i shkruan shitësit, nuk shkruan në gjuhën e shitësit dhe nuk punon në 7 të mëngjesit ndërsa ju flini. Abonimi juaj paguan AI-n, dërguesin, mirëmbajtjen dhe një njeri të vërtetë. Një makinë shtesë në muaj e kthen shumëfish."
+        },
+        {
+          "q": "A është vërtet AI?",
+          "a": "Po. Disa ndihmës AI punojnë në sfond: njëri lexon shpalljet, njëri kontrollon makinën sipas rregullave tuaja, njëri shkruan mesazhin në gjuhën e shitësit. Automatizimi e dërgon. Ne mbikëqyrim gjithçka."
+        },
+        {
+          "q": "A do të mendojnë shitësit se është spam?",
+          "a": "Jo. Një mesazh i sjellshëm, personal për çdo makinë, në gjermanisht të rrjedhshme, asnjëherë i njëjti tekst dy herë. Duket si një blerës serioz, sepse pas tij ka një të tillë: ju."
+        },
+        {
+          "q": "A është ligjore dhe e sigurt?",
+          "a": "Është ndërtuar të ndjekë rregullat e platformave dhe mbrojtjen e të dhënave në BE. Mesazhet janë të ndershme dhe në emrin tuaj të vërtetë, dhe boti ndalon nëse një platformë kërkon kontroll. Nëse shkon keq diçka, e rregullojmë në shpenzimin tonë. Më shumë te seksioni i sigurisë më sipër."
+        },
+        {
+          "q": "Çfarë nëse prishet diçka, ose nuk marr mesazhe?",
+          "a": "Na shkruani në WhatsApp. Përgjigjemi dhe fillojmë riparimin brenda 24 orësh, në shpenzimin tonë."
+        },
+        {
+          "q": "Sa shpejt konfigurohet dhe ku punon?",
+          "a": "24 deri në 48 orë pas telefonatës sonë. Në kompjuterin tuaj, në cloud-in tonë ose në serverët tanë, si të vendosim bashkë. Ju nuk e prekni kurrë teknikën."
+        },
+        {
+          "q": "Çfarë ndodh në testin falas?",
+          "a": "Dërgoni deri në 3 kërkime nga mobile.de. Ne i ekzekutojmë tek ne dhe u shkruajmë shitësve nga llogaria jonë. Nëse një shitës përgjigjet, merrni një mesazh nga ne në WhatsApp dhe ju vendosni nëse e merrni përsipër. Pa kartë, pa detyrime."
+        },
+        {
+          "q": "A merrni përqindje nga marrëveshjet e mia?",
+          "a": "Kurrë. Çmimi është fiks. Çdo euro fitim mbetet tek ju."
+        },
+        {
+          "q": "Mund ta anuloj? Mund të përdor Telegram?",
+          "a": "Paketa mujore: anuloni çdo muaj. Paketa vjetore: keni paguar 12 muaj, me konfigurim falas. Fillojmë me WhatsApp dhe mund të konfigurojmë edhe Telegram."
+        }
+      ]
+    },
+    "partners": {
+      "title": "Pyetje për partnerët",
+      "items": [
+        {
+          "q": "A është ky një program afilimi?",
+          "a": "Po, funksionon si i tillë: lidhja juaj e gjurmimit, një kod zbritjeje dhe komision për çdo autosallon që sillni. Ju quajmë partner sepse merrni mbështetje të vërtetë dhe bashkëpunim afatgjatë, jo vetëm një lidhje."
+        },
+        {
+          "q": "A më duhet njohuri teknike?",
+          "a": "Asnjë. Nuk konfiguroni asgjë dhe nuk rregulloni asgjë. Ne bëjmë konfigurimin e plotë, menaxhojmë botin dhe zgjidhim çdo problem."
+        },
+        {
+          "q": "Kë mund të sjell?",
+          "a": "Tregtarë dhe importues makinash që blejnë makina të përdorura në Evropë, nga çdo vend i Ballkanit ose i Evropës. Ata mund të flasin me ju në gjuhën e tyre."
+        },
+        {
+          "q": "Sa gjatë fitoj nga një autosallon?",
+          "a": "150 € në regjistrim, pastaj 50 € çdo muaj që paguan autosalloni, deri në 12 muaj, plus një bonus 50 € kur ata janë ende me ne në muajin e 6-të. Kjo është deri në 800 €."
+        },
+        {
+          "q": "Çfarë nëse autosalloni anulon?",
+          "a": "Komisioni mujor ndalon kur ata ndalojnë së paguari. Ndaj ndihmon një telefonatë miqësore nga ana juaj: tregtarët e kënaqur mbeten."
+        },
+        {
+          "q": "A jam përgjegjës nëse shkon keq diçka?",
+          "a": "Jo. Konfigurimi, riparimet, mbështetja dhe çdo pyetje teknike janë tonat. Nëse një tregtar ka problem, ia kaloni neve."
+        },
+        {
+          "q": "Si paguhem?",
+          "a": "Pjesa juaj e konfigurimit prej 150 € paguhet brenda 7 ditëve pasi marrim pagesën e autosallonit. Komisionet mujore prej 50 € paguhen më 1 të muajit pasardhës, si një total për muajin e kaluar. Bonusi i besnikërisë prej 50 € paguhet me pagesën mujore të radhës pasi autosalloni arrin muajin e 6-të. Nëse autosalloni juaj merr paketën vjetore, merrni 800 € fikse brenda 7 ditëve pasi marrim pagesën e tyre."
+        }
+      ]
+    }
+  },
+  "partners": {
+    "meta": {
+      "title": "Car Bot Partnerët | Fitoni 800 € për autosallon",
+      "description": "Prezantoni importuesit dhe tregtarët e makinave me Car Bot. Ne e konfigurojmë, e menaxhojmë dhe e rregullojmë. Ju fitoni 150 € për konfigurim dhe 50 € çdo muaj, deri në 800 € për autosallon në vitin e parë.",
+      "ogTitle": "Sillni tregtarët. Ne bëjmë gjithçka tjetër.",
+      "ogSub": "Programi i partnerëve të Car Bot · deri në 800 € për autosallon"
+    },
+    "hero": {
+      "eyebrow": "Programi i partnerëve të Car Bot",
+      "title": "Sillni tregtarët. Ne bëjmë gjithçka tjetër. Fitoni deri në 800 € për autosallon.",
+      "lead": "Njihni importues ose tregtarë që blejnë makina në Evropë? Prezantojini me Car Bot. Ne e konfigurojmë, e menaxhojmë dhe e rregullojmë. Ju mbeteni pika e tyre miqësore e kontaktit dhe fitoni çdo muaj sa kohë ata qëndrojnë. Po, është një program afilimi, vetëm me mbështetje të vërtetë pas tij.",
+      "ctaPrimary": "Bëhuni partner",
+      "ctaSecondary": "Llogaritni fitimet tuaja",
+      "stats": [
+        { "value": "150 €", "label": "për konfigurim" },
+        { "value": "50 €", "label": "çdo muaj, deri në 12 muaj" },
+        { "value": "0 €", "label": "punë teknike për ju" }
+      ]
+    },
+    "earn": {
+      "eyebrow": "Sa fitoni",
+      "title": "Një autosallon mund t’ju sjellë 800 € në vitin e parë.",
+      "lead": "Fitoni sa kohë autosalloni vazhdon të paguajë. Sa më gjatë i mbani të kënaqur, aq më shumë fitoni.",
+      "cards": [
+        {
+          "value": "150 €",
+          "title": "Pjesa e konfigurimit",
+          "body": "30% e tarifës së konfigurimit prej 500 €, paguar brenda 7 ditëve pasi marrim pagesën e autosallonit tuaj."
+        },
+        {
+          "value": "50 €",
+          "suffix": " / muaj",
+          "title": "Të ardhura mujore",
+          "body": "20% e abonimit prej 250 €, çdo muaj që autosalloni paguan, deri në 12 muaj. Kjo janë 600 € në vit. Paguhet më 1 të muajit pasardhës."
+        },
+        {
+          "value": "50 €",
+          "title": "Bonus besnikërie",
+          "body": "Shtesë kur autosalloni juaj është ende me ne pas 6 muajsh. Paguhet me pagesën tuaj mujore."
+        },
+        {
+          "value": "800 €",
+          "title": "Për autosallon, viti i parë",
+          "body": "150 € + 600 € + 50 €. Sillni tre autosalone dhe janë 2.400 €."
+        }
+      ],
+      "note": "Pjesa juaj e konfigurimit prej 150 € (ose 800 € fikse në paketën vjetore) paguhet brenda 7 ditëve pasi marrim pagesën e autosallonit. Komisionet mujore paguhen më 1 të muajit pasardhës, si një total për muajin e kaluar, për sa kohë autosalloni është klient aktiv që paguan. Autosalloni juaj merr 10% zbritje në konfigurim dhe në abonimin mujor me kodin tuaj, dhe kjo zbritje nuk zbritet kurrë nga komisioni juaj."
+    },
+    "split": {
+      "title": "Ju bëni prezantimin. Ne mbajmë peshën.",
+      "lead": "Asgjë teknike, asgjë për të konfiguruar, asgjë për të rregulluar. Nëse prishet diçka, është e jona për ta zgjidhur, kurrë e juaja.",
+      "yourTitle": "Pjesa juaj",
+      "yourItems": [
+        "Gjeni autosalone dhe importues: telefonata, mesazhe, postime në rrjete sociale, video, komuniteti juaj",
+        "U flisni për Car Bot në gjuhën tuaj",
+        "Bashkohuni në një telefonatë nëse ndihmon t’i bindni",
+        "Mbani marrëdhënie të mira me ta, që të mbeten të motivuar",
+        "Çdo pyetje mbështetjeje ia përcillni drejtpërdrejt neve"
+      ],
+      "ourTitle": "Pjesa jonë",
+      "ourItems": [
+        "Konfigurimi i plotë dhe e gjithë puna teknike",
+        "Platforma, AI dhe çdo mjet, të paguara nga ne",
+        "Besueshmëria, riparimet dhe përditësimet",
+        "Mbështetje për autosallonin tuaj, në një bisedë të vërtetë në WhatsApp",
+        "Faturimi, përgatitja dhe mbajtja e tyre të kënaqur"
+      ]
+    },
+    "how": {
+      "eyebrow": "Si funksionon",
+      "title": "Regjistrohuni, ndani lidhjen, paguheni.",
+      "steps": [
+        {
+          "title": "Regjistrohuni për një minutë",
+          "body": "Na tregoni kush jeni dhe si do të gjeni tregtarë. Ne konfirmojmë dhe ju mirëpresim."
+        },
+        {
+          "title": "Merrni lidhjen dhe kodin",
+          "body": "Ju dërgojmë lidhjen tuaj të gjurmimit dhe një kod zbritjeje 10% për tregtarët tuaj."
+        },
+        {
+          "title": "Prezantoni Car Bot",
+          "body": "Telefononi, shkruani, postoni një video ose ndajeni në komunitetin tuaj. Tregtarët mund të regjistrohen nga çdo vend i Ballkanit ose i Evropës, në gjuhën e tyre."
+        },
+        {
+          "title": "Ata nënshkruajnë, ju fitoni",
+          "body": "Ne bëjmë konfigurimin. Ne gjurmojmë çdo autosallon që sillni dhe ju paguheni muaj pas muaji."
+        }
+      ]
+    },
+    "calc": {
+      "eyebrow": "Bëjini llogaritë",
+      "title": "Sa mund të fitoni këtë vit?",
+      "lead": "Zgjidhni sa autosalone regjistroni çdo muaj. Kjo numëron 12 muajt tuaj të parë, me çdo autosallon që qëndron të paktën 6 muaj.",
+      "clientsLabel": "Autosalone që regjistroni në muaj",
+      "clientsValue": "{count, plural, one {# autosallon} other {# autosalone}}",
+      "total": "Kjo janë <b>{count} autosalone</b> deri në fund të vitit. Secili ju sjell 150 € paraprakisht, 50 € çdo muaj dhe një bonus 50 € në muajin e 6-të.",
+      "perDealer": "Për autosallon, në 12 muajt e parë: <b>800 €</b> (150 € + 600 € + 50 €)",
+      "yearTotal": "Fitoni në 12 muajt tuaj të parë",
+      "monthlyAt12": "Të ardhura mujore deri në muajin e 12",
+      "perMonth": " / muaj",
+      "disclaimer": "Shembull, jo premtim. Fitimet tuaja varen nga sa autosalone sillni dhe sa gjatë qëndrojnë si klientë që paguajnë."
+    },
+    "kit": {
+      "title": "Gjithçka që ju duhet për ta shitur, nga ne.",
+      "lead": "Nuk jeni kurrë vetëm. Ju mbështesim gjatë gjithë vitit.",
+      "cards": [
+        {
+          "title": "🔗 Lidhja dhe kodi juaj",
+          "body": "Çdo regjistrim gjurmohet te ju. Tregtarët tuaj marrin 10% zbritje me kodin tuaj."
+        },
+        {
+          "title": "📊 Gjurmim i qartë",
+          "body": "Ne gjurmojmë çdo autosallon që sillni, që të dini gjithmonë ku qëndroni."
+        },
+        {
+          "title": "🎁 Paketa e mirëseardhjes",
+          "body": "Përgatitje, këshilla dhe mesazhe të gatshme, që të nisni shpejt."
+        },
+        {
+          "title": "🎬 Materiale",
+          "body": "Material prezantimi, shembuj dhe ide përmbajtjeje për telefonata, biseda dhe postime."
+        },
+        {
+          "title": "🤝 Mbështetje në telefonata",
+          "body": "Një tregtar dëshiron detaje? Bashkohemi në telefonatë dhe shpjegojmë pjesën tjetër."
+        },
+        {
+          "title": "💬 Mbështetje, gjithë vitin",
+          "body": "Pyetje për programin ose për një klient? Na shkruani. Ju përgjigjet një njeri i vërtetë."
+        }
+      ],
+      "honesty": "Kërkesa jonë e vetme: jini të ndershëm me tregtarët. Shpjegoni çfarë bën Car Bot, mos premtoni rezultate dhe mos shpikni shifra fitimesh. Kjo e mban të pastër emrin tuaj, dhe tonin."
+    },
+    "apply": {
+      "title": "Bëhuni partner i Car Bot.",
+      "lead": "Zgjat një minutë. Do t’ju shkruajmë në WhatsApp me lidhjen tuaj, kodin tuaj dhe paketën e mirëseardhjes.",
+      "howLabel": "Si do të gjeni tregtarë?",
+      "how": {
+        "calls": "Telefonata dhe mesazhe",
+        "social": "Rrjete sociale ose video",
+        "community": "Komuniteti ose grupi im",
+        "network": "Rrjeti im i biznesit",
+        "other": "Diçka tjetër"
+      },
+      "consent": "Pranoj që Car Bot t’i përdorë të dhënat e mia për të më kontaktuar rreth programit të partnerëve.",
+      "submit": "Bëhuni partner",
+      "sending": "Po dërgohet…",
+      "doneTitle": "Mirë se vini.",
+      "doneText": "Do t’ju shkruajmë në WhatsApp me lidhjen tuaj, kodin tuaj dhe paketën e mirëseardhjes.",
+      "continue": "Vazhdo →",
+      "waFallback": "Dërgo në WhatsApp"
+    }
+  },
+  "thanks": {
+    "meta": {
+      "title": "Faleminderit | Car Bot",
+      "description": "I morëm të dhënat tuaja. Një njeri i vërtetë nga Car Bot do t’ju shkruajë në WhatsApp."
+    },
+    "title": "Jeni brenda. Ja çfarë ndodh më pas.",
+    "titlePartner": "Mirë se vini. Ja çfarë ndodh më pas.",
+    "lead": {
+      "default": "I morëm të dhënat tuaja. Një njeri i vërtetë nga Car Bot do t’ju shkruajë në WhatsApp. Mbajeni telefonin afër.",
+      "test": "I morëm kërkimet tuaja. Një njeri i vërtetë nga Car Bot do t’ju shkruajë në WhatsApp. Mbajeni telefonin afër.",
+      "monthly": "I morëm të dhënat tuaja për paketën mujore. Një njeri i vërtetë nga Car Bot do t’ju shkruajë në WhatsApp me lidhjen e pagesës. Mbajeni telefonin afër.",
+      "yearly": "I morëm të dhënat tuaja për paketën vjetore. Një njeri i vërtetë nga Car Bot do t’ju shkruajë në WhatsApp me lidhjen e pagesës. Mbajeni telefonin afër.",
+      "partner": "E morëm aplikimin tuaj. Një njeri i vërtetë nga Car Bot do t’ju shkruajë në WhatsApp me lidhjen tuaj, kodin tuaj dhe paketën e mirëseardhjes."
+    },
+    "whatsapp": "Na shkruani në WhatsApp",
+    "home": "Kthehu te faqja kryesore",
+    "partnerPage": "Kthehu te faqja e partnerëve",
+    "steps": {
+      "default": [
+        {
+          "title": "I lexojmë të dhënat tuaja",
+          "body": "Kontrollojmë kërkimet ose paketën tuaj dhe përgatisim gjithçka."
+        },
+        {
+          "title": "Merrni një mesazh nga ne në WhatsApp",
+          "body": "Për të konfirmuar çfarë morëm, për t’iu përgjigjur pyetjeve dhe për të rënë dakord për hapin e radhës."
+        },
+        {
+          "title": "Një shitës përgjigjet, ju njoftoheni",
+          "body": "Ju merrni përsipër bisedën. Boti e ka hapur tashmë derën."
+        }
+      ],
+      "test": [
+        {
+          "title": "I lexojmë kërkimet tuaja",
+          "body": "Kontrollojmë kërkimet tuaja në mobile.de dhe përgatisim gjithçka."
+        },
+        {
+          "title": "Merrni një mesazh nga ne në WhatsApp",
+          "body": "Për të konfirmuar çfarë morëm, për t’iu përgjigjur pyetjeve dhe për të rënë dakord për hapin e radhës."
+        },
+        {
+          "title": "Një shitës përgjigjet, ju njoftoheni",
+          "body": "Ju merrni përsipër bisedën. Boti e ka hapur tashmë derën."
+        }
+      ],
+      "plan": [
+        {
+          "title": "I lexojmë të dhënat tuaja",
+          "body": "Kontrollojmë paketën tuaj dhe përgatisim gjithçka."
+        },
+        {
+          "title": "Merrni një mesazh nga ne në WhatsApp",
+          "body": "Me lidhjen e pagesës (kartë, transfertë bankare ose faturë) dhe një orar për telefonatën e konfigurimit."
+        },
+        {
+          "title": "Boti juaj niset",
+          "body": "E konfigurojmë për 24 deri në 48 orë pas telefonatës sonë. Pastaj WhatsApp-i juaj fillon të bjerë."
+        }
+      ],
+      "partner": [
+        {
+          "title": "E lexojmë aplikimin tuaj",
+          "body": "Kontrollojmë të dhënat tuaja dhe si planifikoni të gjeni tregtarë."
+        },
+        {
+          "title": "Merrni lidhjen dhe kodin",
+          "body": "Në WhatsApp, bashkë me paketën e mirëseardhjes."
+        },
+        {
+          "title": "Prezantoni Car Bot",
+          "body": "Ne bëjmë konfigurimin. Ne gjurmojmë çdo autosallon që sillni dhe ju paguheni muaj pas muaji."
+        }
+      ]
+    },
+    "promo": {
+      "title": "Njihni tregtarë të tjerë që do ta donin këtë?",
+      "body": "Bashkohuni në programin e partnerëve dhe fitoni deri në 800 € për çdo autosallon që sillni.",
+      "button": "Bëhuni partner"
+    }
+  },
+  "legal": {
+    "updated": "Përditësuar së fundi: {date}",
+    "privacy": {
+      "metaTitle": "Politika e privatësisë | Car Bot",
+      "metaDescription": "Cilat të dhëna personale i mbledh Car Bot, pse, kush i përpunon dhe si të na kontaktoni.",
+      "title": "Politika e privatësisë",
+      "intro": "Kjo politikë shpjegon cilat të dhëna personale i mbledh {{LEGAL_ENTITY}} (“Car Bot”, “ne”) në getcarbot.co, pse i mbledhim dhe çfarë të drejtash keni.",
+      "sections": [
+        {
+          "title": "Kush jemi",
+          "body": [
+            "Car Bot menaxhohet nga {{LEGAL_ENTITY}}, Shkup, Maqedonia e Veriut.",
+            "Për çdo gjë rreth të dhënave tuaja, shkruani te {{DPO_EMAIL}}."
+          ]
+        },
+        {
+          "title": "Çfarë mbledhim",
+          "body": [
+            "Kërkesat për testin falas dhe për paketën: emri, mbiemri, emaili, numri juaj i WhatsApp, lidhjet e kërkimeve në mobile.de që na dërgoni, paketa që zgjidhni, kodi i partnerit ose i zbritjes nëse keni, gjuha juaj dhe koha e kërkesës.",
+            "Aplikimet e partnerëve: emri, mbiemri, emaili, numri juaj i WhatsApp, shteti dhe si planifikoni të gjeni tregtarë.",
+            "Referimi i partnerit: nëse vini përmes një lidhjeje partneri, shfletuesi juaj e ruan kodin e partnerit për atë vizitë (hapësira e sesionit, pa cookie) dhe ne e shtojmë te kërkesa juaj nëse dërgoni një, që t’i njihet partnerit të duhur.",
+            "Të dhëna teknike: adresa juaj IP përdoret për pak kohë për të ndaluar abuzimin e formularëve tanë (kufizimi i kërkesave). Analitika jonë nuk përdor cookie dhe nuk ju identifikon."
+          ]
+        },
+        {
+          "title": "Pse i përdorim",
+          "body": [
+            "Për të kryer testin tuaj falas: i ekzekutojmë kërkimet tuaja dhe u shkruajmë shitësve në emrin tuaj.",
+            "Për t’ju kontaktuar në WhatsApp dhe me email rreth testit, paketës, telefonatës së konfigurimit dhe pagesës.",
+            "Për programin e partnerëve: për të mirëpritur partnerët, për t’u njohur partnerëve autosalonet që sjellin dhe për të paguar komisionet.",
+            "Baza ligjore: pëlqimi juaj (kutia që shënoni në formular), hapat para një kontrate që ju i kërkoni dhe interesi ynë legjitim për ta mbajtur faqen të sigurt. Pëlqimin mund ta tërhiqni në çdo kohë."
+          ]
+        },
+        {
+          "title": "Kush i përpunon për ne",
+          "body": [
+            "Resend (dërgimi i emaileve dhe listat e kontakteve), Vercel (hosting dhe analitikë pa cookie) dhe, nëse aktivizohet, Upstash (kufizimi i kërkesave). Ata i përpunojnë të dhënat vetëm sipas udhëzimeve tona.",
+            "Disa nga këta ofrues ndodhen jashtë Maqedonisë së Veriut dhe BE-së. Kur është kështu, transferimet mbështeten te klauzolat standarde kontraktuale ose një garanci ekuivalente.",
+            "Nuk i shesim kurrë të dhënat tuaja dhe nuk i ndajmë kurrë për reklamim."
+          ]
+        },
+        {
+          "title": "Sa kohë i ruajmë",
+          "body": [
+            "Kërkesat për testin falas që nuk bëhen klientë: deri në 12 muaj pas kontaktit të fundit.",
+            "Të dhënat e klientëve dhe të partnerëve: sa kohë zgjat bashkëpunimi, pastaj sa kërkon ligji i kontabilitetit.",
+            "Kodi i partnerit në shfletuesin tuaj: derisa ta mbyllni skedën."
+          ]
+        },
+        {
+          "title": "Të drejtat tuaja",
+          "body": [
+            "Mund të kërkoni një kopje të të dhënave tuaja, të kërkoni që t’i korrigjojmë ose t’i fshijmë, të kundërshtoni përdorimin e tyre ose të kërkoni që të ndalojmë. Shkruani te {{DPO_EMAIL}} dhe përgjigjemi brenda 30 ditëve.",
+            "Mund të bëni ankesë edhe te Agjencia për Mbrojtjen e të Dhënave Personale e Maqedonisë së Veriut (ose autoriteti kompetent në shtetin tuaj)."
+          ]
+        },
+        {
+          "title": "Kontakt",
+          "body": ["{{LEGAL_ENTITY}} · Shkup, Maqedonia e Veriut · {{DPO_EMAIL}} · WhatsApp +389 78 662 817"]
+        }
+      ]
+    },
+    "terms": {
+      "metaTitle": "Kushtet | Car Bot",
+      "metaDescription": "Kushtet për përdorimin e getcarbot.co, testin falas dhe shërbimin Car Bot.",
+      "title": "Kushtet",
+      "intro": "Këto kushte vlejnë për getcarbot.co dhe për shërbimin Car Bot që ofron {{LEGAL_ENTITY}}.",
+      "sections": [
+        {
+          "title": "Shërbimi",
+          "body": [
+            "Car Bot është një shërbim i menaxhuar. Ne konfigurojmë dhe menaxhojmë një bot që monitoron platformat e makinave për makinat që zgjidhni dhe i dërgon shitësit mesazhin e parë. Kur shitësi përgjigjet, ju njoftojmë në WhatsApp dhe ju merrni përsipër.",
+            "Ne nuk negociojmë, nuk blejmë, nuk paguajmë dhe nuk transportojmë makina për ju. Çmimi, pagesa, dokumentet dhe transporti mbeten tek ju."
+          ]
+        },
+        {
+          "title": "Testi falas",
+          "body": [
+            "Testi falas përfshin deri në 3 lidhje kërkimi nga mobile.de. Është falas dhe nuk kërkon kartë. Për testin ne kontaktojmë shitësit nga llogaria jonë, me fjalët tona, në emrin tuaj.",
+            "Mund ta refuzojmë ose ta ndalojmë një test në çdo kohë, për shembull nëse një kërkim shkel rregullat e një platforme."
+          ]
+        },
+        {
+          "title": "Paketat dhe pagesa",
+          "body": [
+            "Paketa mujore: 500 € konfigurim, pastaj 250 € në muaj. Mund ta anuloni çdo muaj; muaji i paguar tashmë nuk rimbursohet.",
+            "Paketa vjetore: 3.000 € në vit, konfigurimi i përfshirë.",
+            "Çmimet janë në euro. Dërgojmë një lidhje pagese (kartë), të dhënat bankare ose një faturë."
+          ]
+        },
+        {
+          "title": "Përdorimi i drejtë dhe rregullat e platformave",
+          "body": [
+            "Boti është ndërtuar të ndjekë rregullat e secilës platformë dhe ligjin e BE-së për mbrojtjen e të dhënave. Ndalon kur një platformë kërkon kontroll ose verifikim.",
+            "Pranoni ta përdorni shërbimin me ndershmëri, në emrin tuaj të vërtetë dhe vetëm për të blerë makina. Mund ta pezullojmë botin nëse përdoret për spam ose diçka të paligjshme."
+          ]
+        },
+        {
+          "title": "Përgjegjësia jonë",
+          "body": [
+            "Bëjmë maksimumin që boti të punojë. Platformat i ndryshojnë faqet e tyre, ndaj nuk mund të premtojmë se çdo shpallje gjendet ose çdo mesazh dorëzohet. Nëse shkon keq diçka, na shkruani: përgjigjemi dhe fillojmë ta rregullojmë brenda 24 orësh, në shpenzimin tonë.",
+            "Nuk mbajmë përgjegjësi për marrëveshjet që bëni ose nuk i bëni. Përgjegjësia jonë totale kufizohet te tarifat që keni paguar në 12 muajt e fundit, përveç nëse ligji përcakton ndryshe."
+          ]
+        },
+        {
+          "title": "Programi i partnerëve",
+          "body": [
+            "Komisionet, pagesat dhe rregullat e partnerëve përshkruhen në paketën e mirëseardhjes për partnerë. Partnerët duhet të jenë të ndershëm me tregtarët dhe nuk duhet të premtojnë rezultate ose të shpikin shifra fitimesh."
+          ]
+        },
+        {
+          "title": "Ligji dhe kontakti",
+          "body": [
+            "Këto kushte rregullohen nga ligji i Maqedonisë së Veriut. Kompetente janë gjykatat në Shkup, përveç nëse ligji për mbrojtjen e konsumatorit ju jep një mundësi tjetër.",
+            "Pyetje: {{CONTACT_EMAIL}} ose WhatsApp +389 78 662 817."
+          ]
+        }
+      ]
+    },
+    "cookies": {
+      "metaTitle": "Cookie-t | Car Bot",
+      "metaDescription": "Cilat cookie i përdor getcarbot.co dhe si ta ndryshoni zgjedhjen tuaj.",
+      "title": "Politika e cookie-ve",
+      "intro": "Cookie-t i mbajmë në minimum. Nuk ka baner për cookie sepse nuk përdorim cookie që kërkojnë pëlqimin tuaj.",
+      "sections": [
+        {
+          "title": "Cookie-ja e vetme që përdorim",
+          "body": [
+            "NEXT_LOCALE: e mban mend gjuhën që zgjodhët. Nevojitet që faqja të hapet në gjuhën tuaj dhe skadon pas 1 viti."
+          ]
+        },
+        {
+          "title": "Kodi i partnerit (nuk është cookie)",
+          "body": [
+            "Nëse vini përmes një lidhjeje partneri, shfletuesi juaj e ruan kodin e partnerit vetëm për atë vizitë (në hapësirën e sesionit të skedës). Na dërgohet vetëm nëse dërgoni një formular, që t’i njihet partnerit të duhur. Zhduket kur e mbyllni skedën."
+          ]
+        },
+        {
+          "title": "Analitika",
+          "body": [
+            "Përdorim Vercel Web Analytics dhe Speed Insights. Nuk përdorin cookie dhe nuk ju ndjekin nëpër faqe të tjera. Pa gjurmues reklamash dhe pa gjurmues të palëve të treta."
+          ]
+        },
+        {
+          "title": "Zgjedhja juaj",
+          "body": [
+            "Cookie-t dhe të dhënat e faqes mund t’i fshini në cilësimet e shfletuesit në çdo kohë. Faqja vazhdon të punojë; thjesht do ta harrojë gjuhën tuaj."
+          ]
+        }
+      ]
+    }
+  },
+  "emails": {
+    "lead": {
+      "subjectTest": "I morëm kërkimet tuaja · Car Bot",
+      "subjectPlan": "Paketa juaj Car Bot: hapat e radhës",
+      "greeting": "Përshëndetje {name},",
+      "bodyTest": "I morëm kërkimet tuaja dhe po merremi me to. Kur një shitës përgjigjet, do të merrni një mesazh nga ne në WhatsApp.",
+      "bodyPlan": "Do t’ju shkruajmë në WhatsApp me lidhjen e pagesës dhe një orar për telefonatën e konfigurimit.",
+      "planMonthly": "Paketa juaj: mujore, 500 € konfigurim, pastaj 250 € në muaj.",
+      "planYearly": "Paketa juaj: vjetore, 3.000 €, konfigurimi falas.",
+      "searches": "Kërkimet tuaja:",
+      "contact": "Pyetje? Thjesht përgjigjuni këtij emaili ose na shkruani në WhatsApp: {phone}",
+      "signoff": "Ekipi i Car Bot",
+      "footer": "E merrni këtë email sepse dërguat një kërkesë në getcarbot.co."
+    },
+    "partner": {
+      "subject": "Mirë se vini në programin e partnerëve të Car Bot",
+      "greeting": "Përshëndetje {name},",
+      "body": "Mirë se vini. Do t’ju shkruajmë në WhatsApp me lidhjen tuaj, kodin tuaj dhe paketën e mirëseardhjes.",
+      "honesty": "Kërkesa jonë e vetme: jini të ndershëm me tregtarët. Shpjegoni çfarë bën Car Bot, mos premtoni rezultate dhe mos shpikni shifra fitimesh.",
+      "contact": "Pyetje? Thjesht përgjigjuni këtij emaili ose na shkruani në WhatsApp: {phone}",
+      "signoff": "Ekipi i Car Bot",
+      "footer": "E merrni këtë email sepse aplikuat për programin e partnerëve në getcarbot.co."
+    }
+  }
+}

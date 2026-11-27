@@ -28,8 +28,12 @@ test.describe("landing", () => {
     await expect(page).toHaveURL(/\/(en|mk)$/);
   });
 
-  test("language switcher keeps the page", async ({ page }) => {
+  test("language menu keeps the page", async ({ page }) => {
     await page.goto("/en/partners");
+    await page
+      .getByRole("banner")
+      .getByRole("button", { name: /Language/ })
+      .click();
     await page
       .getByRole("banner")
       .getByRole("link", { name: /Македонски/ })
@@ -38,22 +42,126 @@ test.describe("landing", () => {
   });
 });
 
-test.describe("language toggle", () => {
+test.describe("language menu", () => {
   for (const width of [360, 1280]) {
-    test(`is visible in the header and switches language at ${width}px`, async ({ page }) => {
+    test(`is in the header and switches language at ${width}px`, async ({ page }) => {
       await page.setViewportSize({ width, height: 800 });
       await page.goto("/en");
-      const toggle = page.getByRole("banner").getByRole("group", { name: "Language" });
-      await expect(toggle).toBeVisible();
-      await expect(toggle.locator("[aria-current]")).toHaveText("EN");
-      await toggle.getByRole("link", { name: /Македонски/ }).click();
-      await expect(page).toHaveURL(/\/mk$/);
-      await expect(page.getByRole("heading", { level: 1 })).toContainText("Бидете првиот купувач");
-      const back = page.getByRole("banner").getByRole("group", { name: "Јазик" });
-      await back.getByRole("link", { name: /English/ }).click();
+      const header = page.getByRole("banner");
+      const button = header.getByRole("button", { name: /Language/ });
+      await expect(button).toBeVisible();
+      await expect(button).toHaveAttribute("aria-expanded", "false");
+      await button.click();
+      await expect(button).toHaveAttribute("aria-expanded", "true");
+      await expect(header.getByRole("link")).toContainText(["English", "Македонски", "Shqip", "Srpski"]);
+      await page.keyboard.press("Escape");
+      await expect(button).toHaveAttribute("aria-expanded", "false");
+
+      await button.click();
+      await header.getByRole("link", { name: /Shqip/ }).click();
+      await expect(page).toHaveURL(/\/sq$/);
+      await expect(page.locator("html")).toHaveAttribute("lang", "sq");
+      await header.getByRole("button", { name: /Gjuha/ }).click();
+      await header.getByRole("link", { name: /Srpski/ }).click();
+      await expect(page).toHaveURL(/\/sr$/);
+      await expect(page.locator("html")).toHaveAttribute("lang", "sr-Latn");
+      await header.getByRole("button", { name: /Jezik/ }).click();
+      await header.getByRole("link", { name: /English/ }).click();
       await expect(page).toHaveURL(/\/en$/);
     });
   }
+
+  test("header stays on one row at 320px", async ({ page }) => {
+    await page.setViewportSize({ width: 320, height: 700 });
+    for (const path of ["/en", "/sq", "/sr"]) {
+      await page.goto(path);
+      const h = await page.evaluate(() => document.querySelector("header")!.getBoundingClientRect().height);
+      expect(h).toBeLessThan(90);
+    }
+  });
+});
+
+test.describe("Albanian and Serbian", () => {
+  test("Albanian home and partners", async ({ page }) => {
+    await page.goto("/sq");
+    await expect(page.getByRole("heading", { level: 1 })).toHaveText(
+      "Bëhuni blerësi i parë që dëgjon çdo shitës.",
+    );
+    await page.goto("/sq/partners");
+    await expect(page.getByTestId("partner-year-total")).toHaveText("12.100 €");
+    await expect(page.locator("main")).toContainText("1 të muajit pasardhës");
+  });
+
+  test("Serbian home, partners and plural forms", async ({ page }) => {
+    await page.goto("/sr");
+    await expect(page.getByRole("heading", { level: 1 })).toHaveText(
+      "Budite prvi kupac koga svaki prodavac čuje.",
+    );
+    await page.goto("/sr/partners");
+    await expect(page.getByTestId("partner-year-total")).toHaveText("12.100 €");
+    // 2 per month → 24 in a year: "few" form
+    await expect(page.getByTestId("partner-total-clients")).toContainText("24 autokuće");
+    const slider = page.getByTestId("partner-clients");
+    await slider.fill("1");
+    await expect(page.getByTestId("partner-total-clients")).toContainText("12 autokuća");
+    await expect(page.getByText("1 autokuća", { exact: true })).toBeVisible();
+    await slider.fill("3");
+    await expect(page.getByText("3 autokuće", { exact: true })).toBeVisible();
+    await slider.fill("5");
+    await expect(page.getByText("5 autokuća", { exact: true })).toBeVisible();
+  });
+
+  test("Serbian ROI calculator shows plural forms and special letters", async ({ page }) => {
+    await page.goto("/sr");
+    const payback = page.getByTestId("roi-payback");
+    await expect(payback).toContainText("2 dodatna vozila");
+    await page.getByTestId("roi-extra").fill("0");
+    await page.getByTestId("roi-margin").fill("1000");
+    await expect(page.getByTestId("roi-months")).toContainText("4 meseca");
+    await expect(page.getByTestId("roi-net")).toHaveText("−3.000 €");
+  });
+
+  for (const [path, who] of [
+    ["/sq/privacy", "Smartin Labs"],
+    ["/sr/privacy", "Smartin Labs"],
+    ["/sq/terms", "info@getcarbot.co"],
+    ["/sr/cookies", "NEXT_LOCALE"],
+  ] as const) {
+    test(`${path} renders without placeholders`, async ({ page }) => {
+      await page.goto(path);
+      await expect(page.locator("main")).toContainText(who);
+      await expect(page.locator("main")).not.toContainText("{{");
+    });
+  }
+
+  for (const lang of ["sq", "sr"]) {
+    test(`${lang}: free test and plan modal work`, async ({ page }) => {
+      let payload: Record<string, unknown> | undefined;
+      await page.route("**/api/lead", async (route) => {
+        payload = route.request().postDataJSON();
+        await route.fulfill({ json: { ok: true } });
+      });
+      await page.goto(`/${lang}`);
+      await page.getByTestId("choose-yearly").click();
+      const dialog = page.getByTestId("lead-modal");
+      await dialog.getByRole("textbox").nth(0).fill("Ana");
+      await dialog.getByRole("textbox").nth(1).fill("Test");
+      await dialog.getByRole("textbox").nth(2).fill("ana@example.com");
+      await dialog.getByRole("textbox").nth(3).fill("+389 70 111 222");
+      await dialog.getByRole("checkbox").check();
+      await dialog.locator("button[type=submit]").click();
+      await expect(page.getByTestId("lead-done")).toBeVisible();
+      expect(payload).toMatchObject({ type: "yearly", locale: lang });
+    });
+  }
+
+  test("each language has hreflang alternates for all four", async ({ page }) => {
+    await page.goto("/sq");
+    const langs = await page
+      .locator('link[rel="alternate"][hreflang]')
+      .evaluateAll((els) => els.map((e) => e.getAttribute("hreflang")));
+    expect(langs).toEqual(expect.arrayContaining(["en", "mk", "sq", "sr-Latn", "x-default"]));
+  });
 });
 
 test.describe("free test", () => {
@@ -302,8 +410,12 @@ test.describe("layout", () => {
   for (const path of [
     "/en",
     "/mk",
+    "/sq",
+    "/sr",
     "/en/partners",
     "/mk/partners",
+    "/sq/partners",
+    "/sr/partners",
     "/en/thanks?type=yearly",
     "/en/privacy",
   ]) {
