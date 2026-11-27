@@ -30,15 +30,7 @@
       "legalNav": "Legal",
       "privacy": "Privacy",
       "terms": "Terms",
-      "cookies": "Cookies",
-      "cookieSettings": "Cookie settings"
-    },
-    "cookies": {
-      "label": "Cookie choices",
-      "text": "We use essential cookies to run this site. With your OK we also remember which partner sent you here, for 90 days. Our analytics are cookieless.",
-      "accept": "Accept",
-      "essential": "Essential only",
-      "more": "Cookie policy"
+      "cookies": "Cookies"
     },
     "whatsappHello": "Hi Car Bot",
     "notFound": {
@@ -744,7 +736,7 @@
           "body": [
             "Free test and plan requests: your name, surname, email, WhatsApp number, the mobile.de search links you send us, the plan you choose, a partner or discount code if you have one, your language and the time of the request.",
             "Partner applications: your name, surname, email, WhatsApp number, country and how you plan to find dealers.",
-            "Partner referral: if you arrive through a partner link and accept cookies, we store the partner’s code (for example “ABC”) in a cookie for 90 days so the right partner is credited.",
+            "Partner referral: if you arrive through a partner link, your browser keeps the partner’s code for that visit (session storage, no cookie) and we attach it to your request if you send one, so the right partner is credited.",
             "Technical data: your IP address is used briefly to stop abuse of our forms (rate limiting). Our analytics are cookieless and do not identify you."
           ]
         },
@@ -770,7 +762,7 @@
           "body": [
             "Free test requests that do not become clients: up to 12 months after the last contact.",
             "Client and partner data: for as long as the relationship lasts, then as long as accounting law requires.",
-            "The partner referral cookie: 90 days."
+            "The partner code in your browser: until you close the tab."
           ]
         },
         {
@@ -847,20 +839,18 @@
       "metaTitle": "Cookies | Car Bot",
       "metaDescription": "Which cookies getcarbot.co uses and how to change your choice.",
       "title": "Cookie policy",
-      "intro": "We keep cookies to a minimum. Essential cookies are always on. Everything else waits for your OK.",
+      "intro": "We keep cookies to a minimum. There is no cookie banner because we do not use cookies that need your consent.",
       "sections": [
         {
-          "title": "Essential (always on)",
+          "title": "The one cookie we use",
           "body": [
-            "NEXT_LOCALE: remembers the language you picked. 1 year.",
-            "cb_consent: remembers your cookie choice. 1 year."
+            "NEXT_LOCALE: remembers the language you picked. It is needed so the site opens in your language, and it expires after 1 year."
           ]
         },
         {
-          "title": "Functional (only after you accept)",
+          "title": "Partner code (not a cookie)",
           "body": [
-            "cb_ref: remembers which partner sent you here (the partner’s code and the date of your first click), so the right partner is credited if you sign up. 90 days. A copy is kept in your browser’s local storage.",
-            "If you do not accept, the partner code is kept only for your current browser tab session and is sent with a form only if you submit one."
+            "If you arrive through a partner link, your browser keeps the partner’s code for that visit only (in the tab’s session storage). It is sent to us only if you submit a form, so the right partner is credited. It disappears when you close the tab."
           ]
         },
         {
@@ -870,13 +860,12 @@
           ]
         },
         {
-          "title": "Change your choice",
+          "title": "Your choice",
           "body": [
-            "Use the button below or “Cookie settings” in the footer at any time. You can also delete cookies in your browser settings."
+            "You can delete cookies and site data in your browser settings at any time. The site keeps working; it will just forget your language."
           ]
         }
-      ],
-      "change": "Change cookie settings"
+      ]
     }
   },
   "emails": {

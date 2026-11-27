@@ -2,12 +2,6 @@ import { expect, test, type Page, type Route } from "@playwright/test";
 
 const LINK = "https://suchen.mobile.de/fahrzeuge/search.html?ms=25200&isSearchRequest=true";
 
-async function dismissCookies(page: Page, choice: "Accept" | "Essential only" = "Essential only") {
-  const banner = page.getByTestId("cookie-banner");
-  await banner.getByRole("button", { name: choice }).click();
-  await expect(banner).toBeHidden();
-}
-
 async function fillContact(page: Page) {
   const dialog = page.getByTestId("lead-modal");
   await dialog.getByPlaceholder("Name", { exact: true }).fill("Marko");
@@ -36,7 +30,6 @@ test.describe("landing", () => {
 
   test("language switcher keeps the page", async ({ page }) => {
     await page.goto("/en/partners");
-    await dismissCookies(page);
     await page
       .getByRole("banner")
       .getByRole("link", { name: /Македонски/ })
@@ -50,7 +43,6 @@ test.describe("language toggle", () => {
     test(`is visible in the header and switches language at ${width}px`, async ({ page }) => {
       await page.setViewportSize({ width, height: 800 });
       await page.goto("/en");
-      await dismissCookies(page);
       const toggle = page.getByRole("banner").getByRole("group", { name: "Language" });
       await expect(toggle).toBeVisible();
       await expect(toggle.locator("[aria-current]")).toHaveText("EN");
@@ -67,7 +59,6 @@ test.describe("language toggle", () => {
 test.describe("free test", () => {
   test("shows validation messages", async ({ page }) => {
     await page.goto("/en");
-    await dismissCookies(page);
     const box = page.getByTestId("free-test-links");
     const submit = page.getByRole("button", { name: "Find my first cars" });
     const error = page.getByTestId("free-test-error");
@@ -92,7 +83,6 @@ test.describe("free test", () => {
       await route.fulfill({ json: { ok: true } });
     });
     await page.goto("/en");
-    await dismissCookies(page);
     await page.getByTestId("free-test-links").fill(`${LINK}\n\n${LINK}`);
     await page.getByRole("button", { name: "Find my first cars" }).click();
     const dialog = page.getByTestId("lead-modal");
@@ -121,7 +111,6 @@ test.describe("free test", () => {
   test("network failure shows the WhatsApp fallback", async ({ page }) => {
     await page.route("**/api/lead", (route) => route.abort());
     await page.goto("/en");
-    await dismissCookies(page);
     await page.getByTestId("free-test-links").fill(LINK);
     await page.getByRole("button", { name: "Find my first cars" }).click();
     const dialog = await fillContact(page);
@@ -134,7 +123,6 @@ test.describe("free test", () => {
 
   test("modal closes on Escape and keeps focus inside", async ({ page }) => {
     await page.goto("/en");
-    await dismissCookies(page);
     await page.getByTestId("choose-yearly").click();
     const dialog = page.getByTestId("lead-modal");
     await expect(dialog).toBeVisible();
@@ -158,7 +146,6 @@ test.describe("plan picker", () => {
         await route.fulfill({ json: { ok: true } });
       });
       await page.goto("/en");
-      await dismissCookies(page);
       await page.getByTestId(`choose-${plan}`).click();
       const dialog = page.getByTestId("lead-modal");
       await expect(dialog.getByRole("heading")).toHaveText("Almost there. Who are we setting up?");
@@ -176,7 +163,6 @@ test.describe("plan picker", () => {
 test.describe("calculators", () => {
   test("ROI calculator", async ({ page }) => {
     await page.goto("/en");
-    await dismissCookies(page);
     await expect(page.getByTestId("roi-gain")).toHaveText("€18,000");
     await expect(page.getByTestId("roi-cost")).toHaveText("€3,000");
     await expect(page.getByTestId("roi-net")).toHaveText("+€15,000");
@@ -197,7 +183,6 @@ test.describe("calculators", () => {
 
   test("partner calculator: 2 clients → €12,100 and €1,200", async ({ page }) => {
     await page.goto("/en/partners");
-    await dismissCookies(page);
     await expect(page.getByTestId("partner-year-total")).toHaveText("€12,100");
     await expect(page.getByTestId("partner-monthly")).toHaveText("€1,200");
     await expect(page.getByTestId("partner-total-clients")).toContainText("24 dealerships");
@@ -208,7 +193,6 @@ test.describe("calculators", () => {
 
   test("partner page states the payout timing and promises no dashboard", async ({ page }) => {
     await page.goto("/en/partners");
-    await dismissCookies(page);
     const body = page.locator("main");
     await expect(body).toContainText("within 7 days after we receive");
     await expect(body).toContainText("1st of the next month");
@@ -230,7 +214,6 @@ test.describe("partner form", () => {
       await route.fulfill({ json: { ok: true } });
     });
     await page.goto("/en/partners");
-    await dismissCookies(page);
     const form = page.getByTestId("partner-form");
     const error = page.getByTestId("partner-error");
     const submit = form.getByRole("button", { name: "Become a partner" });
@@ -259,23 +242,18 @@ test.describe("partner form", () => {
   });
 });
 
-test.describe("affiliate ref", () => {
-  test("?ref=ABC sets the cookie after consent and appears in the lead payload", async ({
-    page,
-    context,
-  }) => {
+test.describe("partner code and cookies", () => {
+  test("?ref=ABC reaches the lead payload without any cookie", async ({ page, context }) => {
     let payload: Record<string, unknown> | undefined;
     await page.route("**/api/lead", async (route) => {
       payload = route.request().postDataJSON();
       await route.fulfill({ json: { ok: true } });
     });
     await page.goto("/en?ref=ABC");
-    expect((await context.cookies()).find((c) => c.name === "cb_ref")).toBeUndefined();
-    await dismissCookies(page, "Accept");
-    await expect
-      .poll(async () => (await context.cookies()).find((c) => c.name === "cb_ref")?.value ?? "")
-      .toMatch(/^ABC/);
-
+    // moving around the site keeps the code for this visit
+    await page.getByRole("link", { name: "Partners" }).first().click();
+    await expect(page).toHaveURL(/\/en\/partners/);
+    await page.goto("/en");
     await page.getByTestId("choose-monthly").click();
     const dialog = page.getByTestId("lead-modal");
     await expect(dialog.getByLabel("Partner or discount code (optional)")).toHaveValue("ABC");
@@ -285,13 +263,22 @@ test.describe("affiliate ref", () => {
     await dialog.getByRole("button", { name: "Confirm my plan" }).click();
     await expect(page.getByTestId("lead-done")).toBeVisible();
     expect(payload).toMatchObject({ ref: "ABC", code: "ABC" });
+    expect((await context.cookies()).map((c) => c.name).filter((n) => n !== "NEXT_LOCALE")).toEqual([]);
   });
 
-  test("server sets the cookie on later visits once consent exists", async ({ page, context, baseURL }) => {
-    await context.addCookies([{ name: "cb_consent", value: "accepted", url: baseURL! }]);
-    await page.goto("/en/partners?partner=XYZ_1");
-    const ref = (await context.cookies()).find((c) => c.name === "cb_ref");
-    expect(ref?.value).toMatch(/^XYZ_1/);
+  test("an invalid code is ignored", async ({ page }) => {
+    await page.goto("/en?ref=<script>");
+    await page.getByTestId("choose-monthly").click();
+    await expect(
+      page.getByTestId("lead-modal").getByLabel("Partner or discount code (optional)"),
+    ).toHaveValue("");
+  });
+
+  test("there is no cookie banner", async ({ page }) => {
+    await page.goto("/en");
+    await expect(page.getByRole("region", { name: /cookie/i })).toHaveCount(0);
+    await expect(page.getByTestId("cookie-banner")).toHaveCount(0);
+    await expect(page.getByRole("button", { name: /cookie/i })).toHaveCount(0);
   });
 });
 

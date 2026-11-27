@@ -1,6 +1,6 @@
 import type { AffiliateLead, AffiliateProvider, AffiliateSale } from "./types";
 
-/** Default: attribution lives in the cb_ref cookie, the lead email, the audience contact and the webhook. */
+/** Default: attribution lives in the ref code sent with the form, the lead email, the audience contact and the webhook. */
 export const noneProvider: AffiliateProvider = {
   name: "none",
   async trackLead() {},

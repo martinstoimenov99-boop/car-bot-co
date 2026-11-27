@@ -1,7 +1,6 @@
 import type { NextRequest } from "next/server";
 import { guardForm, json } from "@/lib/api";
 import { recordSubmission } from "@/lib/leads";
-import { REF_COOKIE, parseRef } from "@/lib/ref";
 import { leadSchema } from "@/lib/schemas";
 
 export const runtime = "nodejs";
@@ -14,7 +13,7 @@ export async function POST(req: NextRequest) {
   const parsed = leadSchema.safeParse(guard.body);
   if (!parsed.success) return json({ ok: false, error: "invalid" }, 400);
   const lead = parsed.data;
-  const ref = lead.ref ?? parseRef(req.cookies.get(REF_COOKIE)?.value)?.code;
+  const ref = lead.ref;
 
   try {
     const { delivered } = await recordSubmission({

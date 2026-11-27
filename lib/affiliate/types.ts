@@ -4,7 +4,7 @@ export interface AffiliateLead {
   email: string;
   firstName: string;
   lastName: string;
-  /** Partner referral code (from ?ref= / cb_ref cookie). */
+  /** Partner referral code (from the ?ref= link). */
   ref?: string;
   /** Discount code typed in the signup modal. */
   code?: string;

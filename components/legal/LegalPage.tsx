@@ -2,7 +2,6 @@
 import { getFormatter, getTranslations } from "next-intl/server";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
-import { CookieSettingsButton } from "@/components/layout/CookieBanner";
 import { LEGAL_UPDATED, fillLegal } from "@/lib/legal";
 
 function Filled({ text }: { text: string }) {
@@ -50,12 +49,6 @@ export async function LegalPage({ doc }: { doc: "privacy" | "terms" | "cookies" 
             ))}
           </section>
         ))}
-        {doc === "cookies" && (
-          <CookieSettingsButton
-            label={t("cookies.change")}
-            className="btn bg-accent text-on-accent hover:bg-accent-hover px-6 py-3.5"
-          />
-        )}
       </main>
       <Footer variant="legal" />
     </>

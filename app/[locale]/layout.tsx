@@ -10,7 +10,6 @@ import { LOCALE_LABELS } from "@/i18n/config";
 import { pickMessages } from "@/i18n/messages";
 import { SITE_URL } from "@/lib/site";
 import { fontVariables } from "../fonts";
-import { CookieBanner } from "@/components/layout/CookieBanner";
 import { RefCapture } from "@/components/layout/RefCapture";
 
 /** Only these namespaces are shipped to the browser. */
@@ -63,7 +62,6 @@ export default async function LocaleLayout({
         </a>
         <NextIntlClientProvider messages={pickMessages(messages, CLIENT_MESSAGES)}>
           {children}
-          <CookieBanner />
           <RefCapture />
         </NextIntlClientProvider>
         {/* Cookieless. The scripts are served by Vercel, so they are only mounted there. */}

@@ -43,6 +43,10 @@
 23. **Bonus timing:** “Се исплаќа со месечната исплата.” (earn card) and “Бонусот за лојалност од 50 € се исплаќа со првата месечна исплата откако автокуќата ќе стигне до 6-тиот месец.” (FAQ).
 24. **Privacy policy:** the sentence about processors no longer names an affiliate tool.
 
+## Cookie banner removed
+
+25. The **Cookies** page and the cookie / retention lines in the **Privacy** policy were rewritten (no banner, one language cookie, partner code in tab storage). Please read “Единственото колаче што го користиме”, “Партнерски код (не е колаче)” and “Вашиот избор”.
+
 ## Not translated on purpose
 
-Car Bot, WhatsApp, Telegram, mobile.de, AutoScout24, Kleinanzeigen, Marktplaats, leboncoin, Subito, Facebook Marketplace, GDPR, AI, the German seller messages, the cookie names (`cb_ref`, `cb_consent`, `NEXT_LOCALE`) and the mobile.de URL placeholder.
+Car Bot, WhatsApp, Telegram, mobile.de, AutoScout24, Kleinanzeigen, Marktplaats, leboncoin, Subito, Facebook Marketplace, GDPR, AI, the German seller messages, the cookie name (`NEXT_LOCALE`) and the mobile.de URL placeholder.

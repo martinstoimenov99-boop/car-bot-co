@@ -2,7 +2,6 @@ import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { SITE_HOST } from "@/lib/site";
 import { partnerPortalUrl } from "@/lib/env";
-import { CookieSettingsButton } from "./CookieBanner";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 
 const fineLink = "text-fine underline-offset-2 hover:text-accent-hover";
@@ -46,10 +45,6 @@ export async function Footer({ variant }: { variant: "home" | "partners" | "than
         <Link href="/cookies" className={fineLink}>
           {t("footer.cookies")}
         </Link>
-        <CookieSettingsButton
-          label={t("footer.cookieSettings")}
-          className="text-fine hover:text-accent-hover cursor-pointer border-0 bg-transparent p-0 font-[inherit] underline"
-        />
         {portal && (
           <a href={portal} className={fineLink} rel="noopener">
             {t("nav.partnerLogin")}

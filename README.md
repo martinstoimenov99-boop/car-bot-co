@@ -38,8 +38,8 @@ lib/calc.ts              ROI + partner commission maths (tested)
 lib/validation.ts        client-safe checks; lib/schemas.ts = server zod schemas
 lib/leads.ts             where submissions go (sinks), lib/email.ts + lib/emails/templates.ts
 lib/affiliate/           partner-tracking provider adapter
-lib/ref.ts ref-client.ts ?ref= capture and cb_ref cookie
-proxy.ts                 locale redirect + ref cookie (Next 16's name for middleware)
+lib/ref.ts ref-client.ts ?ref= capture (tab storage, no cookie)
+proxy.ts                 locale redirect (Next 16's name for middleware)
 public/images/           the 6 photos (see below)
 ```
 
@@ -83,7 +83,7 @@ All listed in `.env.example`. Set them in **Vercel → Project → Settings → 
 1. Body over 16 KB → 413. Honeypot field `website` filled → `200 {ok:true}`, nothing happens.
 2. Rate limit (5 per hour per IP and route) → 429.
 3. Server-side zod validation (trimmed, length-capped, mobile.de-only searches) → 400 with a generic message.
-4. Partner ref from the body, otherwise from the `cb_ref` cookie.
+4. Partner ref from the request body (the browser adds it from the `?ref=` link).
 5. In parallel: notification email to you (table of all fields, clickable searches, ref, locale, time, `wa.me` link), localized confirmation email to the lead, Resend contact, webhook, affiliate provider.
 6. `{ok:true}` when **at least one** of notification email or webhook succeeded; otherwise 502 and the browser shows the error plus a prefilled WhatsApp button. Details are only logged server-side.
 
@@ -123,7 +123,7 @@ Copy lives in `messages/<locale>.json`, one namespace per area (`common`, `forms
 
 **Current approach: manual.** Partners get a tracking link (`?ref=CODE`) and a discount code from you. The ref is added to every lead email, so you can see who sent whom. No affiliate tool is needed yet; the section below is only for when volume makes manual tracking painful.
 
-1. **Capture:** `?ref=CODE` or `?partner=CODE` (`^[A-Za-z0-9_-]{2,32}$`). Before cookie consent the code is kept for the browser tab only (sessionStorage). After “Accept”, it is stored in the `cb_ref` cookie (90 days, SameSite=Lax, Secure) and in localStorage. **First click wins**, unless the stored click is older than 30 days. Once consent exists, `proxy.ts` sets the cookie server-side too.
+1. **Capture:** `?ref=CODE` or `?partner=CODE` (`^[A-Za-z0-9_-]{2,32}$`). The code is kept in the browser tab only (sessionStorage), so it survives moving between pages during one visit. **No cookie is set and there is no cookie banner.** The newest link the visitor opened wins. If they come back later without the link, the dealer can still type the code in the plan form.
 2. **Attribute:** the ref goes into the lead email, the Resend contact properties, the webhook payload and the affiliate provider call.
 3. **Discount:** the plan modal has an optional code field, prefilled from the ref, and shows “10% off setup and monthly” when filled. No prices are computed on the site; apply the discount when invoicing (or with a Stripe coupon).
 4. **Provider:** `lib/affiliate/index.ts` picks an implementation by `AFFILIATE_PROVIDER`. `none` is complete. `dub`, `tolt`, `firstpromoter` and `rewardful` are stubs with TODOs and links to their APIs. Implement `trackLead` (and `trackSale` for manual sales) in `lib/affiliate/providers.ts`.
@@ -170,7 +170,7 @@ With a `mail.` subdomain the names become `send.mail`, `resend._domainkey.mail`,
 
 - Security headers in `next.config.ts`: CSP (self + Vercel analytics only; fonts are self-hosted), `X-Content-Type-Options`, `Referrer-Policy`, `Permissions-Policy`, `X-Frame-Options`, HSTS in production. Scripts need `'unsafe-inline'` because Next.js’ bootstrap is inline and nonces would make every page dynamic.
 - The site never takes card details. Payments are arranged on WhatsApp.
-- Cookies: essential only by default (`NEXT_LOCALE`, `cb_consent`); `cb_ref` only after “Accept”. Analytics are cookieless.
+- Cookies: one, `NEXT_LOCALE` (the language the visitor picked). No consent banner is needed. The partner code lives in tab storage only and analytics are cookieless. If you ever add a tracker or a marketing cookie, add the banner back first.
 - Legal pages are **drafts**: the business name and contact email live in `lib/legal.ts` (one place for English and Macedonian). Have a lawyer review the text (EN and MK) before launch.
 
 ## Content guardrails
